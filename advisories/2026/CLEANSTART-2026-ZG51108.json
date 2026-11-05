@@ -4,7 +4,7 @@
  "upstream": [
   "CVE-2021-42381"
  ],
- "summary": "CVE-2021-42381 affects busybox \u2014 CleanStart position: fixed",
+ "summary": "Security fix for CVE-2021-42381 applied in: busybox 1.34.0-r0",
  "details": "shipped 1.36.1-r32 >= fixed 1.34.0-r0 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
  "affected": [
   {
@@ -43,7 +43,7 @@
      "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_at": "2026-11-05T15:56:42Z",
+     "determined_at": "2026-11-05T18:12:02Z",
      "determined_by": "secfixes",
      "generated_via": "secfixes-carry",
      "instrument": {
@@ -146,7 +146,7 @@
   ]
  },
  "published": "2026-11-05T13:40:25Z",
- "modified": "2026-11-05T15:56:42Z",
+ "modified": "2026-11-05T18:12:02Z",
  "references": [
   {
    "type": "ADVISORY",
@@ -155,6 +155,10 @@
   {
    "type": "WEB",
    "url": "https://osv.dev/vulnerability/CVE-2021-42381"
+  },
+  {
+   "type": "WEB",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42381"
   }
  ],
  "related": [],

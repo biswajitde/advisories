@@ -4,7 +4,7 @@
  "upstream": [
   "CVE-2025-60876"
  ],
- "summary": "CVE-2025-60876 affects busybox \u2014 CleanStart position: under_investigation",
+ "summary": "CVE-2025-60876 in busybox \u2014 CleanStart position: under_investigation",
  "details": "no fix version in our recipes and the scan carries no usable range",
  "affected": [
   {
@@ -30,7 +30,7 @@
      "reason": "the scan carried no locations for this finding"
     },
     "provenance": {
-     "determined_at": "2026-11-05T15:56:42Z",
+     "determined_at": "2026-11-05T18:12:02Z",
      "determined_by": "scan",
      "generated_via": "scan",
      "instrument": {
@@ -143,7 +143,7 @@
   ]
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-05T15:56:42Z",
+ "modified": "2026-11-05T18:12:02Z",
  "references": [
   {
    "type": "ADVISORY",
@@ -152,8 +152,19 @@
   {
    "type": "WEB",
    "url": "https://osv.dev/vulnerability/CVE-2025-60876"
+  },
+  {
+   "type": "WEB",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60876"
   }
  ],
  "related": [],
- "credits": []
+ "credits": [],
+ "severity": [
+  {
+   "type": "CVSS_V3",
+   "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+   "source": "CNA"
+  }
+ ]
 }
