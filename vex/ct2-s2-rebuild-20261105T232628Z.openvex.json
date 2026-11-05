@@ -1,0 +1,8 @@
+{
+ "@context": "https://openvex.dev/ns/v0.2.0",
+ "@id": "https://github.com/biswajitde/advisories/blob/main/vex/ct2-s2-rebuild-20261105T232628Z.openvex.json",
+ "author": "CleanStart ADVISORY emulation pipeline",
+ "timestamp": "2026-11-05T23:28:09Z",
+ "version": 1,
+ "statements": []
+}
