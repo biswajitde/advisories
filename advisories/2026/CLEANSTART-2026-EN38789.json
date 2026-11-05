@@ -11,7 +11,7 @@
    "package": {
     "name": "busybox",
     "ecosystem": "CleanStart",
-    "purl": "pkg:apk/cleanstart/busybox"
+    "purl": "pkg:apk/cleanstart/busybox?repository_url=https://storage.googleapis.com/cleanstart-emulation-public/clnpkgs/triam"
    },
    "database_specific": {
     "status": "under_investigation",
@@ -30,7 +30,7 @@
      "reason": "the scan carried no locations for this finding"
     },
     "provenance": {
-     "determined_at": "2026-11-05T02:48:29Z",
+     "determined_at": "2026-11-05T13:40:25Z",
      "determined_by": "scan",
      "generated_via": "scan",
      "instrument": {
@@ -70,12 +70,12 @@
   "generated_by": "advisory-gen.py",
   "generated_via": "scan"
  },
- "modified": "2026-11-05T02:48:29Z",
  "published": "2026-11-05T02:48:29Z",
+ "modified": "2026-11-05T13:40:25Z",
  "references": [
   {
    "type": "ADVISORY",
-   "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-EN38789.json"
+   "url": "https://github.com/biswajitde/advisories/tree/main/advisories/2026/CLEANSTART-2026-EN38789.json"
   },
   {
    "type": "WEB",

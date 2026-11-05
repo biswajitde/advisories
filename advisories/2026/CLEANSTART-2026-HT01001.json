@@ -1,0 +1,90 @@
+{
+ "schema_version": "1.9.2",
+ "id": "CLEANSTART-2026-HT01001",
+ "upstream": [
+  "CVE-2021-42375"
+ ],
+ "summary": "CVE-2021-42375 affects busybox \u2014 CleanStart position: fixed",
+ "details": "shipped 1.36.1-r30 >= fixed 1.34.0-r0 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+ "affected": [
+  {
+   "package": {
+    "name": "busybox",
+    "ecosystem": "CleanStart",
+    "purl": "pkg:apk/cleanstart/busybox?repository_url=https://storage.googleapis.com/cleanstart-emulation-public/clnpkgs/triam"
+   },
+   "ranges": [
+    {
+     "type": "ECOSYSTEM",
+     "events": [
+      {
+       "introduced": "0"
+      },
+      {
+       "fixed": "1.34.0-r0"
+      }
+     ]
+    }
+   ],
+   "database_specific": {
+    "status": "fixed",
+    "derivation": "shipped 1.36.1-r30 >= fixed 1.34.0-r0 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+    "shipped_version": "1.36.1-r30",
+    "severity": null,
+    "source": "recipe",
+    "component_location": {
+     "paths": [],
+     "source": null,
+     "instrument": {
+      "name": "UNKNOWN",
+      "version": "UNKNOWN",
+      "db_built": "UNKNOWN"
+     },
+     "reason": "carried from secfixes: the scan reported no finding, so there is no path"
+    },
+    "provenance": {
+     "determined_at": "2026-11-05T13:40:25Z",
+     "determined_by": "secfixes",
+     "generated_via": "secfixes-carry",
+     "instrument": {
+      "name": "UNKNOWN",
+      "version": "UNKNOWN",
+      "db_built": "UNKNOWN",
+      "db_schema": "UNKNOWN"
+     },
+     "index_sha256": null,
+     "is_public_surface": null,
+     "unsupplied": {
+      "index_sha256": "not supplied: the generator receives secfixes, not the APKINDEX the determination was made against; the caller must pass it",
+      "is_public_surface": "not supplied: a property of the IMAGE (is it published?), which the generator never sees"
+     }
+    },
+    "scan_completeness": {
+     "state": "COMPLETE",
+     "basis": "complete=true",
+     "skipped": null,
+     "accepted_by": null
+    }
+   }
+  }
+ ],
+ "database_specific": {
+  "cleanstart_status": "fixed",
+  "generated_by": "advisory-gen.py",
+  "generated_via": "secfixes-carry"
+ },
+ "modified": "2026-11-05T13:40:25Z",
+ "published": "2026-11-05T13:40:25Z",
+ "references": [
+  {
+   "type": "ADVISORY",
+   "url": "https://github.com/biswajitde/advisories/tree/main/advisories/2026/CLEANSTART-2026-HT01001.json"
+  },
+  {
+   "type": "WEB",
+   "url": "https://osv.dev/vulnerability/cve-2021-42375"
+  }
+ ],
+ "related": [],
+ "credits": []
+}
