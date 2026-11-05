@@ -30,7 +30,7 @@
      "reason": "the scan carried no locations for this finding"
     },
     "provenance": {
-     "determined_at": "2026-11-05T14:46:12Z",
+     "determined_at": "2026-11-05T15:01:23Z",
      "determined_by": "scan",
      "generated_via": "scan",
      "instrument": {
@@ -68,10 +68,16 @@
  "database_specific": {
   "cleanstart_status": "under_investigation",
   "generated_by": "advisory-gen.py",
-  "generated_via": "scan"
+  "generated_via": "scan",
+  "events": [
+   {
+    "timestamp": "2026-11-05T02:48:29Z",
+    "type": "detection"
+   }
+  ]
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-05T14:46:12Z",
+ "modified": "2026-11-05T15:01:23Z",
  "references": [
   {
    "type": "ADVISORY",

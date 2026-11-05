@@ -43,7 +43,7 @@
      "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_at": "2026-11-05T14:46:12Z",
+     "determined_at": "2026-11-05T15:01:23Z",
      "determined_by": "secfixes",
      "generated_via": "secfixes-carry",
      "instrument": {
@@ -71,10 +71,16 @@
  "database_specific": {
   "cleanstart_status": "fixed",
   "generated_by": "advisory-gen.py",
-  "generated_via": "secfixes-carry"
+  "generated_via": "secfixes-carry",
+  "events": [
+   {
+    "timestamp": "2026-11-05T13:40:25Z",
+    "type": "fixed"
+   }
+  ]
  },
  "published": "2026-11-05T13:40:25Z",
- "modified": "2026-11-05T14:46:12Z",
+ "modified": "2026-11-05T15:01:23Z",
  "references": [
   {
    "type": "ADVISORY",
