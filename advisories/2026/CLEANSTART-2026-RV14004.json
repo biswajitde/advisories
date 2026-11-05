@@ -143,10 +143,18 @@
     "timestamp": "2026-11-05T13:40:25Z",
     "type": "fixed"
    }
-  ]
+  ],
+  "withdrawal": {
+   "kind": "generator-defect",
+   "defect": "secfixes key \"0\" (declared not applicable) published as a fix version: fixed: \"0\" on CVE-2021-42376 / busybox",
+   "ruling": "BD 2026-11-06, audit ADV-900 #904481",
+   "keys": [
+    "CleanStart:busybox:CVE-2021-42376"
+   ]
+  }
  },
  "published": "2026-11-05T13:40:25Z",
- "modified": "2026-11-05T15:56:42Z",
+ "modified": "2026-11-05T18:16:19Z",
  "references": [
   {
    "type": "ADVISORY",
@@ -158,5 +166,6 @@
   }
  ],
  "related": [],
- "credits": []
+ "credits": [],
+ "withdrawn": "2026-11-05T18:16:19Z"
 }
