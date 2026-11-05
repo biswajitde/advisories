@@ -1,0 +1,87 @@
+{
+ "schema_version": "1.9.2",
+ "id": "CLEANSTART-2026-VB50061",
+ "upstream": [
+  "CVE-2023-42366"
+ ],
+ "summary": "CVE-2023-42366 affects busybox \u2014 CleanStart position: under_investigation",
+ "details": "no fix version in our recipes and the scan carries no usable range",
+ "affected": [
+  {
+   "package": {
+    "name": "busybox",
+    "ecosystem": "CleanStart",
+    "purl": "pkg:apk/cleanstart/busybox"
+   },
+   "database_specific": {
+    "status": "under_investigation",
+    "derivation": "no fix version in our recipes and the scan carries no usable range",
+    "shipped_version": "1.36.1-r30",
+    "severity": "MEDIUM",
+    "source": "none",
+    "component_location": {
+     "paths": [],
+     "source": null,
+     "instrument": {
+      "name": "UNKNOWN",
+      "version": "UNKNOWN",
+      "db_built": "UNKNOWN"
+     },
+     "reason": "the scan carried no locations for this finding"
+    },
+    "provenance": {
+     "determined_at": "2026-11-05T02:48:29Z",
+     "determined_by": "scan",
+     "generated_via": "scan",
+     "instrument": {
+      "name": "UNKNOWN",
+      "version": "UNKNOWN",
+      "db_built": "UNKNOWN",
+      "db_schema": "UNKNOWN"
+     },
+     "index_sha256": null,
+     "is_public_surface": null,
+     "unsupplied": {
+      "index_sha256": "not supplied: the generator receives secfixes, not the APKINDEX the determination was made against; the caller must pass it",
+      "is_public_surface": "not supplied: a property of the IMAGE (is it published?), which the generator never sees"
+     }
+    },
+    "scan_completeness": {
+     "state": "COMPLETE",
+     "basis": "complete=true",
+     "skipped": null,
+     "accepted_by": null
+    }
+   },
+   "ranges": [
+    {
+     "type": "ECOSYSTEM",
+     "events": [
+      {
+       "introduced": "0"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "database_specific": {
+  "cleanstart_status": "under_investigation",
+  "generated_by": "advisory-gen.py",
+  "generated_via": "scan"
+ },
+ "modified": "2026-11-05T02:48:29Z",
+ "published": "2026-11-05T02:48:29Z",
+ "references": [
+  {
+   "type": "ADVISORY",
+   "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-VB50061.json"
+  },
+  {
+   "type": "WEB",
+   "url": "https://osv.dev/vulnerability/cve-2023-42366"
+  }
+ ],
+ "related": [],
+ "credits": []
+}
