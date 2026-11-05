@@ -16,27 +16,27 @@
    "database_specific": {
     "status": "under_investigation",
     "derivation": "no fix version in our recipes and the scan carries no usable range",
-    "shipped_version": "1.36.1-r30",
+    "shipped_version": "1.36.1-r32",
     "severity": "MEDIUM",
     "source": "none",
     "component_location": {
      "paths": [],
      "source": null,
      "instrument": {
-      "name": "UNKNOWN",
-      "version": "UNKNOWN",
-      "db_built": "UNKNOWN"
+      "name": "grype",
+      "version": "[not provided]",
+      "db_built": "2026-11-05T01:18:17Z"
      },
      "reason": "the scan carried no locations for this finding"
     },
     "provenance": {
-     "determined_at": "2026-11-05T13:40:25Z",
+     "determined_at": "2026-11-05T14:46:12Z",
      "determined_by": "scan",
      "generated_via": "scan",
      "instrument": {
-      "name": "UNKNOWN",
-      "version": "UNKNOWN",
-      "db_built": "UNKNOWN",
+      "name": "grype",
+      "version": "[not provided]",
+      "db_built": "2026-11-05T01:18:17Z",
       "db_schema": "UNKNOWN"
      },
      "index_sha256": null,
@@ -71,7 +71,7 @@
   "generated_via": "scan"
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-05T13:40:25Z",
+ "modified": "2026-11-05T14:46:12Z",
  "references": [
   {
    "type": "ADVISORY",

@@ -36,20 +36,20 @@
      "paths": [],
      "source": null,
      "instrument": {
-      "name": "UNKNOWN",
-      "version": "UNKNOWN",
-      "db_built": "UNKNOWN"
+      "name": "grype",
+      "version": "[not provided]",
+      "db_built": "2026-11-05T01:18:17Z"
      },
      "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_at": "2026-11-05T13:40:25Z",
+     "determined_at": "2026-11-05T14:46:12Z",
      "determined_by": "secfixes",
      "generated_via": "secfixes-carry",
      "instrument": {
-      "name": "UNKNOWN",
-      "version": "UNKNOWN",
-      "db_built": "UNKNOWN",
+      "name": "grype",
+      "version": "[not provided]",
+      "db_built": "2026-11-05T01:18:17Z",
       "db_schema": "UNKNOWN"
      },
      "index_sha256": null,
@@ -73,8 +73,8 @@
   "generated_by": "advisory-gen.py",
   "generated_via": "secfixes-carry"
  },
- "modified": "2026-11-05T13:40:25Z",
  "published": "2026-11-05T13:40:25Z",
+ "modified": "2026-11-05T14:46:12Z",
  "references": [
   {
    "type": "ADVISORY",

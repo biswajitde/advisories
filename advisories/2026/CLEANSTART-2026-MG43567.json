@@ -5,7 +5,7 @@
   "CVE-2023-42364"
  ],
  "summary": "CVE-2023-42364 affects busybox \u2014 CleanStart position: fixed",
- "details": "shipped 1.36.1-r30 >= fixed 1.36.1-r29 (our recipe)",
+ "details": "shipped 1.36.1-r32 >= fixed 1.36.1-r29 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
  "affected": [
   {
    "package": {
@@ -13,30 +13,43 @@
     "ecosystem": "CleanStart",
     "purl": "pkg:apk/cleanstart/busybox?repository_url=https://storage.googleapis.com/cleanstart-emulation-public/clnpkgs/triam"
    },
+   "ranges": [
+    {
+     "type": "ECOSYSTEM",
+     "events": [
+      {
+       "introduced": "0"
+      },
+      {
+       "fixed": "1.36.1-r29"
+      }
+     ]
+    }
+   ],
    "database_specific": {
     "status": "fixed",
-    "derivation": "shipped 1.36.1-r30 >= fixed 1.36.1-r29 (our recipe)",
-    "shipped_version": "1.36.1-r30",
-    "severity": "MEDIUM",
+    "derivation": "shipped 1.36.1-r32 >= fixed 1.36.1-r29 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+    "shipped_version": "1.36.1-r32",
+    "severity": null,
     "source": "recipe",
     "component_location": {
      "paths": [],
      "source": null,
      "instrument": {
-      "name": "UNKNOWN",
-      "version": "UNKNOWN",
-      "db_built": "UNKNOWN"
+      "name": "grype",
+      "version": "[not provided]",
+      "db_built": "2026-11-05T01:18:17Z"
      },
-     "reason": "the scan carried no locations for this finding"
+     "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_at": "2026-11-05T13:40:25Z",
-     "determined_by": "scan",
-     "generated_via": "scan",
+     "determined_at": "2026-11-05T14:46:12Z",
+     "determined_by": "secfixes",
+     "generated_via": "secfixes-carry",
      "instrument": {
-      "name": "UNKNOWN",
-      "version": "UNKNOWN",
-      "db_built": "UNKNOWN",
+      "name": "grype",
+      "version": "[not provided]",
+      "db_built": "2026-11-05T01:18:17Z",
       "db_schema": "UNKNOWN"
      },
      "index_sha256": null,
@@ -52,29 +65,16 @@
      "skipped": null,
      "accepted_by": null
     }
-   },
-   "ranges": [
-    {
-     "type": "ECOSYSTEM",
-     "events": [
-      {
-       "introduced": "0"
-      },
-      {
-       "fixed": "1.36.1-r29"
-      }
-     ]
-    }
-   ]
+   }
   }
  ],
  "database_specific": {
   "cleanstart_status": "fixed",
   "generated_by": "advisory-gen.py",
-  "generated_via": "scan"
+  "generated_via": "secfixes-carry"
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-05T13:40:25Z",
+ "modified": "2026-11-05T14:46:12Z",
  "references": [
   {
    "type": "ADVISORY",
