@@ -43,21 +43,84 @@
      "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_at": "2026-11-05T15:01:23Z",
+     "determined_at": "2026-11-05T15:56:42Z",
      "determined_by": "secfixes",
      "generated_via": "secfixes-carry",
      "instrument": {
       "name": "grype",
       "version": "[not provided]",
       "db_built": "2026-11-05T01:18:17Z",
-      "db_schema": "UNKNOWN"
+      "db_schema": "v6.1.9",
+      "binary_sha256": "sha256:65f8662ba237bb48b3ae52da2a72c220de6c2c9506a8d3aacf85d713508ca865",
+      "cleanstart_provider": true
      },
      "index_sha256": null,
-     "is_public_surface": null,
+     "is_public_surface": true,
      "unsupplied": {
-      "index_sha256": "not supplied: the generator receives secfixes, not the APKINDEX the determination was made against; the caller must pass it",
-      "is_public_surface": "not supplied: a property of the IMAGE (is it published?), which the generator never sees"
-     }
+      "index_sha256": "3 index objects carry busybox@1.36.1-r32; all are in index_observations, none is picked"
+     },
+     "index_source": {
+      "path": "index-observations.ndjson",
+      "sha256": "5880c16279d8b578312a6519c5452e4c7c951cfafcd5a1a1d88126d795fad54d",
+      "rows": 219
+     },
+     "index_observations": [
+      {
+       "index_sha256": "b4703ab87425378914ffeab470bd4553b048b3c64b71f806929396f17353c148",
+       "observed_at": "2026-11-05T15:52:36+0000",
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
+       "arch": "aarch64",
+       "packages": [
+        "busybox",
+        "busybox-binsh",
+        "busybox-doc",
+        "busybox-extras",
+        "busybox-extras-openrc",
+        "busybox-ifupdown",
+        "busybox-mdev-openrc",
+        "busybox-openrc",
+        "busybox-static",
+        "busybox-suid",
+        "ssl_client"
+       ]
+      },
+      {
+       "index_sha256": "fb0daa585b97c3720fa3ae45be5e16d8a294b01aae3b6f7a43623e9e47e2d808",
+       "observed_at": "2026-11-05T15:52:36+0000",
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
+       "arch": "noarch",
+       "packages": [
+        "busybox-binsh",
+        "busybox-doc",
+        "busybox-extras-openrc",
+        "busybox-ifupdown",
+        "busybox-mdev-openrc",
+        "busybox-openrc"
+       ]
+      },
+      {
+       "index_sha256": "ad6d3294ac1d55603d07f920c597e47c737d8f467008a6d3b0f8e7b2e1451192",
+       "observed_at": "2026-11-05T15:52:36+0000",
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
+       "arch": "x86_64",
+       "packages": [
+        "busybox",
+        "busybox-binsh",
+        "busybox-doc",
+        "busybox-extras",
+        "busybox-extras-openrc",
+        "busybox-ifupdown",
+        "busybox-mdev-openrc",
+        "busybox-openrc",
+        "busybox-static",
+        "busybox-suid",
+        "ssl_client"
+       ]
+      }
+     ]
     },
     "scan_completeness": {
      "state": "COMPLETE",
@@ -65,6 +128,9 @@
      "skipped": null,
      "accepted_by": null
     }
+   },
+   "ecosystem_specific": {
+    "origin": "busybox"
    }
   }
  ],
@@ -80,7 +146,7 @@
   ]
  },
  "published": "2026-11-05T13:40:25Z",
- "modified": "2026-11-05T15:01:23Z",
+ "modified": "2026-11-05T15:56:42Z",
  "references": [
   {
    "type": "ADVISORY",
@@ -88,7 +154,7 @@
   },
   {
    "type": "WEB",
-   "url": "https://osv.dev/vulnerability/cve-2021-42386"
+   "url": "https://osv.dev/vulnerability/CVE-2021-42386"
   }
  ],
  "related": [],
