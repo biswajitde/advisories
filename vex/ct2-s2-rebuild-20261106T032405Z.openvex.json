@@ -2,7 +2,7 @@
  "@context": "https://openvex.dev/ns/v0.2.0",
  "@id": "https://github.com/biswajitde/advisories/blob/main/vex/ct2-s2-rebuild-20261106T032405Z.openvex.json",
  "author": "CleanStart ADVISORY emulation pipeline",
- "timestamp": "2026-11-06T03:25:18Z",
+ "timestamp": "2026-11-06T03:55:49Z",
  "version": 1,
  "statements": [
   {
@@ -169,8 +169,8 @@
      ]
     }
    ],
-   "status": "under_investigation",
-   "status_notes": "upstream_fix=NONE-PUBLISHED; cleanstart_status=under_investigation; scan_completeness=COMPLETE",
+   "status": "fixed",
+   "status_notes": "upstream_fix=1.38.0-r2; scan_completeness=COMPLETE",
    "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-OU02245"
   },
   {
@@ -193,8 +193,8 @@
      ]
     }
    ],
-   "status": "under_investigation",
-   "status_notes": "upstream_fix=NONE-PUBLISHED; cleanstart_status=under_investigation; scan_completeness=COMPLETE",
+   "status": "fixed",
+   "status_notes": "upstream_fix=1.38.0-r2; scan_completeness=COMPLETE",
    "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-VJ43191"
   }
  ]

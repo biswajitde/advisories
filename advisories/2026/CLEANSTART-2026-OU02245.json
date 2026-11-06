@@ -4,8 +4,8 @@
  "upstream": [
   "CVE-2025-46394"
  ],
- "summary": "CVE-2025-46394 in busybox \u2014 CleanStart position: under_investigation",
- "details": "no fix version in our recipes and the scan carries no usable range",
+ "summary": "Security fix for CVE-2025-46394 applied in: busybox 1.38.0-r2",
+ "details": "shipped 1.38.0-r2 >= fixed 1.38.0-r2 (our recipe)",
  "affected": [
   {
    "package": {
@@ -14,11 +14,11 @@
     "purl": "pkg:apk/cleanstart/busybox?repository_url=https://storage.googleapis.com/cleanstart-emulation-public/clnpkgs/triam"
    },
    "database_specific": {
-    "status": "under_investigation",
-    "derivation": "no fix version in our recipes and the scan carries no usable range",
+    "status": "fixed",
+    "derivation": "shipped 1.38.0-r2 >= fixed 1.38.0-r2 (our recipe)",
     "shipped_version": "1.38.0-r2",
     "severity": "LOW",
-    "source": "none",
+    "source": "recipe",
     "component_location": {
      "paths": [],
      "source": null,
@@ -30,7 +30,7 @@
      "reason": "the scan carried no locations for this finding"
     },
     "provenance": {
-     "determined_at": "2026-11-06T03:35:36Z",
+     "determined_at": "2026-11-06T03:55:48Z",
      "determined_by": "scan",
      "generated_via": "scan",
      "instrument": {
@@ -122,6 +122,9 @@
      "events": [
       {
        "introduced": "0"
+      },
+      {
+       "fixed": "1.38.0-r2"
       }
      ]
     }
@@ -132,7 +135,7 @@
   }
  ],
  "database_specific": {
-  "cleanstart_status": "under_investigation",
+  "cleanstart_status": "fixed",
   "generated_by": "advisory-gen.py",
   "generated_via": "scan",
   "aliased_from": [
@@ -142,11 +145,15 @@
    {
     "timestamp": "2026-11-05T02:48:29Z",
     "type": "detection"
+   },
+   {
+    "timestamp": "2026-11-06T03:55:48Z",
+    "type": "fixed"
    }
   ]
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-06T03:35:36Z",
+ "modified": "2026-11-06T03:55:48Z",
  "references": [
   {
    "type": "ADVISORY",
