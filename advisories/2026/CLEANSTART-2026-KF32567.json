@@ -43,7 +43,7 @@
      "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_at": "2026-11-06T12:18:58Z",
+     "determined_at": "2026-11-06T13:31:50Z",
      "determined_by": "secfixes",
      "generated_via": "secfixes-carry",
      "instrument": {
@@ -61,13 +61,13 @@
      },
      "index_source": {
       "path": "index-observations.ndjson",
-      "sha256": "8e49dacd71a6d5134103aa017eba6cc89732b7e4c876ad89b4ed3c85cf081bc3",
-      "rows": 218
+      "sha256": "6ca5be4e512909a123c8476e08d9a5ab3b7ea35ee05431aeb50c2d8957a9aeae",
+      "rows": 219
      },
      "index_observations": [
       {
-       "index_sha256": "7d55d45ca0a1f70546cbd7f32360f6eb31b6c8931523c20a38f13e47d1b9e024",
-       "observed_at": "2026-11-06T10:48:41+0000",
+       "index_sha256": "6970a57e8df2ff1434173cf33608f08778aaf49b38d4ae0bbc2d85d695d04a75",
+       "observed_at": "2026-11-06T13:06:05+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
        "arch": "aarch64",
@@ -79,8 +79,8 @@
        ]
       },
       {
-       "index_sha256": "e7c0055824148100b534868622a266333fbe82c3035bb74d4aa06183527cd5ba",
-       "observed_at": "2026-11-06T10:48:41+0000",
+       "index_sha256": "332e4334c8958036ccec82b10a699239fae0f025d2d2310efdccab111e01c620",
+       "observed_at": "2026-11-06T13:06:05+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
        "arch": "noarch",
@@ -89,8 +89,8 @@
        ]
       },
       {
-       "index_sha256": "94d48cabfd8f0c6f18554bb571e41128fc94e59c77e381265fc51438c37fc482",
-       "observed_at": "2026-11-06T10:48:41+0000",
+       "index_sha256": "b4481af97cf08062f49a72af43fa0ada035b1b7fcf2b8e5b64273cfd2d1c01c4",
+       "observed_at": "2026-11-06T13:06:05+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
        "arch": "x86_64",
@@ -141,7 +141,7 @@
   ]
  },
  "published": "2026-11-05T13:40:25Z",
- "modified": "2026-11-06T12:18:58Z",
+ "modified": "2026-11-06T13:31:50Z",
  "references": [
   {
    "type": "ADVISORY",
