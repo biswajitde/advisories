@@ -5,7 +5,7 @@
   "CVE-2021-28831"
  ],
  "summary": "Security fix for CVE-2021-28831 applied in: busybox 1.33.0-r5",
- "details": "shipped 1.38.0-r2 >= fixed 1.33.0-r5 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+ "details": "shipped 1.38.0-r3 >= fixed 1.33.0-r5 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
  "affected": [
   {
    "package": {
@@ -28,8 +28,8 @@
    ],
    "database_specific": {
     "status": "fixed",
-    "derivation": "shipped 1.38.0-r2 >= fixed 1.33.0-r5 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
-    "shipped_version": "1.38.0-r2",
+    "derivation": "shipped 1.38.0-r3 >= fixed 1.33.0-r5 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+    "shipped_version": "1.38.0-r3",
     "severity": null,
     "source": "recipe",
     "component_location": {
@@ -43,7 +43,7 @@
      "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_at": "2026-11-06T03:35:36Z",
+     "determined_at": "2026-11-06T03:59:07Z",
      "determined_by": "secfixes",
      "generated_via": "secfixes-carry",
      "instrument": {
@@ -55,72 +55,16 @@
       "cleanstart_provider": true
      },
      "index_sha256": null,
-     "is_public_surface": true,
+     "is_public_surface": null,
      "unsupplied": {
-      "index_sha256": "3 index objects carry busybox@1.38.0-r2; all are in index_observations, none is picked"
+      "index_sha256": "not supplied: no row for busybox@1.38.0-r3 in the index observations (ece67ba9d763)",
+      "is_public_surface": "not supplied: no row for busybox@1.38.0-r3 in the index observations (ece67ba9d763)"
      },
      "index_source": {
       "path": "index-observations.ndjson",
       "sha256": "ece67ba9d763b87eae616483428e99480c83c848861a20f8b60401bccadd7a50",
       "rows": 218
-     },
-     "index_observations": [
-      {
-       "index_sha256": "be49178894240dca8671c1047703be928df3daba6ade5fb852781c2930250279",
-       "observed_at": "2026-11-06T03:31:55+0000",
-       "is_public_surface": true,
-       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
-       "arch": "aarch64",
-       "packages": [
-        "busybox",
-        "busybox-binsh",
-        "busybox-doc",
-        "busybox-extras",
-        "busybox-extras-openrc",
-        "busybox-ifupdown",
-        "busybox-mdev-openrc",
-        "busybox-openrc",
-        "busybox-static",
-        "busybox-suid",
-        "ssl_client"
-       ]
-      },
-      {
-       "index_sha256": "24c378618f53ce41cea04e9e7510675505c3836eaac2c41a97fd806e3d8689cc",
-       "observed_at": "2026-11-06T03:31:55+0000",
-       "is_public_surface": true,
-       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
-       "arch": "noarch",
-       "packages": [
-        "busybox-binsh",
-        "busybox-doc",
-        "busybox-extras-openrc",
-        "busybox-ifupdown",
-        "busybox-mdev-openrc",
-        "busybox-openrc"
-       ]
-      },
-      {
-       "index_sha256": "e7c63dfa86b916323aa61ccd023462a130f0e2dae3cf3412aa7808d2868f0f71",
-       "observed_at": "2026-11-06T03:31:55+0000",
-       "is_public_surface": true,
-       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
-       "arch": "x86_64",
-       "packages": [
-        "busybox",
-        "busybox-binsh",
-        "busybox-doc",
-        "busybox-extras",
-        "busybox-extras-openrc",
-        "busybox-ifupdown",
-        "busybox-mdev-openrc",
-        "busybox-openrc",
-        "busybox-static",
-        "busybox-suid",
-        "ssl_client"
-       ]
-      }
-     ]
+     }
     },
     "scan_completeness": {
      "state": "COMPLETE",
@@ -128,9 +72,6 @@
      "skipped": null,
      "accepted_by": null
     }
-   },
-   "ecosystem_specific": {
-    "origin": "busybox"
    }
   }
  ],
@@ -146,7 +87,7 @@
   ]
  },
  "published": "2026-11-05T13:40:25Z",
- "modified": "2026-11-06T03:35:36Z",
+ "modified": "2026-11-06T03:59:07Z",
  "references": [
   {
    "type": "ADVISORY",
