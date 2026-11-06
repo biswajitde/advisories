@@ -4,7 +4,7 @@
  "upstream": [
   "CVE-2024-58251"
  ],
- "summary": "CVE-2024-58251 affects busybox \u2014 CleanStart position: under_investigation",
+ "summary": "CVE-2024-58251 in busybox \u2014 CleanStart position: under_investigation",
  "details": "no fix version in our recipes and the scan carries no usable range",
  "affected": [
   {
@@ -16,34 +16,41 @@
    "database_specific": {
     "status": "under_investigation",
     "derivation": "no fix version in our recipes and the scan carries no usable range",
-    "shipped_version": "1.36.1-r30",
+    "shipped_version": "1.38.0-r2",
     "severity": "LOW",
     "source": "none",
     "component_location": {
      "paths": [],
      "source": null,
      "instrument": {
-      "name": "UNKNOWN",
-      "version": "UNKNOWN",
-      "db_built": "UNKNOWN"
+      "name": "grype",
+      "version": "[not provided]",
+      "db_built": "2026-11-05T23:01:28Z"
      },
      "reason": "the scan carried no locations for this finding"
     },
     "provenance": {
-     "determined_at": "2026-11-05T13:40:25Z",
+     "determined_at": "2026-11-06T02:49:17Z",
      "determined_by": "scan",
      "generated_via": "scan",
      "instrument": {
-      "name": "UNKNOWN",
-      "version": "UNKNOWN",
-      "db_built": "UNKNOWN",
-      "db_schema": "UNKNOWN"
+      "name": "grype",
+      "version": "[not provided]",
+      "db_built": "2026-11-05T23:01:28Z",
+      "db_schema": "v6.1.9",
+      "binary_sha256": "sha256:65f8662ba237bb48b3ae52da2a72c220de6c2c9506a8d3aacf85d713508ca865",
+      "cleanstart_provider": true
      },
      "index_sha256": null,
      "is_public_surface": null,
      "unsupplied": {
-      "index_sha256": "not supplied: the generator receives secfixes, not the APKINDEX the determination was made against; the caller must pass it",
-      "is_public_surface": "not supplied: a property of the IMAGE (is it published?), which the generator never sees"
+      "index_sha256": "not supplied: no row for busybox@1.38.0-r2 in the index observations (5880c16279d8)",
+      "is_public_surface": "not supplied: no row for busybox@1.38.0-r2 in the index observations (5880c16279d8)"
+     },
+     "index_source": {
+      "path": "index-observations.ndjson",
+      "sha256": "5880c16279d8b578312a6519c5452e4c7c951cfafcd5a1a1d88126d795fad54d",
+      "rows": 219
      }
     },
     "scan_completeness": {
@@ -68,10 +75,19 @@
  "database_specific": {
   "cleanstart_status": "under_investigation",
   "generated_by": "advisory-gen.py",
-  "generated_via": "scan"
+  "generated_via": "scan",
+  "aliased_from": [
+   "CLEANSTART-2026-VJ43191"
+  ],
+  "events": [
+   {
+    "timestamp": "2026-11-05T02:48:29Z",
+    "type": "detection"
+   }
+  ]
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-05T13:40:25Z",
+ "modified": "2026-11-06T02:49:17Z",
  "references": [
   {
    "type": "ADVISORY",
@@ -79,9 +95,19 @@
   },
   {
    "type": "WEB",
-   "url": "https://osv.dev/vulnerability/cve-2024-58251"
+   "url": "https://osv.dev/vulnerability/CVE-2024-58251"
+  },
+  {
+   "type": "WEB",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58251"
   }
  ],
  "related": [],
- "credits": []
+ "credits": [],
+ "severity": [
+  {
+   "type": "CVSS_V3",
+   "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L"
+  }
+ ]
 }
