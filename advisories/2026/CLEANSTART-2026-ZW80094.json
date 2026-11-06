@@ -43,7 +43,7 @@
      "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_at": "2026-11-06T11:30:05Z",
+     "determined_at": "2026-11-06T12:18:58Z",
      "determined_by": "secfixes",
      "generated_via": "secfixes-carry",
      "instrument": {
@@ -103,6 +103,9 @@
       }
      ]
     },
+    "cleanstart": {
+     "applies_to_subpackages": true
+    },
     "scan_completeness": {
      "state": "COMPLETE",
      "basis": "complete=true",
@@ -111,6 +114,17 @@
     }
    },
    "ecosystem_specific": {
+    "components": [
+     {
+      "latest_event_status": "fixed",
+      "latest_event_timestamp": "2026-11-05T13:40:25Z",
+      "component_name": "zlib",
+      "component_version": "1.3.2-r2",
+      "component_type": "apk",
+      "component_location": "",
+      "component_purl": "pkg:apk/zlib"
+     }
+    ],
     "origin": "zlib"
    }
   }
@@ -127,7 +141,7 @@
   ]
  },
  "published": "2026-11-05T13:40:25Z",
- "modified": "2026-11-06T11:30:05Z",
+ "modified": "2026-11-06T12:18:58Z",
  "references": [
   {
    "type": "ADVISORY",

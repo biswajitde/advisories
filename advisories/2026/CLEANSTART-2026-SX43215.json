@@ -30,7 +30,7 @@
      "reason": "the scan carried no locations for this finding"
     },
     "provenance": {
-     "determined_at": "2026-11-06T11:30:05Z",
+     "determined_at": "2026-11-06T12:18:58Z",
      "determined_by": "scan",
      "generated_via": "scan",
      "instrument": {
@@ -109,6 +109,9 @@
       }
      ]
     },
+    "cleanstart": {
+     "applies_to_subpackages": true
+    },
     "scan_completeness": {
      "state": "COMPLETE",
      "basis": "complete=true",
@@ -127,6 +130,17 @@
     }
    ],
    "ecosystem_specific": {
+    "components": [
+     {
+      "latest_event_status": "detection",
+      "latest_event_timestamp": "2026-11-05T18:23:56Z",
+      "component_name": "busybox",
+      "component_version": "1.38.0-r3",
+      "component_type": "apk",
+      "component_location": "",
+      "component_purl": "pkg:apk/busybox"
+     }
+    ],
     "origin": "busybox"
    }
   }
@@ -146,7 +160,7 @@
   ]
  },
  "published": "2026-11-05T18:23:56Z",
- "modified": "2026-11-06T11:30:05Z",
+ "modified": "2026-11-06T12:18:58Z",
  "references": [
   {
    "type": "ADVISORY",
