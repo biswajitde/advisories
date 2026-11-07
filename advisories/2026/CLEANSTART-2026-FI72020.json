@@ -30,7 +30,7 @@
      "reason": "the scan carried no locations for this finding"
     },
     "provenance": {
-     "determined_at": "2026-11-06T20:11:41Z",
+     "determined_at": "2026-11-07T03:18:17Z",
      "determined_by": "scan",
      "generated_via": "scan",
      "instrument": {
@@ -48,13 +48,13 @@
      },
      "index_source": {
       "path": "index-observations.ndjson",
-      "sha256": "0490d66150e5ace540471b5dc440b5ef5e073a7a21af03a7bf7f77d00ccf901c",
+      "sha256": "9c11f9b7dd26a2531a271d588c08f9c4c019cf82360e4dde3481a753d85474e5",
       "rows": 218
      },
      "index_observations": [
       {
-       "index_sha256": "2aac1c3c45ae51e352c8909653e7f0ce824a5ec48cfc21b6d2fd3600bb814304",
-       "observed_at": "2026-11-06T18:45:19+0000",
+       "index_sha256": "a8a9d04b6b75e6a669520bb913f6d3df54658491cd8a2da42d69e0251d0f40c9",
+       "observed_at": "2026-11-07T02:56:33+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
        "arch": "aarch64",
@@ -66,8 +66,8 @@
        ]
       },
       {
-       "index_sha256": "3d13ccfdbbdd05e8e9393f3f1eb4fab3e33963aa5a5aec5e4d8878cc64293080",
-       "observed_at": "2026-11-06T18:45:19+0000",
+       "index_sha256": "93027e3c896f49344ebc48d598dcbc1996c96e5b0435173c754b7bfdd305832c",
+       "observed_at": "2026-11-07T02:56:33+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
        "arch": "noarch",
@@ -76,8 +76,8 @@
        ]
       },
       {
-       "index_sha256": "03fbc4017dc5a9b32f82b6bce39e960527cb5627638fc511825fb32d492ee718",
-       "observed_at": "2026-11-06T18:45:19+0000",
+       "index_sha256": "7687a334218a2d36a65c8993ebf7839b6015e144f36021def7eedcd1820cd5db",
+       "observed_at": "2026-11-07T02:56:33+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
        "arch": "x86_64",
@@ -141,7 +141,7 @@
   ]
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-06T20:11:41Z",
+ "modified": "2026-11-07T03:18:17Z",
  "references": [
   {
    "type": "ADVISORY",
