@@ -30,7 +30,7 @@
      "reason": "the scan carried no locations for this finding"
     },
     "provenance": {
-     "determined_at": "2026-11-07T05:33:28Z",
+     "determined_at": "2026-11-07T07:03:34Z",
      "determined_by": "scan",
      "generated_via": "scan",
      "instrument": {
@@ -141,7 +141,7 @@
   ]
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-07T05:33:28Z",
+ "modified": "2026-11-07T07:03:34Z",
  "references": [
   {
    "type": "ADVISORY",
@@ -161,7 +161,8 @@
  "severity": [
   {
    "type": "CVSS_V3",
-   "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+   "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+   "source": "CNA"
   }
  ]
 }
