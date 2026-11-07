@@ -43,7 +43,7 @@
      "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_at": "2026-11-07T16:18:33Z",
+     "determined_at": "2026-11-07T17:02:10Z",
      "determined_by": "secfixes",
      "generated_via": "secfixes-carry",
      "instrument": {
@@ -61,13 +61,13 @@
      },
      "index_source": {
       "path": "index-observations.ndjson",
-      "sha256": "0306ee2bb222bc47dc422d971cf2136777c6163ccd31d3866ae7c76bb2a8e47e",
+      "sha256": "38a998d8efd4eaafdc6c7100f646eadcbccaa6f86eea24b5fb2e185170171a46",
       "rows": 218
      },
      "index_observations": [
       {
-       "index_sha256": "80cde830f555cd84738848f6a046b09ecb6bca27e278cd49b44e407f88ebf3d4",
-       "observed_at": "2026-11-07T12:15:10+0000",
+       "index_sha256": "49b19d5226bce36985e342b6602e6a4c3d56ff2c097b84f9e2639e19f0239302",
+       "observed_at": "2026-11-07T16:21:40+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
        "arch": "aarch64",
@@ -86,8 +86,8 @@
        ]
       },
       {
-       "index_sha256": "2a98831a550e5e36166d46e4f383f386f7f0d1b2ab9b6db829aa4101acb1efa8",
-       "observed_at": "2026-11-07T12:15:10+0000",
+       "index_sha256": "e74e8720bb02d3e5d5d96b3f5e5b7e1a70e9afae4c5732830a003f9da3b50e81",
+       "observed_at": "2026-11-07T16:21:40+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
        "arch": "noarch",
@@ -101,8 +101,8 @@
        ]
       },
       {
-       "index_sha256": "0978e842972fa882abcfad4e36996d8b1f44583c4e7e9997362144412d4ba35c",
-       "observed_at": "2026-11-07T12:15:10+0000",
+       "index_sha256": "37a96d36c5dcfe08f0b621e2f5c3509701d50457fbba9127c2e821d1d76e7e80",
+       "observed_at": "2026-11-07T16:21:40+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
        "arch": "x86_64",
@@ -164,7 +164,7 @@
   ]
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-07T16:18:33Z",
+ "modified": "2026-11-07T17:02:10Z",
  "references": [
   {
    "type": "ADVISORY",
