@@ -30,7 +30,7 @@
      "reason": "the scan carried no locations for this finding"
     },
     "provenance": {
-     "determined_at": "2026-11-07T17:02:10Z",
+     "determined_at": "2026-11-07T18:22:25Z",
      "determined_by": "scan",
      "generated_via": "scan",
      "instrument": {
@@ -48,13 +48,13 @@
      },
      "index_source": {
       "path": "index-observations.ndjson",
-      "sha256": "38a998d8efd4eaafdc6c7100f646eadcbccaa6f86eea24b5fb2e185170171a46",
+      "sha256": "1f371d1cc3d2432446705c7fb75333807d6129e0e393760302c001a5338cf2c9",
       "rows": 218
      },
      "index_observations": [
       {
-       "index_sha256": "49b19d5226bce36985e342b6602e6a4c3d56ff2c097b84f9e2639e19f0239302",
-       "observed_at": "2026-11-07T16:21:40+0000",
+       "index_sha256": "fbfc8fb4da740d02fd9bfc75e30a78c51f93c3872a8cfb8dd23c9377ca4541d8",
+       "observed_at": "2026-11-07T18:19:32+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
        "arch": "aarch64",
@@ -66,8 +66,8 @@
        ]
       },
       {
-       "index_sha256": "e74e8720bb02d3e5d5d96b3f5e5b7e1a70e9afae4c5732830a003f9da3b50e81",
-       "observed_at": "2026-11-07T16:21:40+0000",
+       "index_sha256": "aea97feccadb01ba8efaa788d9ada5d05afa9cb73a7746bd00b7afceda2134fc",
+       "observed_at": "2026-11-07T18:19:32+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
        "arch": "noarch",
@@ -76,8 +76,8 @@
        ]
       },
       {
-       "index_sha256": "37a96d36c5dcfe08f0b621e2f5c3509701d50457fbba9127c2e821d1d76e7e80",
-       "observed_at": "2026-11-07T16:21:40+0000",
+       "index_sha256": "b01a91718ac02a94d317f68ac729d67a2e0715cf7f278ad4c89b6bc404955b46",
+       "observed_at": "2026-11-07T18:19:32+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
        "arch": "x86_64",
@@ -138,10 +138,22 @@
     "timestamp": "2026-11-05T18:23:56Z",
     "type": "detection"
    }
+  ],
+  "severity_scorers": [
+   {
+    "type": "CVSS_V4",
+    "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "scorer": "disclosure@vulncheck.com"
+   },
+   {
+    "type": "CVSS_V3",
+    "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+    "scorer": "disclosure@vulncheck.com"
+   }
   ]
  },
  "published": "2026-11-05T18:23:56Z",
- "modified": "2026-11-07T17:02:10Z",
+ "modified": "2026-11-07T18:22:25Z",
  "references": [
   {
    "type": "ADVISORY",
@@ -162,6 +174,10 @@
   {
    "type": "CVSS_V4",
    "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+  },
+  {
+   "type": "CVSS_V3",
+   "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H"
   }
  ]
 }
