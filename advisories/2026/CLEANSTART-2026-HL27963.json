@@ -38,18 +38,18 @@
      "instrument": {
       "name": "grype",
       "version": "[not provided]",
-      "db_built": "2026-11-06T19:39:23Z"
+      "db_built": "2026-11-07T04:39:37Z"
      },
      "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_at": "2026-11-07T03:42:55Z",
+     "determined_at": "2026-11-07T05:07:34Z",
      "determined_by": "secfixes",
      "generated_via": "secfixes-carry",
      "instrument": {
       "name": "grype",
       "version": "[not provided]",
-      "db_built": "2026-11-06T19:39:23Z",
+      "db_built": "2026-11-07T04:39:37Z",
       "db_schema": "v6.1.9",
       "binary_sha256": "sha256:65f8662ba237bb48b3ae52da2a72c220de6c2c9506a8d3aacf85d713508ca865",
       "cleanstart_provider": true
@@ -61,13 +61,13 @@
      },
      "index_source": {
       "path": "index-observations.ndjson",
-      "sha256": "51651a344e745f5a565b26882783084dfff419f35d24bac1c69b167a65739cff",
+      "sha256": "844484821b1d511069ce6d35a86702016489bf753d7fb6fe5ad86881469993d7",
       "rows": 218
      },
      "index_observations": [
       {
-       "index_sha256": "36a1ce32caf75cc9a1081b2e5ed773e8111b716ddba57866334c0b8c5562c791",
-       "observed_at": "2026-11-07T03:21:00+0000",
+       "index_sha256": "7904dbea3eec7057e9baf5339b651196e4fad8d664762425563a689266db5db8",
+       "observed_at": "2026-11-07T03:47:11+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
        "arch": "aarch64",
@@ -86,8 +86,8 @@
        ]
       },
       {
-       "index_sha256": "ea6ffa4eac7ae26d3f0406bba4546a2217347e463cfbe5ae2ac58b91b526dce0",
-       "observed_at": "2026-11-07T03:21:00+0000",
+       "index_sha256": "c159508f9ab640d35231dcd25fafdd10d6c76c94d9e1158091f1b6f57b2bd669",
+       "observed_at": "2026-11-07T03:47:11+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
        "arch": "noarch",
@@ -101,8 +101,8 @@
        ]
       },
       {
-       "index_sha256": "a26b56f6d87a3e0ce628ab3c44dd6111ace2df66e8dcc1061306c666b484c058",
-       "observed_at": "2026-11-07T03:21:00+0000",
+       "index_sha256": "274665204c064860087c9a834df27916dc4a21255735bee3259e61eee9401576",
+       "observed_at": "2026-11-07T03:47:11+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
        "arch": "x86_64",
@@ -160,7 +160,7 @@
   ]
  },
  "published": "2026-11-05T13:40:25Z",
- "modified": "2026-11-07T03:42:55Z",
+ "modified": "2026-11-07T05:07:34Z",
  "references": [
   {
    "type": "ADVISORY",
