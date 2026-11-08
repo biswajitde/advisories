@@ -1,0 +1,153 @@
+{
+ "@context": "https://openvex.dev/ns/v0.2.0",
+ "@id": "https://github.com/biswajitde/advisories/blob/main/vex/ct2-s2-rebuild-20261108T191556Z-dev.openvex.json",
+ "author": "CleanStart ADVISORY emulation pipeline",
+ "timestamp": "2026-11-08T19:18:00Z",
+ "version": 1,
+ "statements": [
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38754",
+    "aliases": [
+     "CLEANSTART-2026-CH93892"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:5ec2a06518e115c6c7a5b7c6a2cf13282aff354ab7ef23be199ce759eeeb5f3d",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "under_investigation",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; cleanstart_status=under_investigation; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CH93892"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38755",
+    "aliases": [
+     "CLEANSTART-2026-DA93784"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:5ec2a06518e115c6c7a5b7c6a2cf13282aff354ab7ef23be199ce759eeeb5f3d",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "under_investigation",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; cleanstart_status=under_investigation; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-DA93784"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38753",
+    "aliases": [
+     "CLEANSTART-2026-SX43215"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:5ec2a06518e115c6c7a5b7c6a2cf13282aff354ab7ef23be199ce759eeeb5f3d",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "under_investigation",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; cleanstart_status=under_investigation; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-SX43215"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-85091",
+    "aliases": [
+     "CLEANSTART-2026-LM00136"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:5ec2a06518e115c6c7a5b7c6a2cf13282aff354ab7ef23be199ce759eeeb5f3d",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/zlib@1.3.2-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "under_investigation",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; cleanstart_status=under_investigation; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-LM00136"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2025-60876",
+    "aliases": [
+     "CLEANSTART-2026-EN38789"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:5ec2a06518e115c6c7a5b7c6a2cf13282aff354ab7ef23be199ce759eeeb5f3d",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "under_investigation",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; cleanstart_status=under_investigation; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-EN38789"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-27171",
+    "aliases": [
+     "CLEANSTART-2026-FI72020"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:5ec2a06518e115c6c7a5b7c6a2cf13282aff354ab7ef23be199ce759eeeb5f3d",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/zlib@1.3.2-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "under_investigation",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; cleanstart_status=under_investigation; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-FI72020"
+  }
+ ]
+}
