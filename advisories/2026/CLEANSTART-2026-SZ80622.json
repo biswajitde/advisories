@@ -43,7 +43,7 @@
      "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_at": "2026-11-08T04:15:33Z",
+     "determined_at": "2026-11-08T04:16:22Z",
      "determined_by": "secfixes",
      "generated_via": "secfixes-carry",
      "instrument": {
@@ -114,7 +114,7 @@
     "components": [
      {
       "latest_event_status": "fixed",
-      "latest_event_timestamp": "2026-11-08T04:15:33Z",
+      "latest_event_timestamp": "2026-11-08T04:16:22Z",
       "component_name": "cleanstart-baselayout",
       "component_version": "3.6.5-r2",
       "component_type": "apk",
@@ -132,13 +132,13 @@
   "generated_via": "secfixes-carry",
   "events": [
    {
-    "timestamp": "2026-11-08T04:15:33Z",
+    "timestamp": "2026-11-08T04:16:22Z",
     "type": "fixed"
    }
   ]
  },
- "modified": "2026-11-08T04:15:33Z",
- "published": "2026-11-08T04:15:33Z",
+ "modified": "2026-11-08T04:16:22Z",
+ "published": "2026-11-08T04:16:22Z",
  "references": [
   {
    "type": "ADVISORY",
