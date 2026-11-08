@@ -37,21 +37,21 @@
      "source": null,
      "instrument": {
       "name": "grype",
-      "version": "cleanstart-7ddce4ddc538",
+      "version": "cleanstart-164347ca502f",
       "db_built": "2026-11-08T11:06:16Z"
      },
      "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_at": "2026-11-08T11:33:08Z",
+     "determined_at": "2026-11-08T12:15:51Z",
      "determined_by": "secfixes",
      "generated_via": "secfixes-carry",
      "instrument": {
       "name": "grype",
-      "version": "cleanstart-7ddce4ddc538",
+      "version": "cleanstart-164347ca502f",
       "db_built": "2026-11-08T11:06:16Z",
       "db_schema": "v6.1.9",
-      "binary_sha256": "sha256:6ab6feead487f8eae422854db0508339b275257934529cc40ba42e3206d2c578",
+      "binary_sha256": "sha256:3f48dc1973a68d72931b8175b449cccb197cacb201705037207dbbf69f351939",
       "cleanstart_provider": true
      },
      "index_sha256": null,
@@ -141,7 +141,7 @@
   ]
  },
  "published": "2026-11-05T13:40:25Z",
- "modified": "2026-11-08T11:33:08Z",
+ "modified": "2026-11-08T12:15:51Z",
  "references": [
   {
    "type": "ADVISORY",
