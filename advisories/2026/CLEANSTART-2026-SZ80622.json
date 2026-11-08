@@ -1,0 +1,158 @@
+{
+ "schema_version": "1.9.2",
+ "id": "CLEANSTART-2026-SZ80622",
+ "upstream": [
+  "CVE-2019-5021"
+ ],
+ "summary": "Security fix for CVE-2019-5021 applied in: cleanstart-baselayout 3.6.5-r1",
+ "details": "shipped 3.6.5-r2 >= fixed 3.6.5-r1 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+ "affected": [
+  {
+   "package": {
+    "name": "cleanstart-baselayout",
+    "ecosystem": "CleanStart",
+    "purl": "pkg:apk/cleanstart/cleanstart-baselayout?repository_url=https://storage.googleapis.com/cleanstart-emulation-public/clnpkgs/triam"
+   },
+   "ranges": [
+    {
+     "type": "ECOSYSTEM",
+     "events": [
+      {
+       "introduced": "0"
+      },
+      {
+       "fixed": "3.6.5-r1"
+      }
+     ]
+    }
+   ],
+   "database_specific": {
+    "status": "fixed",
+    "derivation": "shipped 3.6.5-r2 >= fixed 3.6.5-r1 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+    "shipped_version": "3.6.5-r2",
+    "severity": null,
+    "source": "recipe",
+    "component_location": {
+     "paths": [],
+     "source": null,
+     "instrument": {
+      "name": "grype",
+      "version": "cleanstart-3fe55c2e6308",
+      "db_built": "2026-11-08T03:44:55Z"
+     },
+     "reason": "carried from secfixes: the scan reported no finding, so there is no path"
+    },
+    "provenance": {
+     "determined_at": "2026-11-08T04:15:33Z",
+     "determined_by": "secfixes",
+     "generated_via": "secfixes-carry",
+     "instrument": {
+      "name": "grype",
+      "version": "cleanstart-3fe55c2e6308",
+      "db_built": "2026-11-08T03:44:55Z",
+      "db_schema": "v6.1.9",
+      "binary_sha256": "sha256:7279054042deb447ec69ce2b80f6d6e44877f3eb2b958c655a742e3bd074d94b",
+      "cleanstart_provider": true
+     },
+     "index_sha256": null,
+     "is_public_surface": true,
+     "unsupplied": {
+      "index_sha256": "3 index objects carry cleanstart-baselayout@3.6.5-r2; all are in index_observations, none is picked"
+     },
+     "index_source": {
+      "path": "index-observations.ndjson",
+      "sha256": "fc3d232f780083071506ec9b7e40c6ec35bbaca9eeee9b6aebed51bf012674e1",
+      "rows": 218
+     },
+     "index_observations": [
+      {
+       "index_sha256": "fa7fdd7ba2ed211b556677644f1ce5f85081819dc346ff92968fe9b6ce3b0e6c",
+       "observed_at": "2026-11-08T03:22:07+0000",
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
+       "arch": "aarch64",
+       "packages": [
+        "cleanstart-baselayout",
+        "cleanstart-baselayout-data"
+       ]
+      },
+      {
+       "index_sha256": "7ceef302111508e6313c910d48f87c38a04b4a761bdc4ac1776c5b1143b5ef6d",
+       "observed_at": "2026-11-08T03:22:07+0000",
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
+       "arch": "noarch",
+       "packages": [
+        "cleanstart-baselayout",
+        "cleanstart-baselayout-data"
+       ]
+      },
+      {
+       "index_sha256": "24d8f6925c9812879bad5b438f1d72922b423270a915d88922b1d781ffeb511f",
+       "observed_at": "2026-11-08T03:22:07+0000",
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
+       "arch": "x86_64",
+       "packages": [
+        "cleanstart-baselayout",
+        "cleanstart-baselayout-data"
+       ]
+      }
+     ]
+    },
+    "cleanstart": {
+     "applies_to_subpackages": true
+    },
+    "scan_completeness": {
+     "state": "COMPLETE",
+     "basis": "complete=true",
+     "skipped": null,
+     "accepted_by": null
+    }
+   },
+   "ecosystem_specific": {
+    "components": [
+     {
+      "latest_event_status": "fixed",
+      "latest_event_timestamp": "2026-11-08T04:15:33Z",
+      "component_name": "cleanstart-baselayout",
+      "component_version": "3.6.5-r2",
+      "component_type": "apk",
+      "component_location": "",
+      "component_purl": "pkg:apk/cleanstart-baselayout"
+     }
+    ],
+    "origin": "cleanstart-baselayout"
+   }
+  }
+ ],
+ "database_specific": {
+  "cleanstart_status": "fixed",
+  "generated_by": "advisory-gen.py",
+  "generated_via": "secfixes-carry",
+  "events": [
+   {
+    "timestamp": "2026-11-08T04:15:33Z",
+    "type": "fixed"
+   }
+  ]
+ },
+ "modified": "2026-11-08T04:15:33Z",
+ "published": "2026-11-08T04:15:33Z",
+ "references": [
+  {
+   "type": "ADVISORY",
+   "url": "https://github.com/biswajitde/advisories/tree/main/advisories/2026/CLEANSTART-2026-SZ80622.json"
+  },
+  {
+   "type": "WEB",
+   "url": "https://osv.dev/vulnerability/CVE-2019-5021"
+  },
+  {
+   "type": "WEB",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5021"
+  }
+ ],
+ "related": [],
+ "credits": []
+}
