@@ -16,7 +16,7 @@
    "database_specific": {
     "status": "under_investigation",
     "derivation": "no fix version in our recipes and the scan carries no usable range",
-    "shipped_version": "1.3.2-r3",
+    "shipped_version": "1.3.2-r4",
     "severity": "MEDIUM",
     "source": "none",
     "component_location": {
@@ -30,7 +30,7 @@
      "reason": "the scan carried no locations for this finding"
     },
     "provenance": {
-     "determined_at": "2026-11-08T17:48:02Z",
+     "determined_at": "2026-11-08T17:54:03Z",
      "determined_by": "scan",
      "generated_via": "scan",
      "instrument": {
@@ -42,53 +42,16 @@
       "cleanstart_provider": true
      },
      "index_sha256": null,
-     "is_public_surface": true,
+     "is_public_surface": null,
      "unsupplied": {
-      "index_sha256": "3 index objects carry zlib@1.3.2-r3; all are in index_observations, none is picked"
+      "index_sha256": "not supplied: no row for zlib@1.3.2-r4 in the index observations (9f58b8abce12)",
+      "is_public_surface": "not supplied: no row for zlib@1.3.2-r4 in the index observations (9f58b8abce12)"
      },
      "index_source": {
       "path": "index-observations.ndjson",
       "sha256": "9f58b8abce12d28677650bf0cd4ee122325ca92a1d82933680f3f853ea0f3c38",
       "rows": 221
-     },
-     "index_observations": [
-      {
-       "index_sha256": "dd29fa4160c44449d303d43c51e5e1030d27bb136c859b68cd0d1160610097c7",
-       "observed_at": "2026-11-08T17:28:20+0000",
-       "is_public_surface": true,
-       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
-       "arch": "aarch64",
-       "packages": [
-        "zlib",
-        "zlib-dev",
-        "zlib-doc",
-        "zlib-static"
-       ]
-      },
-      {
-       "index_sha256": "d5666d2dde7643a2c523a8695ab5415afad42a06dfcf333b948168598c21f3cc",
-       "observed_at": "2026-11-08T17:28:20+0000",
-       "is_public_surface": true,
-       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
-       "arch": "noarch",
-       "packages": [
-        "zlib-doc"
-       ]
-      },
-      {
-       "index_sha256": "4488aaed88bcc376d96761a8c1a35d2a1412ac1ed21bb9643f28ec3ff5a4cebd",
-       "observed_at": "2026-11-08T17:28:20+0000",
-       "is_public_surface": true,
-       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
-       "arch": "x86_64",
-       "packages": [
-        "zlib",
-        "zlib-dev",
-        "zlib-doc",
-        "zlib-static"
-       ]
-      }
-     ]
+     }
     },
     "cleanstart": {
      "applies_to_subpackages": true
@@ -116,13 +79,12 @@
       "latest_event_status": "detection",
       "latest_event_timestamp": "2026-11-05T02:48:29Z",
       "component_name": "zlib",
-      "component_version": "1.3.2-r3",
+      "component_version": "1.3.2-r4",
       "component_type": "apk",
       "component_location": "",
       "component_purl": "pkg:apk/zlib"
      }
-    ],
-    "origin": "zlib"
+    ]
    }
   }
  ],
@@ -153,7 +115,7 @@
   ]
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-08T17:48:02Z",
+ "modified": "2026-11-08T17:54:03Z",
  "references": [
   {
    "type": "ADVISORY",
