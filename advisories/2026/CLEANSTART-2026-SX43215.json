@@ -25,18 +25,18 @@
      "instrument": {
       "name": "grype",
       "version": "cleanstart-164347ca502f",
-      "db_built": "2026-11-08T16:34:24Z"
+      "db_built": "2026-11-08T17:15:28Z"
      },
      "reason": "the scan carried no locations for this finding"
     },
     "provenance": {
-     "determined_at": "2026-11-08T17:28:41Z",
+     "determined_at": "2026-11-08T17:48:02Z",
      "determined_by": "scan",
      "generated_via": "scan",
      "instrument": {
       "name": "grype",
       "version": "cleanstart-164347ca502f",
-      "db_built": "2026-11-08T16:34:24Z",
+      "db_built": "2026-11-08T17:15:28Z",
       "db_schema": "v6.1.9",
       "binary_sha256": "sha256:3f48dc1973a68d72931b8175b449cccb197cacb201705037207dbbf69f351939",
       "cleanstart_provider": true
@@ -172,7 +172,7 @@
   ]
  },
  "published": "2026-11-05T18:23:56Z",
- "modified": "2026-11-08T17:28:41Z",
+ "modified": "2026-11-08T17:48:02Z",
  "references": [
   {
    "type": "ADVISORY",
