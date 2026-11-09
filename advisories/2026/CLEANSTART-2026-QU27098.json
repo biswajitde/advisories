@@ -43,17 +43,10 @@
      "index_sha256": null,
      "is_public_surface": true,
      "unsupplied": {
-      "index_sha256": "3 index objects carry busybox@1.38.0-r4; all are in index_observations, none is picked"
-     },
-     "index_source": {
-      "path": "index-observations.ndjson",
-      "sha256": "656cc792af56405040f3eddc68ac85be774470b0f926d2bd3c6947ea5f65348d",
-      "rows": 221
+      "index_sha256": "per-run: the sha256 of the index snapshot this run read is in the run provenance (provenance/<run>.json index.objects, keyed by index_uri)"
      },
      "index_observations": [
       {
-       "index_sha256": "eba74600adc2335d64a7c07ac405e41427765dcbace895547279418a8b0265ba",
-       "observed_at": "2026-11-09T17:20:50+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
        "arch": "aarch64",
@@ -72,8 +65,6 @@
        ]
       },
       {
-       "index_sha256": "66294deaf439e7bcd8b0cb48c623aca3c09b8e3d01a8dad7c4a8717728293f7d",
-       "observed_at": "2026-11-09T17:20:50+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
        "arch": "noarch",
@@ -87,8 +78,6 @@
        ]
       },
       {
-       "index_sha256": "544a70c873c0258d989e142c3f4158cbdd34d8abb524e7f984025657192086ff",
-       "observed_at": "2026-11-09T17:20:50+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
        "arch": "x86_64",
@@ -146,7 +135,7 @@
   ]
  },
  "published": "2026-11-05T13:40:25Z",
- "modified": "2026-11-09T17:42:45Z",
+ "modified": "2026-11-09T18:26:30Z",
  "references": [
   {
    "type": "ADVISORY",
