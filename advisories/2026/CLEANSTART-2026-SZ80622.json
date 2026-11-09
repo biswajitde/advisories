@@ -47,13 +47,13 @@
      },
      "index_source": {
       "path": "index-observations.ndjson",
-      "sha256": "803e8a6b8e755ff33311bc908560dd2439867838a8829558aa1088a5040280a2",
+      "sha256": "656cc792af56405040f3eddc68ac85be774470b0f926d2bd3c6947ea5f65348d",
       "rows": 221
      },
      "index_observations": [
       {
-       "index_sha256": "ada8058c64404760b7fbb37c93f8f847bb6dd315f43c31ce740c1ce5a8be2239",
-       "observed_at": "2026-11-09T16:53:06+0000",
+       "index_sha256": "eba74600adc2335d64a7c07ac405e41427765dcbace895547279418a8b0265ba",
+       "observed_at": "2026-11-09T17:20:50+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
        "arch": "aarch64",
@@ -64,8 +64,8 @@
        ]
       },
       {
-       "index_sha256": "f4351f62ebb4fe5bab7f22ca5cb55bb8123c2bf71e0bba767283f47913f78f5d",
-       "observed_at": "2026-11-09T16:53:06+0000",
+       "index_sha256": "66294deaf439e7bcd8b0cb48c623aca3c09b8e3d01a8dad7c4a8717728293f7d",
+       "observed_at": "2026-11-09T17:20:50+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
        "arch": "noarch",
@@ -76,8 +76,8 @@
        ]
       },
       {
-       "index_sha256": "f02c838e7a7938395712d67805ea0c37576e3cf68db6b6129c617f26f63fd2ed",
-       "observed_at": "2026-11-09T16:53:06+0000",
+       "index_sha256": "544a70c873c0258d989e142c3f4158cbdd34d8abb524e7f984025657192086ff",
+       "observed_at": "2026-11-09T17:20:50+0000",
        "is_public_surface": true,
        "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
        "arch": "x86_64",
@@ -127,7 +127,7 @@
   ]
  },
  "published": "2026-11-08T04:16:22Z",
- "modified": "2026-11-09T17:01:07Z",
+ "modified": "2026-11-09T17:42:45Z",
  "references": [
   {
    "type": "ADVISORY",
