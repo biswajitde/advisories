@@ -2,8 +2,8 @@
  "@context": "https://openvex.dev/ns/v0.2.0",
  "@id": "https://github.com/biswajitde/advisories/blob/main/vex/current/ct2-s2-rebuild.openvex.json",
  "author": "CleanStart ADVISORY emulation pipeline",
- "timestamp": "2026-11-09T19:26:03Z",
- "version": 1,
+ "timestamp": "2026-11-09T20:14:15Z",
+ "version": 2,
  "customer_context": "Internet reachability, likely exploitability and the PAIN N-rating are customer context, not asserted.",
  "statements": [
   {
@@ -168,46 +168,6 @@
     "status": "affected"
    },
    "action_statement_timestamp": "2026-11-09T19:26:01Z",
-   "timestamp": "2026-11-09T19:26:03Z"
-  },
-  {
-   "vulnerability": {
-    "name": "CVE-2025-60876",
-    "aliases": [
-     "CLEANSTART-2026-EN38789"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0f838417e582e68d38a347a96f5250ea801ea71b9929c33211d9c5902d990224",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "upstream_fix=1.38.0-r4; triage=FIXED_BY_UPSTREAM_VERSION; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-EN38789",
-   "first_detected": "2026-11-05T02:48:29Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-09T18:51:41Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-09T19:26:01Z",
-    "via": "scan"
-   },
-   "evaluated_at": "2026-11-09T19:26:01Z",
-   "triage_code": "FIXED_BY_UPSTREAM_VERSION",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.38.0-r4"
-   },
    "timestamp": "2026-11-09T19:26:03Z"
   },
   {
@@ -1328,6 +1288,47 @@
     "fixed_version": "1.38.0-r2"
    },
    "timestamp": "2026-11-09T19:26:03Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2025-60876",
+    "aliases": [
+     "CLEANSTART-2026-EN38789"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0f838417e582e68d38a347a96f5250ea801ea71b9929c33211d9c5902d990224",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.38.0-r4; shipped 1.38.0-r4; triage=FIXED_BY_UPSTREAM_VERSION; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-EN38789",
+   "first_detected": "2026-11-05T02:48:29Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-09T19:47:08Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-09T20:14:15Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_UPSTREAM_VERSION",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r4"
+   },
+   "timestamp": "2026-11-09T20:14:15Z",
+   "last_updated": "2026-11-09T20:14:15Z"
   },
   {
    "vulnerability": {
