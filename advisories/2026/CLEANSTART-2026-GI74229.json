@@ -43,7 +43,7 @@
      "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_at": "2026-11-09T09:21:14Z",
+     "determined_at": "2026-11-09T16:05:15Z",
      "determined_by": "secfixes",
      "generated_via": "secfixes-carry",
      "instrument": {
@@ -51,7 +51,7 @@
       "version": "cleanstart-964f4306b880",
       "db_built": "2026-11-09T08:53:57Z",
       "db_schema": "v6.1.9",
-      "binary_sha256": "sha256:5c7865f7116b63432c36f42ece0cfa358299e9e72b36c82b6179504f7954163b",
+      "binary_sha256": "sha256:2db405a3bd6412385f555ad12d7ce854f4705fa78513bf5bb0c7ef7af8a7a325",
       "cleanstart_provider": true
      },
      "index_sha256": null,
@@ -160,7 +160,7 @@
   ]
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-09T09:21:14Z",
+ "modified": "2026-11-09T16:05:15Z",
  "references": [
   {
    "type": "ADVISORY",
