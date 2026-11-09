@@ -1,6 +1,6 @@
 {
  "component_location_source": "grype artifact.locations[].path",
- "determined_at": "2026-11-09T19:20:04Z",
+ "determined_at": "2026-11-09T19:26:01Z",
  "index": {
   "objects": {
    "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz": [
@@ -74,5 +74,25 @@
   "CLEANSTART-2026-ZG51108",
   "CLEANSTART-2026-ZW80094"
  ],
- "schema": "cleanstart-run-provenance/1"
+ "schema": "cleanstart-run-provenance/1",
+ "triage": {
+  "counts": {
+   "FIXED_BY_OUR_PATCH": 30,
+   "FIXED_BY_UPSTREAM_VERSION": 1,
+   "REFUSED_RECIPE_ABSENT": 1,
+   "STILL_AFFECTED_NO_FIX": 4
+  },
+  "evaluation_overdue": [
+   "CLEANSTART-2026-FI72020"
+  ],
+  "upstream_ranges": {
+   "blobs_unparsed": 0,
+   "cves_asked": 6,
+   "cves_with_rows": 6,
+   "db_built": "2026-11-09T18:51:41Z",
+   "provider": "nvd",
+   "sha256": "sha256:222120246d85811acc2fe50d23a7bb008ca6ea456575c343e20d940d2eeaf8fa",
+   "source": "vulnerability.db"
+  }
+ }
 }

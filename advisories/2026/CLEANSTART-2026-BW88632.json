@@ -127,6 +127,9 @@
   "cleanstart_status": "fixed",
   "generated_by": "advisory-gen.py",
   "generated_via": "secfixes-carry",
+  "triage": "FIXED_BY_OUR_PATCH",
+  "triage_code": "TRIAGE-0002",
+  "evaluated_at": "2026-11-09T19:26:01Z",
   "events": [
    {
     "timestamp": "2026-11-05T13:40:25Z",
@@ -135,7 +138,7 @@
   ]
  },
  "published": "2026-11-05T13:40:25Z",
- "modified": "2026-11-09T18:26:30Z",
+ "modified": "2026-11-09T19:26:01Z",
  "references": [
   {
    "type": "ADVISORY",

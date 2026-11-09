@@ -4,8 +4,8 @@
  "upstream": [
   "CVE-2026-38753"
  ],
- "summary": "CVE-2026-38753 in busybox \u2014 CleanStart position: under_investigation",
- "details": "no fix version in our recipes and the scan carries no usable range",
+ "summary": "CVE-2026-38753 in busybox \u2014 CleanStart position: affected",
+ "details": "shipped 1.38.0-r4 falls inside NVD [= 1.38.0] (NVD status: active); neither upstream nor our recipe names a fix",
  "affected": [
   {
    "package": {
@@ -14,11 +14,11 @@
     "purl": "pkg:apk/cleanstart/busybox?repository_url=https://storage.googleapis.com/cleanstart-emulation-public/clnpkgs/triam"
    },
    "database_specific": {
-    "status": "under_investigation",
-    "derivation": "no fix version in our recipes and the scan carries no usable range",
+    "status": "affected",
+    "derivation": "shipped 1.38.0-r4 falls inside NVD [= 1.38.0] (NVD status: active); neither upstream nor our recipe names a fix",
     "shipped_version": "1.38.0-r4",
     "severity": "HIGH",
-    "source": "none",
+    "source": "upstream-range",
     "component_location": {
      "paths": [],
      "source": null,
@@ -107,8 +107,8 @@
    "ecosystem_specific": {
     "components": [
      {
-      "latest_event_status": "detection",
-      "latest_event_timestamp": "2026-11-05T18:23:56Z",
+      "latest_event_status": "true_positive_determination",
+      "latest_event_timestamp": "2026-11-09T19:26:01Z",
       "component_name": "busybox",
       "component_version": "1.38.0-r4",
       "component_type": "apk",
@@ -121,16 +121,23 @@
   }
  ],
  "database_specific": {
-  "cleanstart_status": "under_investigation",
+  "cleanstart_status": "affected",
   "generated_by": "advisory-gen.py",
   "generated_via": "scan",
   "aliased_from": [
    "CLEANSTART-2026-SX43215"
   ],
+  "triage": "STILL_AFFECTED_NO_FIX",
+  "triage_code": "TRIAGE-0003",
+  "evaluated_at": "2026-11-09T19:26:01Z",
   "events": [
    {
     "timestamp": "2026-11-05T18:23:56Z",
     "type": "detection"
+   },
+   {
+    "timestamp": "2026-11-09T19:26:01Z",
+    "type": "true-positive-determination"
    }
   ],
   "severity_scorers": [
@@ -147,7 +154,7 @@
   ]
  },
  "published": "2026-11-05T18:23:56Z",
- "modified": "2026-11-09T18:26:30Z",
+ "modified": "2026-11-09T19:26:01Z",
  "references": [
   {
    "type": "ADVISORY",

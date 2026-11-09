@@ -4,8 +4,8 @@
  "upstream": [
   "CVE-2025-60876"
  ],
- "summary": "CVE-2025-60876 in busybox \u2014 CleanStart position: under_investigation",
- "details": "no fix version in our recipes and the scan carries no usable range",
+ "summary": "Security fix for CVE-2025-60876 applied in: busybox 1.38.0-r4",
+ "details": "shipped 1.38.0-r4 is past upstream's fix (<= 1.37.0) per NVD [<= 1.37.0] (NVD status: active); fixed at our build 1.38.0-r4 (R1: the version written is ours)",
  "affected": [
   {
    "package": {
@@ -14,11 +14,11 @@
     "purl": "pkg:apk/cleanstart/busybox?repository_url=https://storage.googleapis.com/cleanstart-emulation-public/clnpkgs/triam"
    },
    "database_specific": {
-    "status": "under_investigation",
-    "derivation": "no fix version in our recipes and the scan carries no usable range",
+    "status": "fixed",
+    "derivation": "shipped 1.38.0-r4 is past upstream's fix (<= 1.37.0) per NVD [<= 1.37.0] (NVD status: active); fixed at our build 1.38.0-r4 (R1: the version written is ours)",
     "shipped_version": "1.38.0-r4",
     "severity": "MEDIUM",
-    "source": "none",
+    "source": "upstream-range",
     "component_location": {
      "paths": [],
      "source": null,
@@ -100,6 +100,9 @@
      "events": [
       {
        "introduced": "0"
+      },
+      {
+       "fixed": "1.38.0-r4"
       }
      ]
     }
@@ -107,8 +110,8 @@
    "ecosystem_specific": {
     "components": [
      {
-      "latest_event_status": "detection",
-      "latest_event_timestamp": "2026-11-05T02:48:29Z",
+      "latest_event_status": "fixed",
+      "latest_event_timestamp": "2026-11-09T19:26:01Z",
       "component_name": "busybox",
       "component_version": "1.38.0-r4",
       "component_type": "apk",
@@ -121,16 +124,23 @@
   }
  ],
  "database_specific": {
-  "cleanstart_status": "under_investigation",
+  "cleanstart_status": "fixed",
   "generated_by": "advisory-gen.py",
   "generated_via": "scan",
   "aliased_from": [
    "CLEANSTART-2026-EN38789"
   ],
+  "triage": "FIXED_BY_UPSTREAM_VERSION",
+  "triage_code": "TRIAGE-0001",
+  "evaluated_at": "2026-11-09T19:26:01Z",
   "events": [
    {
     "timestamp": "2026-11-05T02:48:29Z",
     "type": "detection"
+   },
+   {
+    "timestamp": "2026-11-09T19:26:01Z",
+    "type": "fixed"
    }
   ],
   "severity_scorers": [
@@ -142,7 +152,7 @@
   ]
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-09T18:26:30Z",
+ "modified": "2026-11-09T19:26:01Z",
  "references": [
   {
    "type": "ADVISORY",

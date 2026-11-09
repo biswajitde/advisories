@@ -5,7 +5,7 @@
   "CVE-2026-27171"
  ],
  "summary": "CVE-2026-27171 in zlib \u2014 CleanStart position: under_investigation",
- "details": "no fix version in our recipes and the scan carries no usable range",
+ "details": "shipped 1.3.2-r4 is past upstream's fix (< 1.3.2; fix 1.3.2) per NVD [>= 1.2.12, < 1.3.2] (NVD status: active), but the recipe for zlib 1.3.2-r4 is not in our recipe corpus, so the version is not shown to be OUR build (R1)",
  "affected": [
   {
    "package": {
@@ -15,10 +15,10 @@
    },
    "database_specific": {
     "status": "under_investigation",
-    "derivation": "no fix version in our recipes and the scan carries no usable range",
+    "derivation": "shipped 1.3.2-r4 is past upstream's fix (< 1.3.2; fix 1.3.2) per NVD [>= 1.2.12, < 1.3.2] (NVD status: active), but the recipe for zlib 1.3.2-r4 is not in our recipe corpus, so the version is not shown to be OUR build (R1)",
     "shipped_version": "1.3.2-r4",
     "severity": "MEDIUM",
-    "source": "none",
+    "source": "upstream-range",
     "component_location": {
      "paths": [],
      "source": null,
@@ -108,6 +108,9 @@
   "aliased_from": [
    "CLEANSTART-2026-FI72020"
   ],
+  "triage": "REFUSED_RECIPE_ABSENT",
+  "triage_code": "TRIAGE-0009",
+  "evaluated_at": "2026-11-09T19:26:01Z",
   "events": [
    {
     "timestamp": "2026-11-05T02:48:29Z",
@@ -128,7 +131,7 @@
   ]
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-09T18:26:30Z",
+ "modified": "2026-11-09T19:26:01Z",
  "references": [
   {
    "type": "ADVISORY",
