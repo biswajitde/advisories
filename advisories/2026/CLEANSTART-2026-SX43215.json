@@ -4,8 +4,8 @@
  "upstream": [
   "CVE-2026-38753"
  ],
- "summary": "CVE-2026-38753 in busybox \u2014 CleanStart position: affected",
- "details": "shipped 1.38.0-r4 falls inside NVD [= 1.38.0] (NVD status: active); neither upstream nor our recipe names a fix",
+ "summary": "Security fix for CVE-2026-38753 applied in: busybox 1.38.0-r5",
+ "details": "shipped 1.38.0-r5 >= fixed 1.38.0-r5 (our recipe)",
  "affected": [
   {
    "package": {
@@ -14,11 +14,11 @@
     "purl": "pkg:apk/cleanstart/busybox?repository_url=https://storage.googleapis.com/cleanstart-emulation-public/clnpkgs/triam"
    },
    "database_specific": {
-    "status": "affected",
-    "derivation": "shipped 1.38.0-r4 falls inside NVD [= 1.38.0] (NVD status: active); neither upstream nor our recipe names a fix",
-    "shipped_version": "1.38.0-r4",
+    "status": "fixed",
+    "derivation": "shipped 1.38.0-r5 >= fixed 1.38.0-r5 (our recipe)",
+    "shipped_version": "1.38.0-r5",
     "severity": "HIGH",
-    "source": "upstream-range",
+    "source": "recipe",
     "component_location": {
      "paths": [],
      "source": null,
@@ -100,6 +100,9 @@
      "events": [
       {
        "introduced": "0"
+      },
+      {
+       "fixed": "1.38.0-r5"
       }
      ]
     }
@@ -107,10 +110,10 @@
    "ecosystem_specific": {
     "components": [
      {
-      "latest_event_status": "true_positive_determination",
-      "latest_event_timestamp": "2026-11-09T19:26:01Z",
+      "latest_event_status": "fixed",
+      "latest_event_timestamp": "2026-11-10T07:02:26Z",
       "component_name": "busybox",
-      "component_version": "1.38.0-r4",
+      "component_version": "1.38.0-r5",
       "component_type": "apk",
       "component_location": "",
       "component_purl": "pkg:apk/busybox"
@@ -121,15 +124,15 @@
   }
  ],
  "database_specific": {
-  "cleanstart_status": "affected",
+  "cleanstart_status": "fixed",
   "generated_by": "advisory-gen.py",
   "generated_via": "scan",
   "aliased_from": [
    "CLEANSTART-2026-SX43215"
   ],
-  "triage": "STILL_AFFECTED_NO_FIX",
-  "triage_code": "TRIAGE-0003",
-  "evaluated_at": "2026-11-09T19:26:01Z",
+  "triage": "FIXED_BY_OUR_PATCH",
+  "triage_code": "TRIAGE-0002",
+  "evaluated_at": "2026-11-10T07:02:26Z",
   "events": [
    {
     "timestamp": "2026-11-05T18:23:56Z",
@@ -138,6 +141,10 @@
    {
     "timestamp": "2026-11-09T19:26:01Z",
     "type": "true-positive-determination"
+   },
+   {
+    "timestamp": "2026-11-10T07:02:26Z",
+    "type": "fixed"
    }
   ],
   "severity_scorers": [
@@ -154,7 +161,7 @@
   ]
  },
  "published": "2026-11-05T18:23:56Z",
- "modified": "2026-11-09T19:26:01Z",
+ "modified": "2026-11-10T07:02:26Z",
  "references": [
   {
    "type": "ADVISORY",

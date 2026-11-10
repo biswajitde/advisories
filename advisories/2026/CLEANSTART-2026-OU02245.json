@@ -5,7 +5,7 @@
   "CVE-2025-46394"
  ],
  "summary": "Security fix for CVE-2025-46394 applied in: busybox 1.38.0-r2",
- "details": "shipped 1.38.0-r4 >= fixed 1.38.0-r2 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+ "details": "shipped 1.38.0-r5 >= fixed 1.38.0-r2 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
  "affected": [
   {
    "package": {
@@ -28,8 +28,8 @@
    ],
    "database_specific": {
     "status": "fixed",
-    "derivation": "shipped 1.38.0-r4 >= fixed 1.38.0-r2 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
-    "shipped_version": "1.38.0-r4",
+    "derivation": "shipped 1.38.0-r5 >= fixed 1.38.0-r2 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+    "shipped_version": "1.38.0-r5",
     "severity": null,
     "source": "recipe",
     "component_location": {
@@ -113,7 +113,7 @@
       "latest_event_status": "fixed",
       "latest_event_timestamp": "2026-11-06T03:55:48Z",
       "component_name": "busybox",
-      "component_version": "1.38.0-r4",
+      "component_version": "1.38.0-r5",
       "component_type": "apk",
       "component_location": "",
       "component_purl": "pkg:apk/busybox"
@@ -142,7 +142,7 @@
   ]
  },
  "published": "2026-11-05T02:48:29Z",
- "modified": "2026-11-09T19:26:01Z",
+ "modified": "2026-11-10T07:02:26Z",
  "references": [
   {
    "type": "ADVISORY",
