@@ -2,8 +2,8 @@
  "@context": "https://openvex.dev/ns/v0.2.0",
  "@id": "https://github.com/biswajitde/advisories/blob/main/vex/current/ct2-s2-rebuild-dev.openvex.json",
  "author": "CleanStart ADVISORY emulation pipeline",
- "timestamp": "2026-11-10T04:05:38Z",
- "version": 2,
+ "timestamp": "2026-11-10T04:46:40Z",
+ "version": 3,
  "customer_context": "Internet reachability, likely exploitability and the PAIN N-rating are customer context, not asserted.",
  "statements": [
   {
@@ -169,47 +169,6 @@
    },
    "action_statement_timestamp": "2026-11-09T19:26:01Z",
    "timestamp": "2026-11-09T20:13:50Z"
-  },
-  {
-   "vulnerability": {
-    "name": "CVE-2026-27171",
-    "aliases": [
-     "CLEANSTART-2026-FI72020"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e54bfb324673257b4e3e81a651d935a1e8a1ce64c0a2fde47addf593c69c3ca3",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/zlib@1.3.2-r4"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "upstream_fix=1.3.2-r4; triage=FIXED_BY_UPSTREAM_VERSION; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-FI72020",
-   "first_detected": "2026-11-05T02:48:29Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T03:37:08Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T04:05:37Z",
-    "via": "scan"
-   },
-   "evaluated_at": "2026-11-10T04:00:10Z",
-   "triage_code": "FIXED_BY_UPSTREAM_VERSION",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.3.2-r4"
-   },
-   "timestamp": "2026-11-10T04:05:38Z",
-   "last_updated": "2026-11-10T04:05:38Z"
   },
   {
    "vulnerability": {
@@ -1456,6 +1415,47 @@
     "fixed_version": "1.2.12-r2"
    },
    "timestamp": "2026-11-09T20:13:50Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-27171",
+    "aliases": [
+     "CLEANSTART-2026-FI72020"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e54bfb324673257b4e3e81a651d935a1e8a1ce64c0a2fde47addf593c69c3ca3",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/zlib@1.3.2-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.3.2-r4; shipped 1.3.2-r4; triage=FIXED_BY_UPSTREAM_VERSION; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-FI72020",
+   "first_detected": "2026-11-05T02:48:29Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T04:19:41Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T04:46:39Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T04:00:10Z",
+   "triage_code": "FIXED_BY_UPSTREAM_VERSION",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.3.2-r4"
+   },
+   "timestamp": "2026-11-10T04:46:40Z",
+   "last_updated": "2026-11-10T04:46:40Z"
   }
  ]
 }
