@@ -1,6 +1,6 @@
 {
  "component_location_source": "grype artifact.locations[].path",
- "determined_at": "2026-11-10T11:13:23Z",
+ "determined_at": "2026-11-10T11:26:45Z",
  "index": {
   "objects": {
    "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz": [
