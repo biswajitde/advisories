@@ -1,0 +1,92 @@
+{
+ "component_location_source": "grype artifact.locations[].path",
+ "determined_at": "2026-11-10T07:21:11Z",
+ "index": {
+  "objects": {
+   "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz": [
+    {
+     "index_sha256": "f6d705dbcebc2971cf7863fa2dda802d0de2e69d15f26d1442c81603cd913317",
+     "observed_at": "2026-11-10T07:00:53+0000"
+    }
+   ],
+   "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz": [
+    {
+     "index_sha256": "3259581f5d0eb82cb82e472c70c3d3f443e8db759a27679fbc61084c8df17b0e",
+     "observed_at": "2026-11-10T07:00:53+0000"
+    }
+   ],
+   "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz": [
+    {
+     "index_sha256": "3464e0a5b467f2245472432a300ca245db29394230dc7ce5074716eb1d731fdb",
+     "observed_at": "2026-11-10T07:00:53+0000"
+    }
+   ]
+  },
+  "source": {
+   "path": "index-observations.ndjson",
+   "rows": 230,
+   "sha256": "fb3e0913481f29a353a5e2ffeab02efdde92d14f6861548c318f77d58954dd6c"
+  }
+ },
+ "instrument": {
+  "binary_sha256": "sha256:d55ee2e71f9d66674a37f2afd3fcce87f3ad033730dc2f6d0fdf9c89b70b70e7",
+  "cleanstart_provider": true,
+  "db_built": "2026-11-10T06:52:20Z",
+  "db_schema": "v6.1.9",
+  "name": "grype",
+  "version": "cleanstart-bcb7f7176651"
+ },
+ "records": [
+  "CLEANSTART-2026-AK20429",
+  "CLEANSTART-2026-AU29709",
+  "CLEANSTART-2026-BW88632",
+  "CLEANSTART-2026-CH93892",
+  "CLEANSTART-2026-CV10347",
+  "CLEANSTART-2026-DA93784",
+  "CLEANSTART-2026-ET96856",
+  "CLEANSTART-2026-GB80544",
+  "CLEANSTART-2026-GI74229",
+  "CLEANSTART-2026-GK55859",
+  "CLEANSTART-2026-GP30831",
+  "CLEANSTART-2026-HL27963",
+  "CLEANSTART-2026-HT01001",
+  "CLEANSTART-2026-KF32567",
+  "CLEANSTART-2026-KL87781",
+  "CLEANSTART-2026-LM00136",
+  "CLEANSTART-2026-MG43567",
+  "CLEANSTART-2026-NY90315",
+  "CLEANSTART-2026-OU02245",
+  "CLEANSTART-2026-PN55020",
+  "CLEANSTART-2026-PS71092",
+  "CLEANSTART-2026-QU27098",
+  "CLEANSTART-2026-QX41317",
+  "CLEANSTART-2026-SX43215",
+  "CLEANSTART-2026-SZ80622",
+  "CLEANSTART-2026-UW04086",
+  "CLEANSTART-2026-VB50061",
+  "CLEANSTART-2026-VJ43191",
+  "CLEANSTART-2026-WJ23440",
+  "CLEANSTART-2026-YM47990",
+  "CLEANSTART-2026-YP40563",
+  "CLEANSTART-2026-YQ44145",
+  "CLEANSTART-2026-ZG51108",
+  "CLEANSTART-2026-ZW80094"
+ ],
+ "schema": "cleanstart-run-provenance/1",
+ "triage": {
+  "counts": {
+   "FIXED_BY_OUR_PATCH": 33,
+   "STILL_AFFECTED_NO_FIX": 1
+  },
+  "evaluation_overdue": [],
+  "upstream_ranges": {
+   "blobs_unparsed": 0,
+   "cves_asked": 4,
+   "cves_with_rows": 4,
+   "db_built": "2026-11-10T06:52:20Z",
+   "provider": "nvd",
+   "sha256": "sha256:13975909b9c317974bf8f43a49dee0a2ceedd363bcdebe653744cd01f2057101",
+   "source": "vulnerability.db"
+  }
+ }
+}

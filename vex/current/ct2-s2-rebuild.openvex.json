@@ -2,8 +2,8 @@
  "@context": "https://openvex.dev/ns/v0.2.0",
  "@id": "https://github.com/biswajitde/advisories/blob/main/vex/current/ct2-s2-rebuild.openvex.json",
  "author": "CleanStart ADVISORY emulation pipeline",
- "timestamp": "2026-11-10T07:02:34Z",
- "version": 6,
+ "timestamp": "2026-11-10T07:21:18Z",
+ "version": 7,
  "customer_context": "Internet reachability, likely exploitability and the PAIN N-rating are customer context, not asserted.",
  "exploitation_source": {
   "epss": {
@@ -43,12 +43,12 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T06:52:20Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:02:26Z",
+    "scan_time": "2026-11-10T07:21:11Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T07:02:26Z",
+   "evaluated_at": "2026-11-10T07:03:31Z",
    "triage_code": "FIXED_BY_OUR_PATCH",
    "disposition": {
     "status": "fixed",
@@ -64,8 +64,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:02:34Z",
-   "last_updated": "2026-11-10T07:02:34Z"
+   "timestamp": "2026-11-10T07:21:18Z",
+   "last_updated": "2026-11-10T07:21:18Z"
   },
   {
    "vulnerability": {
@@ -94,12 +94,12 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T06:52:20Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:02:26Z",
+    "scan_time": "2026-11-10T07:21:11Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T07:02:26Z",
+   "evaluated_at": "2026-11-10T07:03:31Z",
    "triage_code": "FIXED_BY_OUR_PATCH",
    "disposition": {
     "status": "fixed",
@@ -115,8 +115,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:02:34Z",
-   "last_updated": "2026-11-10T07:02:34Z"
+   "timestamp": "2026-11-10T07:21:18Z",
+   "last_updated": "2026-11-10T07:21:18Z"
   },
   {
    "vulnerability": {
@@ -145,12 +145,12 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T06:52:20Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:02:26Z",
+    "scan_time": "2026-11-10T07:21:11Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T07:02:26Z",
+   "evaluated_at": "2026-11-10T07:03:31Z",
    "triage_code": "FIXED_BY_OUR_PATCH",
    "disposition": {
     "status": "fixed",
@@ -166,8 +166,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:02:34Z",
-   "last_updated": "2026-11-10T07:02:34Z"
+   "timestamp": "2026-11-10T07:21:18Z",
+   "last_updated": "2026-11-10T07:21:18Z"
   },
   {
    "vulnerability": {
