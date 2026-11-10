@@ -4,8 +4,8 @@
  "upstream": [
   "CVE-2026-38753"
  ],
- "summary": "Security fix for CVE-2026-38753 applied in: busybox 1.38.0-r5",
- "details": "shipped 1.38.0-r5 >= fixed 1.38.0-r5 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+ "summary": "CVE-2026-38753 in busybox \u2014 CleanStart position: affected",
+ "details": "shipped 1.38.0-r4 < fixed 1.38.0-r5 (our recipe)",
  "affected": [
   {
    "package": {
@@ -13,89 +13,29 @@
     "ecosystem": "CleanStart",
     "purl": "pkg:apk/cleanstart/busybox?repository_url=https://storage.googleapis.com/cleanstart-emulation-public/clnpkgs/triam"
    },
-   "ranges": [
-    {
-     "type": "ECOSYSTEM",
-     "events": [
-      {
-       "introduced": "0"
-      },
-      {
-       "fixed": "1.38.0-r5"
-      }
-     ]
-    }
-   ],
    "database_specific": {
-    "status": "fixed",
-    "derivation": "shipped 1.38.0-r5 >= fixed 1.38.0-r5 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
-    "shipped_version": "1.38.0-r5",
-    "severity": null,
+    "status": "affected",
+    "derivation": "shipped 1.38.0-r4 < fixed 1.38.0-r5 (our recipe)",
+    "shipped_version": "1.38.0-r4",
+    "severity": "HIGH",
     "source": "recipe",
     "component_location": {
-     "paths": [],
-     "source": null,
-     "reason": "carried from secfixes: the scan reported no finding, so there is no path"
+     "paths": [
+      "/lib/apk/db/installed"
+     ],
+     "source": "grype artifact.locations[].path"
     },
+    "upstream_fixed_in": "1.38.0-r5",
+    "remediation": "rebuild busybox at 1.38.0-r5 or later",
     "provenance": {
-     "determined_by": "secfixes",
-     "generated_via": "secfixes-carry",
+     "determined_by": "scan",
+     "generated_via": "scan",
      "index_sha256": null,
-     "is_public_surface": true,
+     "is_public_surface": null,
      "unsupplied": {
-      "index_sha256": "per-run: the sha256 of the index snapshot this run read is in the run provenance (provenance/<run>.json index.objects, keyed by index_uri)"
-     },
-     "index_observations": [
-      {
-       "is_public_surface": true,
-       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
-       "arch": "aarch64",
-       "packages": [
-        "busybox",
-        "busybox-binsh",
-        "busybox-doc",
-        "busybox-extras",
-        "busybox-extras-openrc",
-        "busybox-ifupdown",
-        "busybox-mdev-openrc",
-        "busybox-openrc",
-        "busybox-static",
-        "busybox-suid",
-        "ssl_client"
-       ]
-      },
-      {
-       "is_public_surface": true,
-       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
-       "arch": "noarch",
-       "packages": [
-        "busybox-binsh",
-        "busybox-doc",
-        "busybox-extras-openrc",
-        "busybox-ifupdown",
-        "busybox-mdev-openrc",
-        "busybox-openrc"
-       ]
-      },
-      {
-       "is_public_surface": true,
-       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
-       "arch": "x86_64",
-       "packages": [
-        "busybox",
-        "busybox-binsh",
-        "busybox-doc",
-        "busybox-extras",
-        "busybox-extras-openrc",
-        "busybox-ifupdown",
-        "busybox-mdev-openrc",
-        "busybox-openrc",
-        "busybox-static",
-        "busybox-suid",
-        "ssl_client"
-       ]
-      }
-     ]
+      "index_sha256": "not supplied: no row for busybox@1.38.0-r4 in the index observations",
+      "is_public_surface": "not supplied: no row for busybox@1.38.0-r4 in the index observations"
+     }
     },
     "cleanstart": {
      "applies_to_subpackages": true
@@ -107,29 +47,41 @@
      "accepted_by": null
     }
    },
+   "ranges": [
+    {
+     "type": "ECOSYSTEM",
+     "events": [
+      {
+       "introduced": "0"
+      }
+     ]
+    }
+   ],
    "ecosystem_specific": {
     "components": [
      {
-      "latest_event_status": "fixed",
-      "latest_event_timestamp": "2026-11-10T16:16:50Z",
+      "latest_event_status": "true_positive_determination",
+      "latest_event_timestamp": "2026-11-10T17:36:34Z",
       "component_name": "busybox",
-      "component_version": "1.38.0-r5",
+      "component_version": "1.38.0-r4",
       "component_type": "apk",
-      "component_location": "",
+      "component_location": "/lib/apk/db/installed",
       "component_purl": "pkg:apk/busybox"
      }
-    ],
-    "origin": "busybox"
+    ]
    }
   }
  ],
  "database_specific": {
-  "cleanstart_status": "fixed",
+  "cleanstart_status": "affected",
   "generated_by": "advisory-gen.py",
-  "generated_via": "secfixes-carry",
-  "triage": "FIXED_BY_OUR_PATCH",
-  "triage_code": "TRIAGE-0002",
-  "evaluated_at": "2026-11-10T16:16:50Z",
+  "generated_via": "scan",
+  "aliased_from": [
+   "CLEANSTART-2026-SX43215"
+  ],
+  "triage": "STILL_AFFECTED_FIX_NOT_SHIPPED",
+  "triage_code": "TRIAGE-0004",
+  "evaluated_at": "2026-11-10T17:36:34Z",
   "events": [
    {
     "timestamp": "2026-11-05T18:23:56Z",
@@ -150,11 +102,27 @@
    {
     "timestamp": "2026-11-10T16:16:50Z",
     "type": "fixed"
+   },
+   {
+    "timestamp": "2026-11-10T17:36:34Z",
+    "type": "true-positive-determination"
+   }
+  ],
+  "severity_scorers": [
+   {
+    "type": "CVSS_V3",
+    "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "scorer": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
+   },
+   {
+    "type": "CVSS_V3",
+    "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "scorer": "cve@mitre.org"
    }
   ]
  },
  "published": "2026-11-05T18:23:56Z",
- "modified": "2026-11-10T16:16:50Z",
+ "modified": "2026-11-10T17:36:34Z",
  "references": [
   {
    "type": "ADVISORY",
@@ -170,5 +138,15 @@
   }
  ],
  "related": [],
- "credits": []
+ "credits": [],
+ "severity": [
+  {
+   "type": "CVSS_V3",
+   "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+  },
+  {
+   "type": "CVSS_V3",
+   "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L"
+  }
+ ]
 }

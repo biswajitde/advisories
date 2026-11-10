@@ -1,0 +1,98 @@
+{
+  "document": {
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "publisher": {
+      "category": "vendor",
+      "name": "CleanStart",
+      "namespace": "https://cleanstart.com"
+    },
+    "title": "GHSA-599f-7c49-w659 in CleanStart images (CLEANSTART-2026-AR52728)",
+    "tracking": {
+      "current_release_date": "2026-11-10T17:36:42Z",
+      "id": "CLEANSTART-2026-AR52728",
+      "initial_release_date": "2026-11-10T17:36:42Z",
+      "revision_history": [
+        {
+          "date": "2026-11-10T17:36:42Z",
+          "number": "1",
+          "summary": "Initial release."
+        }
+      ],
+      "status": "final",
+      "version": "1"
+    }
+  },
+  "product_tree": {
+    "full_product_names": [
+      {
+        "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1044-jar@sha256:5113680e15993021720f504d474dedbacec8765d8882e9fac215f83d7bd451f6",
+        "product_id": "CSAFPID-IMG-520d1c20edb7",
+        "product_identification_helper": {
+          "purl": "pkg:oci/ct2-adv1044-jar@sha256%3A5113680e15993021720f504d474dedbacec8765d8882e9fac215f83d7bd451f6?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
+        }
+      },
+      {
+        "name": "commons-text 1.9",
+        "product_id": "CSAFPID-PKG-21dfe52a2e39",
+        "product_identification_helper": {
+          "purl": "pkg:maven/org.apache.commons/commons-text@1.9"
+        }
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "commons-text 1.9 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1044-jar@sha256:5113680e15993021720f504d474dedbacec8765d8882e9fac215f83d7bd451f6",
+          "product_id": "CSAFPID-REL-de2c4596013e"
+        },
+        "product_reference": "CSAFPID-PKG-21dfe52a2e39",
+        "relates_to_product_reference": "CSAFPID-IMG-520d1c20edb7"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "ids": [
+        {
+          "system_name": "GitHub Security Advisory",
+          "text": "GHSA-599f-7c49-w659"
+        },
+        {
+          "system_name": "CleanStart Advisory",
+          "text": "CLEANSTART-2026-AR52728"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "GHSA-599f-7c49-w659: upstream_fix=NONE-PUBLISHED; cleanstart_status=under_investigation; triage=REFUSED_RANGE_ABSENT; scan_completeness=COMPLETE",
+          "title": "CleanStart position"
+        }
+      ],
+      "product_status": {
+        "under_investigation": [
+          "CSAFPID-REL-de2c4596013e"
+        ]
+      },
+      "threats": [
+        {
+          "category": "exploit_status",
+          "date": "2026-11-10T01:47:11Z",
+          "details": "not in CISA KEV as of 2026-11-10T01:47:11Z; point in time; re-issued when it changes",
+          "product_ids": [
+            "CSAFPID-REL-de2c4596013e"
+          ]
+        }
+      ]
+    }
+  ]
+}
