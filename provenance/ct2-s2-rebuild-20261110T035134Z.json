@@ -1,6 +1,6 @@
 {
  "component_location_source": "grype artifact.locations[].path",
- "determined_at": "2026-11-10T03:53:59Z",
+ "determined_at": "2026-11-10T04:00:10Z",
  "index": {
   "objects": {
    "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz": [
@@ -77,12 +77,10 @@
  "triage": {
   "counts": {
    "FIXED_BY_OUR_PATCH": 30,
-   "REFUSED_RECIPE_ABSENT": 1,
+   "FIXED_BY_UPSTREAM_VERSION": 1,
    "STILL_AFFECTED_NO_FIX": 4
   },
-  "evaluation_overdue": [
-   "CLEANSTART-2026-FI72020"
-  ],
+  "evaluation_overdue": [],
   "upstream_ranges": {
    "blobs_unparsed": 0,
    "cves_asked": 5,
