@@ -2,7 +2,7 @@
  "@context": "https://openvex.dev/ns/v0.2.0",
  "@id": "https://github.com/biswajitde/advisories/blob/main/vex/latest.openvex.json",
  "author": "CleanStart ADVISORY emulation pipeline",
- "timestamp": "2026-11-10T03:31:05Z",
+ "timestamp": "2026-11-10T03:54:00Z",
  "version": 1,
  "customer_context": "Internet reachability, likely exploitability and the PAIN N-rating are customer context, not asserted.",
  "statements": [
@@ -36,7 +36,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -76,7 +76,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -116,7 +116,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -156,7 +156,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -195,7 +195,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -233,7 +233,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -272,7 +272,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -311,7 +311,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -350,7 +350,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -389,7 +389,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -428,7 +428,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -467,7 +467,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -506,7 +506,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -545,7 +545,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -584,7 +584,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -623,7 +623,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -662,7 +662,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -701,7 +701,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -740,7 +740,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -779,7 +779,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -818,7 +818,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -857,7 +857,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -896,7 +896,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -935,7 +935,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -974,7 +974,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1013,7 +1013,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1052,7 +1052,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1091,7 +1091,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1130,7 +1130,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1169,7 +1169,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1208,7 +1208,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1247,7 +1247,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1286,7 +1286,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1331,7 +1331,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1370,7 +1370,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1409,7 +1409,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-09T21:23:38Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T03:31:05Z",
+    "scan_time": "2026-11-10T03:53:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
