@@ -1,0 +1,6033 @@
+{
+ "@context": "https://openvex.dev/ns/v0.2.0",
+ "@id": "https://github.com/biswajitde/advisories/blob/main/vex/current/ct2-adv1037-findgrp.openvex.json",
+ "author": "CleanStart ADVISORY emulation pipeline",
+ "timestamp": "2026-11-10T19:38:34Z",
+ "version": 1,
+ "customer_context": "Internet reachability, likely exploitability and the PAIN N-rating are customer context, not asserted.",
+ "exploitation_source": {
+  "epss": {
+   "snapshot_generation": "1794319771660532",
+   "collected_at": "2026-11-10T14:09:33Z"
+  },
+  "kev": {
+   "snapshot_generation": "1794275230478465",
+   "collected_at": "2026-11-10T01:47:11Z"
+  }
+ },
+ "statements": [
+  {
+   "vulnerability": {
+    "name": "GHSA-599f-7c49-w659"
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:maven/org.apache.commons/commons-text@1.9",
+       "identifiers": {
+        "purl": "pkg:maven/org.apache.commons/commons-text@1.9"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "under_investigation",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; cleanstart_status=under_investigation; triage=REFUSED_RANGE_ABSENT; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-AR52728",
+   "first_detected": "2026-11-10T16:11:24Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "language-layer"
+   },
+   "evaluated_at": "2026-11-10T16:11:24Z",
+   "triage_code": "REFUSED_RANGE_ABSENT",
+   "disposition": {
+    "status": "under_investigation"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss_absence": "no EPSS score as of 2026-11-10T14:09:33Z",
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38754",
+    "aliases": [
+     "CLEANSTART-2026-CH93892"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "affected",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; records=CLEANSTART-2026-CH93892; id_withheld=duplicate-in-document; triage=STILL_AFFECTED_FIX_NOT_SHIPPED; scan_completeness=COMPLETE",
+   "action_statement": "rebuild busybox at 1.38.0-r5 or later",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
+   "disposition": {
+    "status": "affected"
+   },
+   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00235,
+     "percentile": 0.14593,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38755",
+    "aliases": [
+     "CLEANSTART-2026-DA93784"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "affected",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; records=CLEANSTART-2026-DA93784; id_withheld=duplicate-in-document; triage=STILL_AFFECTED_FIX_NOT_SHIPPED; scan_completeness=COMPLETE",
+   "action_statement": "rebuild busybox at 1.38.0-r5 or later",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
+   "disposition": {
+    "status": "affected"
+   },
+   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00207,
+     "percentile": 0.10877,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38753",
+    "aliases": [
+     "CLEANSTART-2026-SX43215"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "affected",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; records=CLEANSTART-2026-SX43215; id_withheld=duplicate-in-document; triage=STILL_AFFECTED_FIX_NOT_SHIPPED; scan_completeness=COMPLETE",
+   "action_statement": "rebuild busybox at 1.38.0-r5 or later",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
+   "disposition": {
+    "status": "affected"
+   },
+   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00145,
+     "percentile": 0.03821,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38754",
+    "aliases": [
+     "CLEANSTART-2026-CH93892"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "affected",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; records=CLEANSTART-2026-CH93892; id_withheld=duplicate-in-document; triage=STILL_AFFECTED_FIX_NOT_SHIPPED; scan_completeness=COMPLETE",
+   "action_statement": "rebuild busybox at 1.38.0-r5 or later",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
+   "disposition": {
+    "status": "affected"
+   },
+   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00235,
+     "percentile": 0.14593,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38755",
+    "aliases": [
+     "CLEANSTART-2026-DA93784"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "affected",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; records=CLEANSTART-2026-DA93784; id_withheld=duplicate-in-document; triage=STILL_AFFECTED_FIX_NOT_SHIPPED; scan_completeness=COMPLETE",
+   "action_statement": "rebuild busybox at 1.38.0-r5 or later",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
+   "disposition": {
+    "status": "affected"
+   },
+   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00207,
+     "percentile": 0.10877,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38753",
+    "aliases": [
+     "CLEANSTART-2026-SX43215"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "affected",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; records=CLEANSTART-2026-SX43215; id_withheld=duplicate-in-document; triage=STILL_AFFECTED_FIX_NOT_SHIPPED; scan_completeness=COMPLETE",
+   "action_statement": "rebuild busybox at 1.38.0-r5 or later",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
+   "disposition": {
+    "status": "affected"
+   },
+   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00145,
+     "percentile": 0.03821,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38754",
+    "aliases": [
+     "CLEANSTART-2026-CH93892"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "affected",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; records=CLEANSTART-2026-CH93892; id_withheld=duplicate-in-document; triage=STILL_AFFECTED_FIX_NOT_SHIPPED; scan_completeness=COMPLETE",
+   "action_statement": "rebuild busybox at 1.38.0-r5 or later",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
+   "disposition": {
+    "status": "affected"
+   },
+   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00235,
+     "percentile": 0.14593,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38755",
+    "aliases": [
+     "CLEANSTART-2026-DA93784"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "affected",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; records=CLEANSTART-2026-DA93784; id_withheld=duplicate-in-document; triage=STILL_AFFECTED_FIX_NOT_SHIPPED; scan_completeness=COMPLETE",
+   "action_statement": "rebuild busybox at 1.38.0-r5 or later",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
+   "disposition": {
+    "status": "affected"
+   },
+   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00207,
+     "percentile": 0.10877,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38753",
+    "aliases": [
+     "CLEANSTART-2026-SX43215"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "affected",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; records=CLEANSTART-2026-SX43215; id_withheld=duplicate-in-document; triage=STILL_AFFECTED_FIX_NOT_SHIPPED; scan_completeness=COMPLETE",
+   "action_statement": "rebuild busybox at 1.38.0-r5 or later",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
+   "disposition": {
+    "status": "affected"
+   },
+   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00145,
+     "percentile": 0.03821,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-85091",
+    "aliases": [
+     "CLEANSTART-2026-LM00136"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/zlib@1.3.2-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "affected",
+   "status_notes": "upstream_fix=NONE-PUBLISHED; triage=STILL_AFFECTED_NO_FIX; scan_completeness=COMPLETE",
+   "action_statement": "No fixed build yet; upgrade to the first zlib -rN that carries the fix.",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-LM00136",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "STILL_AFFECTED_NO_FIX",
+   "disposition": {
+    "status": "affected"
+   },
+   "action_statement_timestamp": "2026-11-09T19:26:01Z",
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00469,
+     "percentile": 0.4088,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2017-15873",
+    "aliases": [
+     "CLEANSTART-2026-GB80544"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.27.2-r4; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-GB80544",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.27.2-r4"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.01316,
+     "percentile": 0.71,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2017-15874",
+    "aliases": [
+     "CLEANSTART-2026-NY90315"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.27.2-r4; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-NY90315",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.27.2-r4"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00902,
+     "percentile": 0.6003,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2017-16544",
+    "aliases": [
+     "CLEANSTART-2026-AU29709"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.27.2-r4; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-AU29709",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.27.2-r4"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.06136,
+     "percentile": 0.9351,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-1000500",
+    "aliases": [
+     "CLEANSTART-2026-GP30831"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.28.3-r2; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-GP30831",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.28.3-r2"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02487,
+     "percentile": 0.84762,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-20679",
+    "aliases": [
+     "CLEANSTART-2026-AK20429"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.29.3-r10; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-AK20429",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.29.3-r10"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.07694,
+     "percentile": 0.94646,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-5747",
+    "aliases": [
+     "CLEANSTART-2026-YQ44145"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.30.1-r2; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-YQ44145",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.30.1-r2"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.04651,
+     "percentile": 0.91812,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-28831",
+    "aliases": [
+     "CLEANSTART-2026-PN55020"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.33.0-r5; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-PN55020",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.33.0-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02719,
+     "percentile": 0.86149,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-42374",
+    "aliases": [
+     "CLEANSTART-2026-QU27098"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.34.0-r0; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-QU27098",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.34.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00628,
+     "percentile": 0.50432,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-42375",
+    "aliases": [
+     "CLEANSTART-2026-HT01001"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.34.0-r0; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-HT01001",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.34.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00409,
+     "percentile": 0.35551,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-42378",
+    "aliases": [
+     "CLEANSTART-2026-GK55859"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.34.0-r0; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-GK55859",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.34.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02756,
+     "percentile": 0.86363,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-42379",
+    "aliases": [
+     "CLEANSTART-2026-ET96856"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.34.0-r0; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-ET96856",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.34.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02795,
+     "percentile": 0.86556,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-42380",
+    "aliases": [
+     "CLEANSTART-2026-KL87781"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.34.0-r0; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-KL87781",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.34.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.03087,
+     "percentile": 0.87812,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-42381",
+    "aliases": [
+     "CLEANSTART-2026-ZG51108"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.34.0-r0; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-ZG51108",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.34.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02795,
+     "percentile": 0.86555,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-42382",
+    "aliases": [
+     "CLEANSTART-2026-HL27963"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.34.0-r0; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-HL27963",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.34.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02756,
+     "percentile": 0.86363,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-42383",
+    "aliases": [
+     "CLEANSTART-2026-UW04086"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.34.0-r0; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-UW04086",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.34.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02215,
+     "percentile": 0.82777,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-42384",
+    "aliases": [
+     "CLEANSTART-2026-CV10347"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.34.0-r0; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CV10347",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.34.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02756,
+     "percentile": 0.86363,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-42385",
+    "aliases": [
+     "CLEANSTART-2026-WJ23440"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.34.0-r0; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-WJ23440",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.34.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02795,
+     "percentile": 0.86555,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-42386",
+    "aliases": [
+     "CLEANSTART-2026-PS71092"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.34.0-r0; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-PS71092",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.34.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02756,
+     "percentile": 0.86364,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-28391",
+    "aliases": [
+     "CLEANSTART-2026-QX41317"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.35.0-r7; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-QX41317",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.35.0-r7"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.03521,
+     "percentile": 0.89327,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-30065",
+    "aliases": [
+     "CLEANSTART-2026-BW88632"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.35.0-r17; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-BW88632",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.35.0-r17"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.01254,
+     "percentile": 0.6972,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-48174",
+    "aliases": [
+     "CLEANSTART-2026-GI74229"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.36.1-r2; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-GI74229",
+   "first_detected": "2026-11-05T02:48:29Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.36.1-r2"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.03158,
+     "percentile": 0.88077,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-42363",
+    "aliases": [
+     "CLEANSTART-2026-YP40563"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.36.1-r27; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-YP40563",
+   "first_detected": "2026-11-05T02:48:29Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.36.1-r27"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00424,
+     "percentile": 0.37021,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-42364",
+    "aliases": [
+     "CLEANSTART-2026-MG43567"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.36.1-r29; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-MG43567",
+   "first_detected": "2026-11-05T02:48:29Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.36.1-r29"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00433,
+     "percentile": 0.37882,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-42365",
+    "aliases": [
+     "CLEANSTART-2026-YM47990"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.36.1-r29; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-YM47990",
+   "first_detected": "2026-11-05T02:48:29Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.36.1-r29"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00393,
+     "percentile": 0.33817,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-42366",
+    "aliases": [
+     "CLEANSTART-2026-VB50061"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.36.1-r25; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-VB50061",
+   "first_detected": "2026-11-05T02:48:29Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.36.1-r25"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00416,
+     "percentile": 0.36211,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2024-58251",
+    "aliases": [
+     "CLEANSTART-2026-VJ43191"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.38.0-r2; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-VJ43191",
+   "first_detected": "2026-11-05T02:48:29Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r2"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00178,
+     "percentile": 0.07421,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2025-46394",
+    "aliases": [
+     "CLEANSTART-2026-OU02245"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.38.0-r2; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-OU02245",
+   "first_detected": "2026-11-05T02:48:29Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r2"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00183,
+     "percentile": 0.07922,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2025-60876",
+    "aliases": [
+     "CLEANSTART-2026-EN38789"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/ssl_client@1.38.0-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.38.0-r4; shipped 1.38.0-r4; triage=FIXED_BY_UPSTREAM_VERSION; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-EN38789",
+   "first_detected": "2026-11-05T02:48:29Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_UPSTREAM_VERSION",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r4"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00312,
+     "percentile": 0.24326,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-5021",
+    "aliases": [
+     "CLEANSTART-2026-SZ80622"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/cleanstart-baselayout@3.6.5-r3",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/cleanstart-baselayout@3.6.5-r3"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/cleanstart-baselayout-data@3.6.5-r3",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/cleanstart-baselayout-data@3.6.5-r3"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.6.5-r1; shipped 3.6.5-r3; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-SZ80622",
+   "first_detected": "2026-11-08T04:16:22Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.6.5-r1"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.06263,
+     "percentile": 0.93623,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-0734",
+    "aliases": [
+     "CLEANSTART-2026-CS63457"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1a-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CS63457",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1a-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.12154,
+     "percentile": 0.96192,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-0735",
+    "aliases": [
+     "CLEANSTART-2026-JA85791"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1a-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-JA85791",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1a-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.04724,
+     "percentile": 0.91914,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-1543",
+    "aliases": [
+     "CLEANSTART-2026-SW71188"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1b-r1; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-SW71188",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1b-r1"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.05701,
+     "percentile": 0.93076,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-1547",
+    "aliases": [
+     "CLEANSTART-2026-IJ30953"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1d-r1; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-IJ30953",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1d-r1"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.01129,
+     "percentile": 0.66653,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-1549",
+    "aliases": [
+     "CLEANSTART-2026-GU29555"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1d-r1; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-GU29555",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1d-r1"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.06182,
+     "percentile": 0.93553,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-1551",
+    "aliases": [
+     "CLEANSTART-2026-WX26717"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1d-r3; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-WX26717",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1d-r3"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.14298,
+     "percentile": 0.96631,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-1563",
+    "aliases": [
+     "CLEANSTART-2026-DA96871"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1d-r1; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-DA96871",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1d-r1"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.03838,
+     "percentile": 0.90205,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-1967",
+    "aliases": [
+     "CLEANSTART-2026-AV27996"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1g-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-AV27996",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1g-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.53336,
+     "percentile": 0.98993,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-1971",
+    "aliases": [
+     "CLEANSTART-2026-RL43809"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1i-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-RL43809",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1i-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.06994,
+     "percentile": 0.94208,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-23839",
+    "aliases": [
+     "CLEANSTART-2026-LD93320"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1j-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-LD93320",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1j-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02961,
+     "percentile": 0.87322,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-23840",
+    "aliases": [
+     "CLEANSTART-2026-AP25745"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1j-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-AP25745",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1j-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.50732,
+     "percentile": 0.98931,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-23841",
+    "aliases": [
+     "CLEANSTART-2026-ID09346"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1j-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-ID09346",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1j-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.0741,
+     "percentile": 0.94487,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-3449",
+    "aliases": [
+     "CLEANSTART-2026-AA64849"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1k-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-AA64849",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1k-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.63542,
+     "percentile": 0.99219,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-3450",
+    "aliases": [
+     "CLEANSTART-2026-FM81746"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1k-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-FM81746",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1k-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.18339,
+     "percentile": 0.9725,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-3711",
+    "aliases": [
+     "CLEANSTART-2026-MU01941"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1l-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-MU01941",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1l-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.87816,
+     "percentile": 0.99764,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-3712",
+    "aliases": [
+     "CLEANSTART-2026-ZK46457"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.1.1l-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-ZK46457",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.1.1l-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.4814,
+     "percentile": 0.9887,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-4044",
+    "aliases": [
+     "CLEANSTART-2026-KO27906"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.1-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-KO27906",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.1-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.50099,
+     "percentile": 0.98915,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-0778",
+    "aliases": [
+     "CLEANSTART-2026-BZ89135"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.2-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-BZ89135",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.2-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.73188,
+     "percentile": 0.99461,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-1343",
+    "aliases": [
+     "CLEANSTART-2026-TA04030"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.3-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-TA04030",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.3-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02158,
+     "percentile": 0.82343,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-1434",
+    "aliases": [
+     "CLEANSTART-2026-GU45069"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.3-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-GU45069",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.3-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.01228,
+     "percentile": 0.69131,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-1473",
+    "aliases": [
+     "CLEANSTART-2026-RP45936"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.3-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-RP45936",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.3-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.04678,
+     "percentile": 0.91849,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-2097",
+    "aliases": [
+     "CLEANSTART-2026-CG46390"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.5-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CG46390",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.5-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.04899,
+     "percentile": 0.92164,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-3358",
+    "aliases": [
+     "CLEANSTART-2026-QW44690"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.6-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-QW44690",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.6-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.04044,
+     "percentile": 0.90709,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-3602",
+    "aliases": [
+     "CLEANSTART-2026-BW15494"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.7-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-BW15494",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.7-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.9077,
+     "percentile": 0.99807,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-3786",
+    "aliases": [
+     "CLEANSTART-2026-GV16861"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.7-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-GV16861",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.7-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.92488,
+     "percentile": 0.99828,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-3996",
+    "aliases": [
+     "CLEANSTART-2026-KF04510"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.7-r2; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-KF04510",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.7-r2"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.01312,
+     "percentile": 0.70911,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-4203",
+    "aliases": [
+     "CLEANSTART-2026-NE93380"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.8-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-NE93380",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.8-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.01386,
+     "percentile": 0.72464,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-4304",
+    "aliases": [
+     "CLEANSTART-2026-AM59218"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.8-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-AM59218",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.8-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.23509,
+     "percentile": 0.97816,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-4450",
+    "aliases": [
+     "CLEANSTART-2026-VH49391"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.8-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-VH49391",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.8-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.2859,
+     "percentile": 0.98151,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-0215",
+    "aliases": [
+     "CLEANSTART-2026-UN25560"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.8-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-UN25560",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.8-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.05024,
+     "percentile": 0.92328,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-0216",
+    "aliases": [
+     "CLEANSTART-2026-FW12511"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.8-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-FW12511",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.8-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.01846,
+     "percentile": 0.79243,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-0217",
+    "aliases": [
+     "CLEANSTART-2026-XG46420"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.8-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-XG46420",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.8-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.01846,
+     "percentile": 0.79243,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-0286",
+    "aliases": [
+     "CLEANSTART-2026-WE30451"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.8-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-WE30451",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.8-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.68407,
+     "percentile": 0.9934,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-0401",
+    "aliases": [
+     "CLEANSTART-2026-GP15566"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.0.8-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-GP15566",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.0.8-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.01846,
+     "percentile": 0.79242,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-0464",
+    "aliases": [
+     "CLEANSTART-2026-AF53935"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.1.0-r1; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-AF53935",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.1.0-r1"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.03985,
+     "percentile": 0.90585,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-0465",
+    "aliases": [
+     "CLEANSTART-2026-SR06822"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.1.0-r2; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-SR06822",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.1.0-r2"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.01772,
+     "percentile": 0.78335,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-1255",
+    "aliases": [
+     "CLEANSTART-2026-AI82371"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.1.0-r4; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-AI82371",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.1.0-r4"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00953,
+     "percentile": 0.61637,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-2650",
+    "aliases": [
+     "CLEANSTART-2026-GL12296"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.1.1-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-GL12296",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.1.1-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.75358,
+     "percentile": 0.99519,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-2975",
+    "aliases": [
+     "CLEANSTART-2026-AG29481"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.1.1-r2; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-AG29481",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.1.1-r2"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00617,
+     "percentile": 0.49888,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-3446",
+    "aliases": [
+     "CLEANSTART-2026-RC58138"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.1.1-r3; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-RC58138",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.1.1-r3"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.06531,
+     "percentile": 0.93846,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-3817",
+    "aliases": [
+     "CLEANSTART-2026-LK00442"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.1.2-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-LK00442",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.1.2-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.03047,
+     "percentile": 0.87652,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-5363",
+    "aliases": [
+     "CLEANSTART-2026-NB68806"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.1.4-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-NB68806",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.1.4-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.03939,
+     "percentile": 0.90479,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-5678",
+    "aliases": [
+     "CLEANSTART-2026-IV99407"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.1.4-r1; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-IV99407",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.1.4-r1"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.05091,
+     "percentile": 0.92422,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-6129",
+    "aliases": [
+     "CLEANSTART-2026-GO36434"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.1.4-r3; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-GO36434",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.1.4-r3"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02323,
+     "percentile": 0.83623,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2023-6237",
+    "aliases": [
+     "CLEANSTART-2026-CJ14051"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.1.4-r4; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CJ14051",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.1.4-r4"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.02303,
+     "percentile": 0.83472,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2024-0727",
+    "aliases": [
+     "CLEANSTART-2026-OY50307"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.1.4-r5; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-OY50307",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.1.4-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.03187,
+     "percentile": 0.88188,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2024-2511",
+    "aliases": [
+     "CLEANSTART-2026-LK42944"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.2.1-r2; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-LK42944",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.2.1-r2"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.59304,
+     "percentile": 0.99127,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2024-4603",
+    "aliases": [
+     "CLEANSTART-2026-XP09247"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.3.0-r2; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-XP09247",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.3.0-r2"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.01183,
+     "percentile": 0.68024,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2024-4741",
+    "aliases": [
+     "CLEANSTART-2026-XI98044"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.3.0-r3; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-XI98044",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.3.0-r3"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.03161,
+     "percentile": 0.8809,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2024-5535",
+    "aliases": [
+     "CLEANSTART-2026-JP96525"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.3.1-r1; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-JP96525",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.3.1-r1"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.05582,
+     "percentile": 0.92952,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2024-6119",
+    "aliases": [
+     "CLEANSTART-2026-RV65990"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.3.2-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-RV65990",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.3.2-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.66582,
+     "percentile": 0.99294,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2024-9143",
+    "aliases": [
+     "CLEANSTART-2026-UC60993"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.3.2-r1; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-UC60993",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.3.2-r1"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.12483,
+     "percentile": 0.96255,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2025-11187",
+    "aliases": [
+     "CLEANSTART-2026-QZ24943"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.6.0-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-QZ24943",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.6.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.05234,
+     "percentile": 0.9259,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2025-15467",
+    "aliases": [
+     "CLEANSTART-2026-CV82145"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.6.0-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CV82145",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.6.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.74793,
+     "percentile": 0.99508,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2025-15468",
+    "aliases": [
+     "CLEANSTART-2026-GD89071"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.6.0-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-GD89071",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.6.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00819,
+     "percentile": 0.57502,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2025-15469",
+    "aliases": [
+     "CLEANSTART-2026-VD26274"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.6.0-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-VD26274",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.6.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00213,
+     "percentile": 0.11743,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2025-66109",
+    "aliases": [
+     "CLEANSTART-2026-KW00003"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.6.0-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-KW00003",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.6.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00218,
+     "percentile": 0.12314,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2025-68169",
+    "aliases": [
+     "CLEANSTART-2026-YN02294"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.6.0-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-YN02294",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.6.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00186,
+     "percentile": 0.083,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2025-69419",
+    "aliases": [
+     "CLEANSTART-2026-MR89694"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.6.0-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-MR89694",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.6.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00607,
+     "percentile": 0.49391,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2025-69420",
+    "aliases": [
+     "CLEANSTART-2026-VW76351"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.6.0-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-VW76351",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.6.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.0092,
+     "percentile": 0.60587,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2025-69421",
+    "aliases": [
+     "CLEANSTART-2026-HM19071"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.6.0-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-HM19071",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.6.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00944,
+     "percentile": 0.61365,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-22796",
+    "aliases": [
+     "CLEANSTART-2026-HO74856"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.6.0-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-HO74856",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.6.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00589,
+     "percentile": 0.48488,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-22799",
+    "aliases": [
+     "CLEANSTART-2026-IP18540"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+       }
+      },
+      {
+       "@id": "pkg:apk/cleanstart/libssl3@3.6.5-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 3.6.0-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-IP18540",
+   "first_detected": "2026-11-10T19:38:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T19:38:25Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "3.6.0-r0"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00745,
+     "percentile": 0.55106,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-25032",
+    "aliases": [
+     "CLEANSTART-2026-ZW80094"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/zlib@1.3.2-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.2.11-r4; shipped 1.3.2-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-ZW80094",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.2.11-r4"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.51733,
+     "percentile": 0.98957,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-37434",
+    "aliases": [
+     "CLEANSTART-2026-KF32567"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/zlib@1.3.2-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.2.12-r2; shipped 1.3.2-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-KF32567",
+   "first_detected": "2026-11-05T13:40:25Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-09T19:26:01Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.2.12-r2"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.19243,
+     "percentile": 0.97356,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-27171",
+    "aliases": [
+     "CLEANSTART-2026-FI72020"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/zlib@1.3.2-r4"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.3.2-r4; shipped 1.3.2-r4; triage=FIXED_BY_UPSTREAM_VERSION; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-FI72020",
+   "first_detected": "2026-11-05T02:48:29Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:38:25Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T04:00:10Z",
+   "triage_code": "FIXED_BY_UPSTREAM_VERSION",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.3.2-r4"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00248,
+     "percentile": 0.16186,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:38:34Z"
+  }
+ ]
+}

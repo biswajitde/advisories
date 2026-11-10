@@ -1,0 +1,123 @@
+{
+  "document": {
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "publisher": {
+      "category": "vendor",
+      "name": "CleanStart",
+      "namespace": "https://cleanstart.com"
+    },
+    "title": "CVE-2023-3817 in CleanStart images (CLEANSTART-2026-LK00442)",
+    "tracking": {
+      "current_release_date": "2026-11-10T19:38:34Z",
+      "id": "CLEANSTART-2026-LK00442",
+      "initial_release_date": "2026-11-10T19:38:34Z",
+      "revision_history": [
+        {
+          "date": "2026-11-10T19:38:34Z",
+          "number": "1",
+          "summary": "Initial release."
+        }
+      ],
+      "status": "final",
+      "version": "1"
+    }
+  },
+  "product_tree": {
+    "full_product_names": [
+      {
+        "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+        "product_id": "CSAFPID-IMG-570812731bb7",
+        "product_identification_helper": {
+          "purl": "pkg:oci/ct2-adv1037-findgrp@sha256%3Ae6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
+        }
+      },
+      {
+        "name": "libssl3 3.6.5-r5",
+        "product_id": "CSAFPID-PKG-23f6c8a79954",
+        "product_identification_helper": {
+          "purl": "pkg:apk/cleanstart/libssl3@3.6.5-r5"
+        }
+      },
+      {
+        "name": "libcrypto3 3.6.5-r5",
+        "product_id": "CSAFPID-PKG-7c315725302e",
+        "product_identification_helper": {
+          "purl": "pkg:apk/cleanstart/libcrypto3@3.6.5-r5"
+        }
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libcrypto3 3.6.5-r5 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+          "product_id": "CSAFPID-REL-49f1c3e97843"
+        },
+        "product_reference": "CSAFPID-PKG-7c315725302e",
+        "relates_to_product_reference": "CSAFPID-IMG-570812731bb7"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libssl3 3.6.5-r5 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+          "product_id": "CSAFPID-REL-519c31804c50"
+        },
+        "product_reference": "CSAFPID-PKG-23f6c8a79954",
+        "relates_to_product_reference": "CSAFPID-IMG-570812731bb7"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-3817",
+      "ids": [
+        {
+          "system_name": "CleanStart Advisory",
+          "text": "CLEANSTART-2026-LK00442"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "CVE-2023-3817: fixed in 3.1.2-r0; shipped 3.6.5-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+          "title": "CleanStart position"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "CSAFPID-REL-49f1c3e97843",
+          "CSAFPID-REL-519c31804c50"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "Fixed in the build shipped in this image (FIXED_BY_OUR_PATCH).",
+          "product_ids": [
+            "CSAFPID-REL-49f1c3e97843",
+            "CSAFPID-REL-519c31804c50"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "exploit_status",
+          "date": "2026-11-10T01:47:11Z",
+          "details": "not in CISA KEV as of 2026-11-10T01:47:11Z; EPSS 0.03047 (percentile 0.87652) as of 2026-11-10; point in time; re-issued when it changes",
+          "product_ids": [
+            "CSAFPID-REL-49f1c3e97843",
+            "CSAFPID-REL-519c31804c50"
+          ]
+        }
+      ]
+    }
+  ]
+}

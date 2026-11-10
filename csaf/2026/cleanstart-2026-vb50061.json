@@ -16,7 +16,7 @@
     },
     "title": "CVE-2023-42366 in CleanStart images (CLEANSTART-2026-VB50061)",
     "tracking": {
-      "current_release_date": "2026-11-10T17:49:19Z",
+      "current_release_date": "2026-11-10T19:38:34Z",
       "id": "CLEANSTART-2026-VB50061",
       "initial_release_date": "2026-11-10T16:11:31Z",
       "revision_history": [
@@ -44,10 +44,15 @@
           "date": "2026-11-10T17:49:19Z",
           "number": "5",
           "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-10T19:38:34Z",
+          "number": "6",
+          "summary": "Status or product set changed."
         }
       ],
       "status": "final",
-      "version": "5"
+      "version": "6"
     }
   },
   "product_tree": {
@@ -57,6 +62,13 @@
         "product_id": "CSAFPID-IMG-520d1c20edb7",
         "product_identification_helper": {
           "purl": "pkg:oci/ct2-adv1044-jar@sha256%3A5113680e15993021720f504d474dedbacec8765d8882e9fac215f83d7bd451f6?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
+        }
+      },
+      {
+        "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+        "product_id": "CSAFPID-IMG-570812731bb7",
+        "product_identification_helper": {
+          "purl": "pkg:oci/ct2-adv1037-findgrp@sha256%3Ae6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
         }
       },
       {
@@ -88,6 +100,13 @@
         }
       },
       {
+        "name": "ssl_client 1.38.0-r4",
+        "product_id": "CSAFPID-PKG-0f1b8cea1eba",
+        "product_identification_helper": {
+          "purl": "pkg:apk/cleanstart/ssl_client@1.38.0-r4"
+        }
+      },
+      {
         "name": "busybox 1.38.0-r4",
         "product_id": "CSAFPID-PKG-37ab9c69390a",
         "product_identification_helper": {
@@ -100,9 +119,25 @@
         "product_identification_helper": {
           "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
         }
+      },
+      {
+        "name": "busybox-extras 1.38.0-r4",
+        "product_id": "CSAFPID-PKG-cda33c1c7894",
+        "product_identification_helper": {
+          "purl": "pkg:apk/cleanstart/busybox-extras@1.38.0-r4"
+        }
       }
     ],
     "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ssl_client 1.38.0-r4 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+          "product_id": "CSAFPID-REL-23028d615d11"
+        },
+        "product_reference": "CSAFPID-PKG-0f1b8cea1eba",
+        "relates_to_product_reference": "CSAFPID-IMG-570812731bb7"
+      },
       {
         "category": "default_component_of",
         "full_product_name": {
@@ -133,6 +168,15 @@
       {
         "category": "default_component_of",
         "full_product_name": {
+          "name": "busybox 1.38.0-r4 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+          "product_id": "CSAFPID-REL-9eb0d72f94f8"
+        },
+        "product_reference": "CSAFPID-PKG-37ab9c69390a",
+        "relates_to_product_reference": "CSAFPID-IMG-570812731bb7"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
           "name": "busybox 1.38.0-r5 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
           "product_id": "CSAFPID-REL-b50c5e8d73e0"
         },
@@ -147,6 +191,15 @@
         },
         "product_reference": "CSAFPID-PKG-37ab9c69390a",
         "relates_to_product_reference": "CSAFPID-IMG-520d1c20edb7"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "busybox-extras 1.38.0-r4 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+          "product_id": "CSAFPID-REL-da748cfa1498"
+        },
+        "product_reference": "CSAFPID-PKG-cda33c1c7894",
+        "relates_to_product_reference": "CSAFPID-IMG-570812731bb7"
       }
     ]
   },
@@ -168,11 +221,14 @@
       ],
       "product_status": {
         "fixed": [
+          "CSAFPID-REL-23028d615d11",
           "CSAFPID-REL-29efde6b56e1",
           "CSAFPID-REL-6db1aa3253df",
           "CSAFPID-REL-9244d1bc9905",
+          "CSAFPID-REL-9eb0d72f94f8",
           "CSAFPID-REL-b50c5e8d73e0",
-          "CSAFPID-REL-bb8ce4f8bf05"
+          "CSAFPID-REL-bb8ce4f8bf05",
+          "CSAFPID-REL-da748cfa1498"
         ]
       },
       "remediations": [
@@ -180,11 +236,14 @@
           "category": "vendor_fix",
           "details": "Fixed in the build shipped in this image (FIXED_BY_OUR_PATCH).",
           "product_ids": [
+            "CSAFPID-REL-23028d615d11",
             "CSAFPID-REL-29efde6b56e1",
             "CSAFPID-REL-6db1aa3253df",
             "CSAFPID-REL-9244d1bc9905",
+            "CSAFPID-REL-9eb0d72f94f8",
             "CSAFPID-REL-b50c5e8d73e0",
-            "CSAFPID-REL-bb8ce4f8bf05"
+            "CSAFPID-REL-bb8ce4f8bf05",
+            "CSAFPID-REL-da748cfa1498"
           ]
         }
       ],
@@ -205,7 +264,10 @@
           "date": "2026-11-10T01:47:11Z",
           "details": "not in CISA KEV as of 2026-11-10T01:47:11Z; EPSS 0.00416 (percentile 0.36211) as of 2026-11-10; point in time; re-issued when it changes",
           "product_ids": [
-            "CSAFPID-REL-bb8ce4f8bf05"
+            "CSAFPID-REL-23028d615d11",
+            "CSAFPID-REL-9eb0d72f94f8",
+            "CSAFPID-REL-bb8ce4f8bf05",
+            "CSAFPID-REL-da748cfa1498"
           ]
         }
       ]

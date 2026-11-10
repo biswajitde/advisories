@@ -2,157 +2,10 @@
  "@context": "https://openvex.dev/ns/v0.2.0",
  "@id": "https://github.com/biswajitde/advisories/blob/main/vex/latest-dev.openvex.json",
  "author": "CleanStart ADVISORY emulation pipeline",
- "timestamp": "2026-11-10T18:09:51Z",
+ "timestamp": "2026-11-10T20:10:07Z",
  "version": 1,
  "customer_context": "Internet reachability, likely exploitability and the PAIN N-rating are customer context, not asserted.",
  "statements": [
-  {
-   "vulnerability": {
-    "name": "CVE-2026-38754",
-    "aliases": [
-     "CLEANSTART-2026-CH93892"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "upstream_fix=1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CH93892",
-   "first_detected": "2026-11-05T18:23:56Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
-    "via": "scan"
-   },
-   "evaluated_at": "2026-11-10T17:49:11Z",
-   "triage_code": "FIXED_BY_OUR_PATCH",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.38.0-r5"
-   },
-   "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
-    "epss": {
-     "score": 0.00235,
-     "percentile": 0.14593,
-     "score_date": "2026-11-10"
-    },
-    "as_of": "2026-11-10T01:47:11Z",
-    "note": "point in time; re-issued when it changes"
-   }
-  },
-  {
-   "vulnerability": {
-    "name": "CVE-2026-38755",
-    "aliases": [
-     "CLEANSTART-2026-DA93784"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "upstream_fix=1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-DA93784",
-   "first_detected": "2026-11-05T18:23:56Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
-    "via": "scan"
-   },
-   "evaluated_at": "2026-11-10T17:49:11Z",
-   "triage_code": "FIXED_BY_OUR_PATCH",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.38.0-r5"
-   },
-   "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
-    "epss": {
-     "score": 0.00207,
-     "percentile": 0.10877,
-     "score_date": "2026-11-10"
-    },
-    "as_of": "2026-11-10T01:47:11Z",
-    "note": "point in time; re-issued when it changes"
-   }
-  },
-  {
-   "vulnerability": {
-    "name": "CVE-2026-38753",
-    "aliases": [
-     "CLEANSTART-2026-SX43215"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "upstream_fix=1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-SX43215",
-   "first_detected": "2026-11-05T18:23:56Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
-    "via": "scan"
-   },
-   "evaluated_at": "2026-11-10T17:49:11Z",
-   "triage_code": "FIXED_BY_OUR_PATCH",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.38.0-r5"
-   },
-   "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
-    "epss": {
-     "score": 0.00145,
-     "percentile": 0.03821,
-     "score_date": "2026-11-10"
-    },
-    "as_of": "2026-11-10T01:47:11Z",
-    "note": "point in time; re-issued when it changes"
-   }
-  },
   {
    "vulnerability": {
     "name": "CVE-2026-85091",
@@ -181,9 +34,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -193,13 +46,13 @@
    },
    "action_statement_timestamp": "2026-11-09T19:26:01Z",
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00469,
      "percentile": 0.4088,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -230,9 +83,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -242,13 +95,13 @@
     "fixed_version": "1.27.2-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.01316,
      "percentile": 0.71,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -279,9 +132,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -291,13 +144,13 @@
     "fixed_version": "1.27.2-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00902,
      "percentile": 0.6003,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -328,9 +181,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -340,13 +193,13 @@
     "fixed_version": "1.27.2-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.06136,
      "percentile": 0.9351,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -377,9 +230,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -389,13 +242,13 @@
     "fixed_version": "1.28.3-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02487,
      "percentile": 0.84762,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -426,9 +279,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -438,13 +291,13 @@
     "fixed_version": "1.29.3-r10"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.07694,
      "percentile": 0.94646,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -475,9 +328,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -487,13 +340,13 @@
     "fixed_version": "1.30.1-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.04651,
      "percentile": 0.91812,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -524,9 +377,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -536,13 +389,13 @@
     "fixed_version": "1.33.0-r5"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02719,
      "percentile": 0.86149,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -573,9 +426,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -585,13 +438,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00628,
      "percentile": 0.50432,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -622,9 +475,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -634,13 +487,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00409,
      "percentile": 0.35551,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -671,9 +524,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -683,13 +536,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02756,
      "percentile": 0.86363,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -720,9 +573,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -732,13 +585,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02795,
      "percentile": 0.86556,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -769,9 +622,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -781,13 +634,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.03087,
      "percentile": 0.87812,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -818,9 +671,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -830,13 +683,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02795,
      "percentile": 0.86555,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -867,9 +720,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -879,13 +732,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02756,
      "percentile": 0.86363,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -916,9 +769,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -928,13 +781,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02215,
      "percentile": 0.82777,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -965,9 +818,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -977,13 +830,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02756,
      "percentile": 0.86363,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1014,9 +867,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1026,13 +879,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02795,
      "percentile": 0.86555,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1063,9 +916,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1075,13 +928,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02756,
      "percentile": 0.86364,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1112,9 +965,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1124,13 +977,13 @@
     "fixed_version": "1.35.0-r7"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.03521,
      "percentile": 0.89327,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1161,9 +1014,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1173,13 +1026,13 @@
     "fixed_version": "1.35.0-r17"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.01254,
      "percentile": 0.6972,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1210,9 +1063,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1222,13 +1075,13 @@
     "fixed_version": "1.36.1-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.03158,
      "percentile": 0.88077,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1259,9 +1112,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1271,13 +1124,13 @@
     "fixed_version": "1.36.1-r27"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00424,
      "percentile": 0.37021,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1308,9 +1161,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1320,13 +1173,13 @@
     "fixed_version": "1.36.1-r29"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00433,
      "percentile": 0.37882,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1357,9 +1210,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1369,13 +1222,13 @@
     "fixed_version": "1.36.1-r29"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00393,
      "percentile": 0.33817,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1406,9 +1259,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1418,13 +1271,13 @@
     "fixed_version": "1.36.1-r25"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00416,
      "percentile": 0.36211,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1455,9 +1308,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1467,13 +1320,13 @@
     "fixed_version": "1.38.0-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00178,
      "percentile": 0.07421,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1504,9 +1357,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1516,13 +1369,13 @@
     "fixed_version": "1.38.0-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00183,
      "percentile": 0.07922,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1553,9 +1406,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1565,13 +1418,160 @@
     "fixed_version": "1.38.0-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00312,
      "percentile": 0.24326,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
+    "note": "point in time; re-issued when it changes"
+   }
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38753",
+    "aliases": [
+     "CLEANSTART-2026-SX43215"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.38.0-r5; shipped 1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-SX43215",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T19:34:32Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T20:09:59Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T17:49:11Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
+    "epss": {
+     "score": 0.00145,
+     "percentile": 0.03821,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T14:09:33Z",
+    "note": "point in time; re-issued when it changes"
+   }
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38754",
+    "aliases": [
+     "CLEANSTART-2026-CH93892"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.38.0-r5; shipped 1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CH93892",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T19:34:32Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T20:09:59Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T17:49:11Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
+    "epss": {
+     "score": 0.00235,
+     "percentile": 0.14593,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T14:09:33Z",
+    "note": "point in time; re-issued when it changes"
+   }
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38755",
+    "aliases": [
+     "CLEANSTART-2026-DA93784"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.38.0-r5; shipped 1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-DA93784",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T19:34:32Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T20:09:59Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T17:49:11Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
+    "epss": {
+     "score": 0.00207,
+     "percentile": 0.10877,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1608,9 +1608,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1620,13 +1620,13 @@
     "fixed_version": "3.6.5-r1"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.06263,
      "percentile": 0.93623,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1657,9 +1657,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1669,13 +1669,13 @@
     "fixed_version": "1.2.11-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.51733,
      "percentile": 0.98957,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1706,9 +1706,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1718,13 +1718,13 @@
     "fixed_version": "1.2.12-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.19243,
      "percentile": 0.97356,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1755,9 +1755,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
+    "db_built": "2026-11-10T19:34:32Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:44Z",
+    "scan_time": "2026-11-10T20:09:59Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-10T04:00:10Z",
@@ -1767,13 +1767,13 @@
     "fixed_version": "1.3.2-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00248,
      "percentile": 0.16186,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   }
@@ -1784,8 +1784,8 @@
    "collected_at": "2026-11-10T14:09:33Z"
   },
   "kev": {
-   "snapshot_generation": "1794275230478465",
-   "collected_at": "2026-11-10T01:47:11Z"
+   "snapshot_generation": "1794341261883250",
+   "collected_at": "2026-11-10T20:07:43Z"
   }
  }
 }

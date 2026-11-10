@@ -5,7 +5,7 @@
   "CVE-2026-38753"
  ],
  "summary": "Security fix for CVE-2026-38753 applied in: busybox 1.38.0-r5",
- "details": "shipped 1.38.0-r5 >= fixed 1.38.0-r5 (our recipe)",
+ "details": "shipped 1.38.0-r5 >= fixed 1.38.0-r5 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
  "affected": [
   {
    "package": {
@@ -13,21 +13,33 @@
     "ecosystem": "CleanStart",
     "purl": "pkg:apk/cleanstart/busybox?repository_url=https://storage.googleapis.com/cleanstart-emulation-public/clnpkgs/triam"
    },
+   "ranges": [
+    {
+     "type": "ECOSYSTEM",
+     "events": [
+      {
+       "introduced": "0"
+      },
+      {
+       "fixed": "1.38.0-r5"
+      }
+     ]
+    }
+   ],
    "database_specific": {
     "status": "fixed",
-    "derivation": "shipped 1.38.0-r5 >= fixed 1.38.0-r5 (our recipe)",
+    "derivation": "shipped 1.38.0-r5 >= fixed 1.38.0-r5 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
     "shipped_version": "1.38.0-r5",
-    "severity": "HIGH",
+    "severity": null,
     "source": "recipe",
     "component_location": {
-     "paths": [
-      "/lib/apk/db/installed"
-     ],
-     "source": "grype artifact.locations[].path"
+     "paths": [],
+     "source": null,
+     "reason": "carried from secfixes: the scan reported no finding, so there is no path"
     },
     "provenance": {
-     "determined_by": "scan",
-     "generated_via": "scan",
+     "determined_by": "secfixes",
+     "generated_via": "secfixes-carry",
      "index_sha256": null,
      "is_public_surface": true,
      "unsupplied": {
@@ -95,19 +107,6 @@
      "accepted_by": null
     }
    },
-   "ranges": [
-    {
-     "type": "ECOSYSTEM",
-     "events": [
-      {
-       "introduced": "0"
-      },
-      {
-       "fixed": "1.38.0-r5"
-      }
-     ]
-    }
-   ],
    "ecosystem_specific": {
     "components": [
      {
@@ -116,7 +115,7 @@
       "component_name": "busybox",
       "component_version": "1.38.0-r5",
       "component_type": "apk",
-      "component_location": "/lib/apk/db/installed",
+      "component_location": "",
       "component_purl": "pkg:apk/busybox"
      }
     ],
@@ -127,10 +126,7 @@
  "database_specific": {
   "cleanstart_status": "fixed",
   "generated_by": "advisory-gen.py",
-  "generated_via": "scan",
-  "aliased_from": [
-   "CLEANSTART-2026-SX43215"
-  ],
+  "generated_via": "secfixes-carry",
   "triage": "FIXED_BY_OUR_PATCH",
   "triage_code": "TRIAGE-0002",
   "evaluated_at": "2026-11-10T17:49:11Z",
@@ -163,22 +159,10 @@
     "timestamp": "2026-11-10T17:49:11Z",
     "type": "fixed"
    }
-  ],
-  "severity_scorers": [
-   {
-    "type": "CVSS_V3",
-    "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-    "scorer": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
-   },
-   {
-    "type": "CVSS_V3",
-    "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
-    "scorer": "cve@mitre.org"
-   }
   ]
  },
  "published": "2026-11-05T18:23:56Z",
- "modified": "2026-11-10T18:09:11Z",
+ "modified": "2026-11-10T19:38:54Z",
  "references": [
   {
    "type": "ADVISORY",
@@ -194,15 +178,5 @@
   }
  ],
  "related": [],
- "credits": [],
- "severity": [
-  {
-   "type": "CVSS_V3",
-   "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
-  },
-  {
-   "type": "CVSS_V3",
-   "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L"
-  }
- ]
+ "credits": []
 }

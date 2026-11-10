@@ -16,7 +16,7 @@
     },
     "title": "GHSA-599f-7c49-w659 in CleanStart images (CLEANSTART-2026-AR52728)",
     "tracking": {
-      "current_release_date": "2026-11-10T17:36:42Z",
+      "current_release_date": "2026-11-10T19:38:34Z",
       "id": "CLEANSTART-2026-AR52728",
       "initial_release_date": "2026-11-10T17:36:42Z",
       "revision_history": [
@@ -24,10 +24,15 @@
           "date": "2026-11-10T17:36:42Z",
           "number": "1",
           "summary": "Initial release."
+        },
+        {
+          "date": "2026-11-10T19:38:34Z",
+          "number": "2",
+          "summary": "Status or product set changed."
         }
       ],
       "status": "final",
-      "version": "1"
+      "version": "2"
     }
   },
   "product_tree": {
@@ -37,6 +42,13 @@
         "product_id": "CSAFPID-IMG-520d1c20edb7",
         "product_identification_helper": {
           "purl": "pkg:oci/ct2-adv1044-jar@sha256%3A5113680e15993021720f504d474dedbacec8765d8882e9fac215f83d7bd451f6?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
+        }
+      },
+      {
+        "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+        "product_id": "CSAFPID-IMG-570812731bb7",
+        "product_identification_helper": {
+          "purl": "pkg:oci/ct2-adv1037-findgrp@sha256%3Ae6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
         }
       },
       {
@@ -56,6 +68,15 @@
         },
         "product_reference": "CSAFPID-PKG-21dfe52a2e39",
         "relates_to_product_reference": "CSAFPID-IMG-520d1c20edb7"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "commons-text 1.9 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+          "product_id": "CSAFPID-REL-def17dcfe397"
+        },
+        "product_reference": "CSAFPID-PKG-21dfe52a2e39",
+        "relates_to_product_reference": "CSAFPID-IMG-570812731bb7"
       }
     ]
   },
@@ -80,7 +101,8 @@
       ],
       "product_status": {
         "under_investigation": [
-          "CSAFPID-REL-de2c4596013e"
+          "CSAFPID-REL-de2c4596013e",
+          "CSAFPID-REL-def17dcfe397"
         ]
       },
       "threats": [
@@ -89,7 +111,8 @@
           "date": "2026-11-10T01:47:11Z",
           "details": "not in CISA KEV as of 2026-11-10T01:47:11Z; point in time; re-issued when it changes",
           "product_ids": [
-            "CSAFPID-REL-de2c4596013e"
+            "CSAFPID-REL-de2c4596013e",
+            "CSAFPID-REL-def17dcfe397"
           ]
         }
       ]

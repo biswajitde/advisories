@@ -2,8 +2,8 @@
  "@context": "https://openvex.dev/ns/v0.2.0",
  "@id": "https://github.com/biswajitde/advisories/blob/main/vex/current/ct2-s2-rebuild-dev-arm64.openvex.json",
  "author": "CleanStart ADVISORY emulation pipeline",
- "timestamp": "2026-11-10T18:10:01Z",
- "version": 4,
+ "timestamp": "2026-11-10T19:37:31Z",
+ "version": 5,
  "customer_context": "Internet reachability, likely exploitability and the PAIN N-rating are customer context, not asserted.",
  "exploitation_source": {
   "epss": {
@@ -16,159 +16,6 @@
   }
  },
  "statements": [
-  {
-   "vulnerability": {
-    "name": "CVE-2026-38754",
-    "aliases": [
-     "CLEANSTART-2026-CH93892"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:129aa6eabd2be58c8da5dde35b41e947a3499facb228932124364fb98ac81f06",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "upstream_fix=1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CH93892",
-   "first_detected": "2026-11-05T18:23:56Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:55Z",
-    "via": "scan"
-   },
-   "evaluated_at": "2026-11-10T17:49:11Z",
-   "triage_code": "FIXED_BY_OUR_PATCH",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.38.0-r5"
-   },
-   "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
-    "epss": {
-     "score": 0.00235,
-     "percentile": 0.14558,
-     "score_date": "2026-11-09"
-    },
-    "as_of": "2026-11-09T19:04:17Z",
-    "note": "point in time; re-issued when it changes"
-   },
-   "timestamp": "2026-11-10T18:10:01Z",
-   "last_updated": "2026-11-10T18:10:01Z"
-  },
-  {
-   "vulnerability": {
-    "name": "CVE-2026-38755",
-    "aliases": [
-     "CLEANSTART-2026-DA93784"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:129aa6eabd2be58c8da5dde35b41e947a3499facb228932124364fb98ac81f06",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "upstream_fix=1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-DA93784",
-   "first_detected": "2026-11-05T18:23:56Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:55Z",
-    "via": "scan"
-   },
-   "evaluated_at": "2026-11-10T17:49:11Z",
-   "triage_code": "FIXED_BY_OUR_PATCH",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.38.0-r5"
-   },
-   "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
-    "epss": {
-     "score": 0.00207,
-     "percentile": 0.10857,
-     "score_date": "2026-11-09"
-    },
-    "as_of": "2026-11-09T19:04:17Z",
-    "note": "point in time; re-issued when it changes"
-   },
-   "timestamp": "2026-11-10T18:10:01Z",
-   "last_updated": "2026-11-10T18:10:01Z"
-  },
-  {
-   "vulnerability": {
-    "name": "CVE-2026-38753",
-    "aliases": [
-     "CLEANSTART-2026-SX43215"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:129aa6eabd2be58c8da5dde35b41e947a3499facb228932124364fb98ac81f06",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "upstream_fix=1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-SX43215",
-   "first_detected": "2026-11-05T18:23:56Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T17:40:12Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T18:09:55Z",
-    "via": "scan"
-   },
-   "evaluated_at": "2026-11-10T17:49:11Z",
-   "triage_code": "FIXED_BY_OUR_PATCH",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.38.0-r5"
-   },
-   "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
-    "epss": {
-     "score": 0.00145,
-     "percentile": 0.03805,
-     "score_date": "2026-11-09"
-    },
-    "as_of": "2026-11-09T19:04:17Z",
-    "note": "point in time; re-issued when it changes"
-   },
-   "timestamp": "2026-11-10T18:10:01Z",
-   "last_updated": "2026-11-10T18:10:01Z"
-  },
   {
    "vulnerability": {
     "name": "CVE-2026-85091",
@@ -1648,6 +1495,159 @@
    },
    "timestamp": "2026-11-10T17:47:56Z",
    "last_updated": "2026-11-10T17:47:56Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38753",
+    "aliases": [
+     "CLEANSTART-2026-SX43215"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:129aa6eabd2be58c8da5dde35b41e947a3499facb228932124364fb98ac81f06",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.38.0-r5; shipped 1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-SX43215",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T19:07:41Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:37:24Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T17:49:11Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00145,
+     "percentile": 0.03805,
+     "score_date": "2026-11-09"
+    },
+    "as_of": "2026-11-09T19:04:17Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:37:31Z",
+   "last_updated": "2026-11-10T19:37:31Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38754",
+    "aliases": [
+     "CLEANSTART-2026-CH93892"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:129aa6eabd2be58c8da5dde35b41e947a3499facb228932124364fb98ac81f06",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.38.0-r5; shipped 1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CH93892",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T19:07:41Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:37:24Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T17:49:11Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00235,
+     "percentile": 0.14558,
+     "score_date": "2026-11-09"
+    },
+    "as_of": "2026-11-09T19:04:17Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:37:31Z",
+   "last_updated": "2026-11-10T19:37:31Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38755",
+    "aliases": [
+     "CLEANSTART-2026-DA93784"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:129aa6eabd2be58c8da5dde35b41e947a3499facb228932124364fb98ac81f06",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "fixed in 1.38.0-r5; shipped 1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-DA93784",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T19:07:41Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T19:37:24Z",
+    "via": "secfixes-carry"
+   },
+   "evaluated_at": "2026-11-10T17:49:11Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00207,
+     "percentile": 0.10857,
+     "score_date": "2026-11-09"
+    },
+    "as_of": "2026-11-09T19:04:17Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T19:37:31Z",
+   "last_updated": "2026-11-10T19:37:31Z"
   },
   {
    "vulnerability": {

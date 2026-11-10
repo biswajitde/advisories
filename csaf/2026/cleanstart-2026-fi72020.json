@@ -16,7 +16,7 @@
     },
     "title": "CVE-2026-27171 in CleanStart images (CLEANSTART-2026-FI72020)",
     "tracking": {
-      "current_release_date": "2026-11-10T17:49:19Z",
+      "current_release_date": "2026-11-10T19:38:34Z",
       "id": "CLEANSTART-2026-FI72020",
       "initial_release_date": "2026-11-10T16:11:31Z",
       "revision_history": [
@@ -44,10 +44,15 @@
           "date": "2026-11-10T17:49:19Z",
           "number": "5",
           "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-10T19:38:34Z",
+          "number": "6",
+          "summary": "Status or product set changed."
         }
       ],
       "status": "final",
-      "version": "5"
+      "version": "6"
     }
   },
   "product_tree": {
@@ -57,6 +62,13 @@
         "product_id": "CSAFPID-IMG-520d1c20edb7",
         "product_identification_helper": {
           "purl": "pkg:oci/ct2-adv1044-jar@sha256%3A5113680e15993021720f504d474dedbacec8765d8882e9fac215f83d7bd451f6?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
+        }
+      },
+      {
+        "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+        "product_id": "CSAFPID-IMG-570812731bb7",
+        "product_identification_helper": {
+          "purl": "pkg:oci/ct2-adv1037-findgrp@sha256%3Ae6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
         }
       },
       {
@@ -126,6 +138,15 @@
       {
         "category": "default_component_of",
         "full_product_name": {
+          "name": "zlib 1.3.2-r4 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
+          "product_id": "CSAFPID-REL-89297288f6b9"
+        },
+        "product_reference": "CSAFPID-PKG-ef759febda75",
+        "relates_to_product_reference": "CSAFPID-IMG-570812731bb7"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
           "name": "zlib 1.3.2-r4 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
           "product_id": "CSAFPID-REL-be8c7891d1dd"
         },
@@ -164,6 +185,7 @@
           "CSAFPID-REL-23b221b15e30",
           "CSAFPID-REL-7970e3a105bc",
           "CSAFPID-REL-86b1f03f9c10",
+          "CSAFPID-REL-89297288f6b9",
           "CSAFPID-REL-be8c7891d1dd",
           "CSAFPID-REL-e57bcc860675"
         ]
@@ -176,6 +198,7 @@
             "CSAFPID-REL-23b221b15e30",
             "CSAFPID-REL-7970e3a105bc",
             "CSAFPID-REL-86b1f03f9c10",
+            "CSAFPID-REL-89297288f6b9",
             "CSAFPID-REL-be8c7891d1dd",
             "CSAFPID-REL-e57bcc860675"
           ]
@@ -198,6 +221,7 @@
           "date": "2026-11-10T01:47:11Z",
           "details": "not in CISA KEV as of 2026-11-10T01:47:11Z; EPSS 0.00248 (percentile 0.16186) as of 2026-11-10; point in time; re-issued when it changes",
           "product_ids": [
+            "CSAFPID-REL-89297288f6b9",
             "CSAFPID-REL-e57bcc860675"
           ]
         }

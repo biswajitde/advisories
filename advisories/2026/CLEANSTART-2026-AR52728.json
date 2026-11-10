@@ -131,6 +131,9 @@
   "cleanstart_status": "under_investigation",
   "generated_by": "advisory-gen.py",
   "generated_via": "language-layer",
+  "aliased_from": [
+   "CLEANSTART-2026-AR52728"
+  ],
   "triage": "REFUSED_RANGE_ABSENT",
   "triage_code": "TRIAGE-0010",
   "evaluated_at": "2026-11-10T16:11:24Z",
@@ -141,8 +144,8 @@
    }
   ]
  },
- "modified": "2026-11-10T16:11:24Z",
  "published": "2026-11-10T16:11:24Z",
+ "modified": "2026-11-10T19:38:25Z",
  "references": [
   {
    "type": "ADVISORY",

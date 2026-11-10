@@ -1,0 +1,151 @@
+{
+ "schema_version": "1.9.2",
+ "id": "CLEANSTART-2026-AF53935",
+ "upstream": [
+  "CVE-2023-0464"
+ ],
+ "summary": "Security fix for CVE-2023-0464 applied in: openssl 3.1.0-r1",
+ "details": "shipped 3.6.5-r5 >= fixed 3.1.0-r1 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+ "affected": [
+  {
+   "package": {
+    "name": "openssl",
+    "ecosystem": "CleanStart",
+    "purl": "pkg:apk/cleanstart/openssl?repository_url=https://storage.googleapis.com/cleanstart-emulation-public/clnpkgs/triam"
+   },
+   "ranges": [
+    {
+     "type": "ECOSYSTEM",
+     "events": [
+      {
+       "introduced": "0"
+      },
+      {
+       "fixed": "3.1.0-r1"
+      }
+     ]
+    }
+   ],
+   "database_specific": {
+    "status": "fixed",
+    "derivation": "shipped 3.6.5-r5 >= fixed 3.1.0-r1 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+    "shipped_version": "3.6.5-r5",
+    "severity": null,
+    "source": "recipe",
+    "component_location": {
+     "paths": [],
+     "source": null,
+     "reason": "carried from secfixes: the scan reported no finding, so there is no path"
+    },
+    "provenance": {
+     "determined_by": "secfixes",
+     "generated_via": "secfixes-carry",
+     "index_sha256": null,
+     "is_public_surface": true,
+     "unsupplied": {
+      "index_sha256": "per-run: the sha256 of the index snapshot this run read is in the run provenance (provenance/<run>.json index.objects, keyed by index_uri)"
+     },
+     "index_observations": [
+      {
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
+       "arch": "aarch64",
+       "packages": [
+        "libcrypto3",
+        "libssl3",
+        "openssl",
+        "openssl-config-fipshardened",
+        "openssl-dbg",
+        "openssl-dev",
+        "openssl-doc",
+        "openssl-libs-static",
+        "openssl-misc"
+       ]
+      },
+      {
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
+       "arch": "noarch",
+       "packages": [
+        "openssl-config-fipshardened",
+        "openssl-doc",
+        "openssl-misc"
+       ]
+      },
+      {
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
+       "arch": "x86_64",
+       "packages": [
+        "libcrypto3",
+        "libssl3",
+        "openssl",
+        "openssl-config-fipshardened",
+        "openssl-dbg",
+        "openssl-dev",
+        "openssl-doc",
+        "openssl-libs-static",
+        "openssl-misc"
+       ]
+      }
+     ]
+    },
+    "cleanstart": {
+     "applies_to_subpackages": true
+    },
+    "scan_completeness": {
+     "state": "COMPLETE",
+     "basis": "complete=true",
+     "skipped": null,
+     "accepted_by": null
+    }
+   },
+   "ecosystem_specific": {
+    "components": [
+     {
+      "latest_event_status": "fixed",
+      "latest_event_timestamp": "2026-11-10T19:38:25Z",
+      "component_name": "openssl",
+      "component_version": "3.6.5-r5",
+      "component_type": "apk",
+      "component_location": "",
+      "component_purl": "pkg:apk/openssl"
+     }
+    ],
+    "origin": "openssl"
+   }
+  }
+ ],
+ "database_specific": {
+  "cleanstart_status": "fixed",
+  "generated_by": "advisory-gen.py",
+  "generated_via": "secfixes-carry",
+  "triage": "FIXED_BY_OUR_PATCH",
+  "triage_code": "TRIAGE-0002",
+  "evaluated_at": "2026-11-10T19:38:25Z",
+  "events": [
+   {
+    "timestamp": "2026-11-10T19:38:25Z",
+    "type": "fixed"
+   }
+  ]
+ },
+ "modified": "2026-11-10T19:38:25Z",
+ "published": "2026-11-10T19:38:25Z",
+ "references": [
+  {
+   "type": "ADVISORY",
+   "url": "https://github.com/biswajitde/advisories/tree/main/advisories/2026/CLEANSTART-2026-AF53935.json"
+  },
+  {
+   "type": "WEB",
+   "url": "https://osv.dev/vulnerability/CVE-2023-0464"
+  },
+  {
+   "type": "WEB",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0464"
+  }
+ ],
+ "related": [],
+ "credits": []
+}
