@@ -4,8 +4,8 @@
  "upstream": [
   "CVE-2026-38755"
  ],
- "summary": "CVE-2026-38755 in busybox \u2014 CleanStart position: affected",
- "details": "shipped 1.38.0-r4 < fixed 1.38.0-r5 (our recipe)",
+ "summary": "Security fix for CVE-2026-38755 applied in: busybox 1.38.0-r5",
+ "details": "shipped 1.38.0-r5 >= fixed 1.38.0-r5 (our recipe)",
  "affected": [
   {
    "package": {
@@ -14,9 +14,9 @@
     "purl": "pkg:apk/cleanstart/busybox?repository_url=https://storage.googleapis.com/cleanstart-emulation-public/clnpkgs/triam"
    },
    "database_specific": {
-    "status": "affected",
-    "derivation": "shipped 1.38.0-r4 < fixed 1.38.0-r5 (our recipe)",
-    "shipped_version": "1.38.0-r4",
+    "status": "fixed",
+    "derivation": "shipped 1.38.0-r5 >= fixed 1.38.0-r5 (our recipe)",
+    "shipped_version": "1.38.0-r5",
     "severity": "HIGH",
     "source": "recipe",
     "component_location": {
@@ -25,17 +25,65 @@
      ],
      "source": "grype artifact.locations[].path"
     },
-    "upstream_fixed_in": "1.38.0-r5",
-    "remediation": "rebuild busybox at 1.38.0-r5 or later",
     "provenance": {
      "determined_by": "scan",
      "generated_via": "scan",
      "index_sha256": null,
-     "is_public_surface": null,
+     "is_public_surface": true,
      "unsupplied": {
-      "index_sha256": "not supplied: no row for busybox@1.38.0-r4 in the index observations",
-      "is_public_surface": "not supplied: no row for busybox@1.38.0-r4 in the index observations"
-     }
+      "index_sha256": "per-run: the sha256 of the index snapshot this run read is in the run provenance (provenance/<run>.json index.objects, keyed by index_uri)"
+     },
+     "index_observations": [
+      {
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
+       "arch": "aarch64",
+       "packages": [
+        "busybox",
+        "busybox-binsh",
+        "busybox-doc",
+        "busybox-extras",
+        "busybox-extras-openrc",
+        "busybox-ifupdown",
+        "busybox-mdev-openrc",
+        "busybox-openrc",
+        "busybox-static",
+        "busybox-suid",
+        "ssl_client"
+       ]
+      },
+      {
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
+       "arch": "noarch",
+       "packages": [
+        "busybox-binsh",
+        "busybox-doc",
+        "busybox-extras-openrc",
+        "busybox-ifupdown",
+        "busybox-mdev-openrc",
+        "busybox-openrc"
+       ]
+      },
+      {
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
+       "arch": "x86_64",
+       "packages": [
+        "busybox",
+        "busybox-binsh",
+        "busybox-doc",
+        "busybox-extras",
+        "busybox-extras-openrc",
+        "busybox-ifupdown",
+        "busybox-mdev-openrc",
+        "busybox-openrc",
+        "busybox-static",
+        "busybox-suid",
+        "ssl_client"
+       ]
+      }
+     ]
     },
     "cleanstart": {
      "applies_to_subpackages": true
@@ -53,6 +101,9 @@
      "events": [
       {
        "introduced": "0"
+      },
+      {
+       "fixed": "1.38.0-r5"
       }
      ]
     }
@@ -60,28 +111,29 @@
    "ecosystem_specific": {
     "components": [
      {
-      "latest_event_status": "true_positive_determination",
-      "latest_event_timestamp": "2026-11-10T17:36:34Z",
+      "latest_event_status": "fixed",
+      "latest_event_timestamp": "2026-11-10T17:49:11Z",
       "component_name": "busybox",
-      "component_version": "1.38.0-r4",
+      "component_version": "1.38.0-r5",
       "component_type": "apk",
       "component_location": "/lib/apk/db/installed",
       "component_purl": "pkg:apk/busybox"
      }
-    ]
+    ],
+    "origin": "busybox"
    }
   }
  ],
  "database_specific": {
-  "cleanstart_status": "affected",
+  "cleanstart_status": "fixed",
   "generated_by": "advisory-gen.py",
   "generated_via": "scan",
   "aliased_from": [
    "CLEANSTART-2026-DA93784"
   ],
-  "triage": "STILL_AFFECTED_FIX_NOT_SHIPPED",
-  "triage_code": "TRIAGE-0004",
-  "evaluated_at": "2026-11-10T17:36:34Z",
+  "triage": "FIXED_BY_OUR_PATCH",
+  "triage_code": "TRIAGE-0002",
+  "evaluated_at": "2026-11-10T17:49:11Z",
   "events": [
    {
     "timestamp": "2026-11-05T18:23:56Z",
@@ -106,6 +158,10 @@
    {
     "timestamp": "2026-11-10T17:36:34Z",
     "type": "true-positive-determination"
+   },
+   {
+    "timestamp": "2026-11-10T17:49:11Z",
+    "type": "fixed"
    }
   ],
   "severity_scorers": [
@@ -122,7 +178,7 @@
   ]
  },
  "published": "2026-11-05T18:23:56Z",
- "modified": "2026-11-10T17:36:34Z",
+ "modified": "2026-11-10T18:09:11Z",
  "references": [
   {
    "type": "ADVISORY",

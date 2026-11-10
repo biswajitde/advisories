@@ -5,7 +5,7 @@
   "CVE-2022-28391"
  ],
  "summary": "Security fix for CVE-2022-28391 applied in: busybox 1.35.0-r7",
- "details": "shipped 1.38.0-r4 >= fixed 1.35.0-r7 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+ "details": "shipped 1.38.0-r5 >= fixed 1.35.0-r7 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
  "affected": [
   {
    "package": {
@@ -28,8 +28,8 @@
    ],
    "database_specific": {
     "status": "fixed",
-    "derivation": "shipped 1.38.0-r4 >= fixed 1.35.0-r7 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
-    "shipped_version": "1.38.0-r4",
+    "derivation": "shipped 1.38.0-r5 >= fixed 1.35.0-r7 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+    "shipped_version": "1.38.0-r5",
     "severity": null,
     "source": "recipe",
     "component_location": {
@@ -41,11 +41,61 @@
      "determined_by": "secfixes",
      "generated_via": "secfixes-carry",
      "index_sha256": null,
-     "is_public_surface": null,
+     "is_public_surface": true,
      "unsupplied": {
-      "index_sha256": "not supplied: no row for busybox@1.38.0-r4 in the index observations",
-      "is_public_surface": "not supplied: no row for busybox@1.38.0-r4 in the index observations"
-     }
+      "index_sha256": "per-run: the sha256 of the index snapshot this run read is in the run provenance (provenance/<run>.json index.objects, keyed by index_uri)"
+     },
+     "index_observations": [
+      {
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz",
+       "arch": "aarch64",
+       "packages": [
+        "busybox",
+        "busybox-binsh",
+        "busybox-doc",
+        "busybox-extras",
+        "busybox-extras-openrc",
+        "busybox-ifupdown",
+        "busybox-mdev-openrc",
+        "busybox-openrc",
+        "busybox-static",
+        "busybox-suid",
+        "ssl_client"
+       ]
+      },
+      {
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz",
+       "arch": "noarch",
+       "packages": [
+        "busybox-binsh",
+        "busybox-doc",
+        "busybox-extras-openrc",
+        "busybox-ifupdown",
+        "busybox-mdev-openrc",
+        "busybox-openrc"
+       ]
+      },
+      {
+       "is_public_surface": true,
+       "index_uri": "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz",
+       "arch": "x86_64",
+       "packages": [
+        "busybox",
+        "busybox-binsh",
+        "busybox-doc",
+        "busybox-extras",
+        "busybox-extras-openrc",
+        "busybox-ifupdown",
+        "busybox-mdev-openrc",
+        "busybox-openrc",
+        "busybox-static",
+        "busybox-suid",
+        "ssl_client"
+       ]
+      }
+     ]
     },
     "cleanstart": {
      "applies_to_subpackages": true
@@ -63,12 +113,13 @@
       "latest_event_status": "fixed",
       "latest_event_timestamp": "2026-11-05T13:40:25Z",
       "component_name": "busybox",
-      "component_version": "1.38.0-r4",
+      "component_version": "1.38.0-r5",
       "component_type": "apk",
       "component_location": "",
       "component_purl": "pkg:apk/busybox"
      }
-    ]
+    ],
+    "origin": "busybox"
    }
   }
  ],
@@ -87,7 +138,7 @@
   ]
  },
  "published": "2026-11-05T13:40:25Z",
- "modified": "2026-11-10T17:36:34Z",
+ "modified": "2026-11-10T17:47:50Z",
  "references": [
   {
    "type": "ADVISORY",

@@ -2,10 +2,157 @@
  "@context": "https://openvex.dev/ns/v0.2.0",
  "@id": "https://github.com/biswajitde/advisories/blob/main/vex/latest-arm64.openvex.json",
  "author": "CleanStart ADVISORY emulation pipeline",
- "timestamp": "2026-11-10T17:17:36Z",
+ "timestamp": "2026-11-10T18:09:16Z",
  "version": 1,
  "customer_context": "Internet reachability, likely exploitability and the PAIN N-rating are customer context, not asserted.",
  "statements": [
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38754",
+    "aliases": [
+     "CLEANSTART-2026-CH93892"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "upstream_fix=1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CH93892",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T18:09:11Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T17:49:11Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00235,
+     "percentile": 0.14593,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   }
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38755",
+    "aliases": [
+     "CLEANSTART-2026-DA93784"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "upstream_fix=1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-DA93784",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T18:09:11Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T17:49:11Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00207,
+     "percentile": 0.10877,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   }
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38753",
+    "aliases": [
+     "CLEANSTART-2026-SX43215"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "upstream_fix=1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-SX43215",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T18:09:11Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T17:49:11Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00145,
+     "percentile": 0.03821,
+     "score_date": "2026-11-10"
+    },
+    "as_of": "2026-11-10T01:47:11Z",
+    "note": "point in time; re-issued when it changes"
+   }
+  },
   {
    "vulnerability": {
     "name": "CVE-2026-85091",
@@ -15,7 +162,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
@@ -34,9 +181,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -65,7 +212,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -83,9 +230,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -114,7 +261,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -132,9 +279,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -163,7 +310,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -181,9 +328,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -212,7 +359,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -230,9 +377,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -261,7 +408,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -279,9 +426,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -310,7 +457,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -328,9 +475,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -359,7 +506,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -377,9 +524,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -408,7 +555,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -426,9 +573,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -457,7 +604,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -475,9 +622,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -506,7 +653,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -524,9 +671,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -555,7 +702,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -573,9 +720,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -604,7 +751,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -622,9 +769,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -653,7 +800,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -671,9 +818,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -702,7 +849,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -720,9 +867,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -751,7 +898,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -769,9 +916,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -800,7 +947,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -818,9 +965,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -849,7 +996,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -867,9 +1014,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -898,7 +1045,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -916,9 +1063,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -947,7 +1094,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -965,9 +1112,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -996,7 +1143,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1014,9 +1161,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1045,7 +1192,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1063,9 +1210,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1094,7 +1241,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1112,9 +1259,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1143,7 +1290,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1161,9 +1308,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1192,7 +1339,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1210,9 +1357,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1241,7 +1388,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1259,9 +1406,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1290,7 +1437,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1308,9 +1455,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1339,7 +1486,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1357,9 +1504,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1388,7 +1535,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1406,9 +1553,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1430,153 +1577,6 @@
   },
   {
    "vulnerability": {
-    "name": "CVE-2026-38753",
-    "aliases": [
-     "CLEANSTART-2026-SX43215"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "fixed in 1.38.0-r5; shipped 1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-SX43215",
-   "first_detected": "2026-11-05T18:23:56Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
-    "via": "secfixes-carry"
-   },
-   "evaluated_at": "2026-11-10T16:16:50Z",
-   "triage_code": "FIXED_BY_OUR_PATCH",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.38.0-r5"
-   },
-   "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
-    "epss": {
-     "score": 0.00145,
-     "percentile": 0.03821,
-     "score_date": "2026-11-10"
-    },
-    "as_of": "2026-11-10T01:47:11Z",
-    "note": "point in time; re-issued when it changes"
-   }
-  },
-  {
-   "vulnerability": {
-    "name": "CVE-2026-38754",
-    "aliases": [
-     "CLEANSTART-2026-CH93892"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "fixed in 1.38.0-r5; shipped 1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CH93892",
-   "first_detected": "2026-11-05T18:23:56Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
-    "via": "secfixes-carry"
-   },
-   "evaluated_at": "2026-11-10T16:16:50Z",
-   "triage_code": "FIXED_BY_OUR_PATCH",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.38.0-r5"
-   },
-   "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
-    "epss": {
-     "score": 0.00235,
-     "percentile": 0.14593,
-     "score_date": "2026-11-10"
-    },
-    "as_of": "2026-11-10T01:47:11Z",
-    "note": "point in time; re-issued when it changes"
-   }
-  },
-  {
-   "vulnerability": {
-    "name": "CVE-2026-38755",
-    "aliases": [
-     "CLEANSTART-2026-DA93784"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "fixed in 1.38.0-r5; shipped 1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-DA93784",
-   "first_detected": "2026-11-05T18:23:56Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
-    "via": "secfixes-carry"
-   },
-   "evaluated_at": "2026-11-10T16:16:50Z",
-   "triage_code": "FIXED_BY_OUR_PATCH",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.38.0-r5"
-   },
-   "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
-    "epss": {
-     "score": 0.00207,
-     "percentile": 0.10877,
-     "score_date": "2026-11-10"
-    },
-    "as_of": "2026-11-10T01:47:11Z",
-    "note": "point in time; re-issued when it changes"
-   }
-  },
-  {
-   "vulnerability": {
     "name": "CVE-2019-5021",
     "aliases": [
      "CLEANSTART-2026-SZ80622"
@@ -1584,7 +1584,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/cleanstart-baselayout@3.6.5-r3",
@@ -1608,9 +1608,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1639,7 +1639,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
@@ -1657,9 +1657,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1688,7 +1688,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
@@ -1706,9 +1706,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1737,7 +1737,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:e5390b506c4b9ff6cddda13c881531c2700c6cf17efb3a3bec19cd69cc5f5256",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
@@ -1755,9 +1755,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T16:45:22Z",
+    "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T17:17:29Z",
+    "scan_time": "2026-11-10T18:09:11Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-10T04:00:10Z",

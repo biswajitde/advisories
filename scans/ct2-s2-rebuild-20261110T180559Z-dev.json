@@ -1,0 +1,57 @@
+{
+ "built_from": {
+  "image-ref.txt": "4c24f71ad5ca215525ead45a1d0a985cabf84ee765e39bb410569e7e1ecab61b",
+  "run-metadata.json": "8d4b4cd7837dfd3bc9a08fc43903ea0b65805602087db46b6c1fc01bf8c962ff",
+  "sbom.syft.json": "3a1f83698771ceda4044e34528ce86b44434b586e001eb5b90adbb2c0f4aff76",
+  "scanner_outputs/grype.json": "433ff5b64b3dd363dd3b196358aa516952589ece869de83a8bbafdb5d0713e40"
+ },
+ "db": {
+  "built": "2026-11-10T17:40:12Z",
+  "location": "gs://clnstrt-emulation-materials/grype-db/vulnerability-db_v6.1.9_2026-11-09T18:58:18Z_1794332412.tar.zst",
+  "schema": "v6.1.9",
+  "sha256": "sha256:d57eefd082101dd9be3f7a089fd3f06a0fca80342ed25a2699cfc9ec85bec99f"
+ },
+ "findings": [
+  {
+   "fixed_version": "Not Fixed",
+   "id": "CLEANSTART-2026-CH93892",
+   "installed_version": "1.38.0-r5",
+   "package": "busybox"
+  },
+  {
+   "fixed_version": "Not Fixed",
+   "id": "CLEANSTART-2026-DA93784",
+   "installed_version": "1.38.0-r5",
+   "package": "busybox"
+  },
+  {
+   "fixed_version": "Not Fixed",
+   "id": "CLEANSTART-2026-LM00136",
+   "installed_version": "1.3.2-r4",
+   "package": "zlib"
+  },
+  {
+   "fixed_version": "Not Fixed",
+   "id": "CLEANSTART-2026-SX43215",
+   "installed_version": "1.38.0-r5",
+   "package": "busybox"
+  }
+ ],
+ "record": "scan-record/v1",
+ "release": "r20261110163548-b383f3a1",
+ "run_id": "ct2-s2-rebuild-20261110T180559Z-dev",
+ "sbom_sha256": "sha256:62bed677c4419768c6fff9ae6f1eb8b9a38b8c53625aec2564d2269732722cdf",
+ "scan_status": "ok",
+ "scan_status_detail": "grype.json status='ok'",
+ "scanner": {
+  "binary_sha256": "sha256:d55ee2e71f9d66674a37f2afd3fcce87f3ad033730dc2f6d0fdf9c89b70b70e7",
+  "name": "grype",
+  "version": "cleanstart-bcb7f7176651"
+ },
+ "stream": {
+  "platform": "linux/amd64",
+  "repo": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild",
+  "variant": "dev"
+ },
+ "subject_digest": "sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4"
+}

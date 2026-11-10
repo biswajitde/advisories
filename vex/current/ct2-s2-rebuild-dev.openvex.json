@@ -2,8 +2,8 @@
  "@context": "https://openvex.dev/ns/v0.2.0",
  "@id": "https://github.com/biswajitde/advisories/blob/main/vex/current/ct2-s2-rebuild-dev.openvex.json",
  "author": "CleanStart ADVISORY emulation pipeline",
- "timestamp": "2026-11-10T16:37:15Z",
- "version": 7,
+ "timestamp": "2026-11-10T18:09:51Z",
+ "version": 9,
  "customer_context": "Internet reachability, likely exploitability and the PAIN N-rating are customer context, not asserted.",
  "exploitation_source": {
   "epss": {
@@ -18,6 +18,159 @@
  "statements": [
   {
    "vulnerability": {
+    "name": "CVE-2026-38754",
+    "aliases": [
+     "CLEANSTART-2026-CH93892"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "upstream_fix=1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CH93892",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T18:09:44Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T17:49:11Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00235,
+     "percentile": 0.14558,
+     "score_date": "2026-11-09"
+    },
+    "as_of": "2026-11-09T19:04:17Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T18:09:51Z",
+   "last_updated": "2026-11-10T18:09:51Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38755",
+    "aliases": [
+     "CLEANSTART-2026-DA93784"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "upstream_fix=1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-DA93784",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T18:09:44Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T17:49:11Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00207,
+     "percentile": 0.10857,
+     "score_date": "2026-11-09"
+    },
+    "as_of": "2026-11-09T19:04:17Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T18:09:51Z",
+   "last_updated": "2026-11-10T18:09:51Z"
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2026-38753",
+    "aliases": [
+     "CLEANSTART-2026-SX43215"
+    ]
+   },
+   "products": [
+    {
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
+     "subcomponents": [
+      {
+       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
+       "identifiers": {
+        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
+       }
+      }
+     ]
+    }
+   ],
+   "status": "fixed",
+   "status_notes": "upstream_fix=1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-SX43215",
+   "first_detected": "2026-11-05T18:23:56Z",
+   "detection_source": {
+    "scanner": "grype",
+    "scanner_version": "cleanstart-bcb7f7176651",
+    "db_built": "2026-11-10T17:40:12Z",
+    "db_schema": "v6.1.9",
+    "scan_time": "2026-11-10T18:09:44Z",
+    "via": "scan"
+   },
+   "evaluated_at": "2026-11-10T17:49:11Z",
+   "triage_code": "FIXED_BY_OUR_PATCH",
+   "disposition": {
+    "status": "fixed",
+    "fixed_version": "1.38.0-r5"
+   },
+   "exploitation": {
+    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "epss": {
+     "score": 0.00145,
+     "percentile": 0.03805,
+     "score_date": "2026-11-09"
+    },
+    "as_of": "2026-11-09T19:04:17Z",
+    "note": "point in time; re-issued when it changes"
+   },
+   "timestamp": "2026-11-10T18:09:51Z",
+   "last_updated": "2026-11-10T18:09:51Z"
+  },
+  {
+   "vulnerability": {
     "name": "CVE-2026-85091",
     "aliases": [
      "CLEANSTART-2026-LM00136"
@@ -25,7 +178,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
@@ -44,9 +197,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -65,8 +218,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -77,7 +230,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -95,9 +248,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -116,8 +269,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -128,7 +281,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -146,9 +299,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -167,8 +320,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -179,7 +332,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -197,9 +350,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -218,8 +371,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -230,7 +383,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -248,9 +401,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -269,8 +422,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -281,7 +434,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -299,9 +452,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -320,8 +473,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -332,7 +485,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -350,9 +503,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -371,8 +524,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -383,7 +536,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -401,9 +554,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -422,8 +575,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -434,7 +587,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -452,9 +605,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -473,8 +626,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -485,7 +638,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -503,9 +656,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -524,8 +677,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -536,7 +689,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -554,9 +707,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -575,8 +728,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -587,7 +740,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -605,9 +758,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -626,8 +779,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -638,7 +791,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -656,9 +809,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -677,8 +830,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -689,7 +842,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -707,9 +860,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -728,8 +881,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -740,7 +893,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -758,9 +911,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -779,8 +932,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -791,7 +944,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -809,9 +962,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -830,8 +983,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -842,7 +995,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -860,9 +1013,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -881,8 +1034,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -893,7 +1046,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -911,9 +1064,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -932,8 +1085,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -944,7 +1097,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -962,9 +1115,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -983,8 +1136,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -995,7 +1148,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1013,9 +1166,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1034,8 +1187,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -1046,7 +1199,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1064,9 +1217,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1085,8 +1238,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -1097,7 +1250,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1115,9 +1268,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1136,8 +1289,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -1148,7 +1301,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1166,9 +1319,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1187,8 +1340,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -1199,7 +1352,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1217,9 +1370,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1238,8 +1391,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -1250,7 +1403,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1268,9 +1421,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1289,8 +1442,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -1301,7 +1454,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1319,9 +1472,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1340,8 +1493,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -1352,7 +1505,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1370,9 +1523,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1391,8 +1544,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -1403,7 +1556,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1421,9 +1574,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1442,8 +1595,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -1454,7 +1607,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
@@ -1472,9 +1625,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1493,161 +1646,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
-  },
-  {
-   "vulnerability": {
-    "name": "CVE-2026-38753",
-    "aliases": [
-     "CLEANSTART-2026-SX43215"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "fixed in 1.38.0-r5; shipped 1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-SX43215",
-   "first_detected": "2026-11-05T18:23:56Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T13:18:16Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T16:37:08Z",
-    "via": "secfixes-carry"
-   },
-   "evaluated_at": "2026-11-10T16:16:50Z",
-   "triage_code": "FIXED_BY_OUR_PATCH",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.38.0-r5"
-   },
-   "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
-    "epss": {
-     "score": 0.00145,
-     "percentile": 0.03805,
-     "score_date": "2026-11-09"
-    },
-    "as_of": "2026-11-09T19:04:17Z",
-    "note": "point in time; re-issued when it changes"
-   },
-   "timestamp": "2026-11-10T16:37:15Z",
-   "last_updated": "2026-11-10T16:37:15Z"
-  },
-  {
-   "vulnerability": {
-    "name": "CVE-2026-38754",
-    "aliases": [
-     "CLEANSTART-2026-CH93892"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "fixed in 1.38.0-r5; shipped 1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-CH93892",
-   "first_detected": "2026-11-05T18:23:56Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T13:18:16Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T16:37:08Z",
-    "via": "secfixes-carry"
-   },
-   "evaluated_at": "2026-11-10T16:16:50Z",
-   "triage_code": "FIXED_BY_OUR_PATCH",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.38.0-r5"
-   },
-   "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
-    "epss": {
-     "score": 0.00235,
-     "percentile": 0.14558,
-     "score_date": "2026-11-09"
-    },
-    "as_of": "2026-11-09T19:04:17Z",
-    "note": "point in time; re-issued when it changes"
-   },
-   "timestamp": "2026-11-10T16:37:15Z",
-   "last_updated": "2026-11-10T16:37:15Z"
-  },
-  {
-   "vulnerability": {
-    "name": "CVE-2026-38755",
-    "aliases": [
-     "CLEANSTART-2026-DA93784"
-    ]
-   },
-   "products": [
-    {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
-     "subcomponents": [
-      {
-       "@id": "pkg:apk/cleanstart/busybox@1.38.0-r5",
-       "identifiers": {
-        "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
-       }
-      }
-     ]
-    }
-   ],
-   "status": "fixed",
-   "status_notes": "fixed in 1.38.0-r5; shipped 1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
-   "@id": "https://cleanstart.com/vex/statement/CLEANSTART-2026-DA93784",
-   "first_detected": "2026-11-05T18:23:56Z",
-   "detection_source": {
-    "scanner": "grype",
-    "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T13:18:16Z",
-    "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T16:37:08Z",
-    "via": "secfixes-carry"
-   },
-   "evaluated_at": "2026-11-10T16:16:50Z",
-   "triage_code": "FIXED_BY_OUR_PATCH",
-   "disposition": {
-    "status": "fixed",
-    "fixed_version": "1.38.0-r5"
-   },
-   "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
-    "epss": {
-     "score": 0.00207,
-     "percentile": 0.10857,
-     "score_date": "2026-11-09"
-    },
-    "as_of": "2026-11-09T19:04:17Z",
-    "note": "point in time; re-issued when it changes"
-   },
-   "timestamp": "2026-11-10T16:37:15Z",
-   "last_updated": "2026-11-10T16:37:15Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -1658,7 +1658,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/cleanstart-baselayout@3.6.5-r3",
@@ -1682,9 +1682,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1703,8 +1703,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -1715,7 +1715,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
@@ -1733,9 +1733,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1754,8 +1754,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -1766,7 +1766,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
@@ -1784,9 +1784,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1805,8 +1805,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   },
   {
    "vulnerability": {
@@ -1817,7 +1817,7 @@
    },
    "products": [
     {
-     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:0a6c0a975f422adcdb1de8d2c30542020a98ac617bf31df5a9bf815ecd900672",
+     "@id": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
      "subcomponents": [
       {
        "@id": "pkg:apk/cleanstart/zlib@1.3.2-r4",
@@ -1835,9 +1835,9 @@
    "detection_source": {
     "scanner": "grype",
     "scanner_version": "cleanstart-bcb7f7176651",
-    "db_built": "2026-11-10T06:16:19Z",
+    "db_built": "2026-11-10T16:45:22Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T07:03:31Z",
+    "scan_time": "2026-11-10T17:48:06Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-10T04:00:10Z",
@@ -1856,8 +1856,8 @@
     "as_of": "2026-11-09T19:04:17Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T07:03:39Z",
-   "last_updated": "2026-11-10T07:03:39Z"
+   "timestamp": "2026-11-10T17:48:11Z",
+   "last_updated": "2026-11-10T17:48:11Z"
   }
  ]
 }
