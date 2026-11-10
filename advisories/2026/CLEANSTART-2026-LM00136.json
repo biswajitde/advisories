@@ -20,9 +20,10 @@
     "severity": "HIGH",
     "source": "upstream-range",
     "component_location": {
-     "paths": [],
-     "source": null,
-     "reason": "the scan carried no locations for this finding"
+     "paths": [
+      "/lib/apk/db/installed"
+     ],
+     "source": "grype artifact.locations[].path"
     },
     "provenance": {
      "determined_by": "scan",
@@ -93,7 +94,7 @@
       "component_name": "zlib",
       "component_version": "1.3.2-r4",
       "component_type": "apk",
-      "component_location": "",
+      "component_location": "/lib/apk/db/installed",
       "component_purl": "pkg:apk/zlib"
      }
     ],
@@ -135,7 +136,7 @@
   ]
  },
  "published": "2026-11-05T18:23:56Z",
- "modified": "2026-11-09T19:26:01Z",
+ "modified": "2026-11-10T11:13:00Z",
  "references": [
   {
    "type": "ADVISORY",
