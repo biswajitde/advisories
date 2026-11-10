@@ -1,6 +1,6 @@
 {
  "component_location_source": "grype artifact.locations[].path",
- "determined_at": "2026-11-09T21:52:24Z",
+ "determined_at": "2026-11-10T02:57:40Z",
  "index": {
   "objects": {
    "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz": [
@@ -40,11 +40,8 @@
   "CLEANSTART-2026-AK20429",
   "CLEANSTART-2026-AU29709",
   "CLEANSTART-2026-BW88632",
-  "CLEANSTART-2026-CH93892",
   "CLEANSTART-2026-CV10347",
-  "CLEANSTART-2026-DA93784",
   "CLEANSTART-2026-ET96856",
-  "CLEANSTART-2026-FI72020",
   "CLEANSTART-2026-GB80544",
   "CLEANSTART-2026-GI74229",
   "CLEANSTART-2026-GK55859",
@@ -53,7 +50,6 @@
   "CLEANSTART-2026-HT01001",
   "CLEANSTART-2026-KF32567",
   "CLEANSTART-2026-KL87781",
-  "CLEANSTART-2026-LM00136",
   "CLEANSTART-2026-MG43567",
   "CLEANSTART-2026-NY90315",
   "CLEANSTART-2026-OU02245",
@@ -61,7 +57,6 @@
   "CLEANSTART-2026-PS71092",
   "CLEANSTART-2026-QU27098",
   "CLEANSTART-2026-QX41317",
-  "CLEANSTART-2026-SX43215",
   "CLEANSTART-2026-SZ80622",
   "CLEANSTART-2026-UW04086",
   "CLEANSTART-2026-VB50061",
@@ -76,17 +71,13 @@
  "schema": "cleanstart-run-provenance/1",
  "triage": {
   "counts": {
-   "FIXED_BY_OUR_PATCH": 30,
-   "REFUSED_RECIPE_ABSENT": 1,
-   "STILL_AFFECTED_NO_FIX": 4
+   "FIXED_BY_OUR_PATCH": 30
   },
-  "evaluation_overdue": [
-   "CLEANSTART-2026-FI72020"
-  ],
+  "evaluation_overdue": [],
   "upstream_ranges": {
    "blobs_unparsed": 0,
-   "cves_asked": 5,
-   "cves_with_rows": 5,
+   "cves_asked": 0,
+   "cves_with_rows": 0,
    "db_built": "2026-11-09T21:23:38Z",
    "provider": "nvd",
    "sha256": "sha256:54278e27c13b7b91c08261680dcaf8a484750927293fc404e4d981f3c533166b",

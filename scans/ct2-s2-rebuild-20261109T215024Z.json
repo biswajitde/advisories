@@ -1,0 +1,63 @@
+{
+ "built_from": {
+  "image-ref.txt": "d3fd37f84b32efa95a29da6e66dbd5c22bd5eedfd5766c6c9caa697eb9cf503c",
+  "run-metadata.json": "067f63e34ea6e9a14453d88e54aa9918a1e75258c4aa0e4222dc685650f14188",
+  "sbom.syft.json": "1f495283276e5a80408d3729cfae19992427d02263833290c4f84c23c0e0b520",
+  "scanner_outputs/grype.json": "a767384be047c04c28a10451566d0eeca131e7abe47cff5d826674d83938db89"
+ },
+ "db": {
+  "built": "2026-11-09T21:23:38Z",
+  "location": "gs://clnstrt-emulation-materials/grype-db/vulnerability-db_v6.1.9_2026-11-09T21:03:19Z_1794259418.tar.zst",
+  "schema": "v6.1.9",
+  "sha256": "sha256:a0103b9b67c0ce72830260c61f483729b9fcd6a2d7121416ba729cabf2211c56"
+ },
+ "findings": [
+  {
+   "fixed_version": "Not Fixed",
+   "id": "CLEANSTART-2026-CH93892",
+   "installed_version": "1.38.0-r4",
+   "package": "busybox"
+  },
+  {
+   "fixed_version": "Not Fixed",
+   "id": "CLEANSTART-2026-DA93784",
+   "installed_version": "1.38.0-r4",
+   "package": "busybox"
+  },
+  {
+   "fixed_version": "Not Fixed",
+   "id": "CLEANSTART-2026-FI72020",
+   "installed_version": "1.3.2-r4",
+   "package": "zlib"
+  },
+  {
+   "fixed_version": "Not Fixed",
+   "id": "CLEANSTART-2026-LM00136",
+   "installed_version": "1.3.2-r4",
+   "package": "zlib"
+  },
+  {
+   "fixed_version": "Not Fixed",
+   "id": "CLEANSTART-2026-SX43215",
+   "installed_version": "1.38.0-r4",
+   "package": "busybox"
+  }
+ ],
+ "record": "scan-record/v1",
+ "release": "r20261109180539-fecd85c3",
+ "run_id": "ct2-s2-rebuild-20261109T215024Z",
+ "sbom_sha256": "sha256:08e0d80e128665970a82b61c37c0d30480fe58ef094ce981aa72eb91c5a2688d",
+ "scan_status": "ok",
+ "scan_status_detail": "grype.json status='ok'",
+ "scanner": {
+  "binary_sha256": "sha256:d55ee2e71f9d66674a37f2afd3fcce87f3ad033730dc2f6d0fdf9c89b70b70e7",
+  "name": "grype",
+  "version": "cleanstart-bcb7f7176651"
+ },
+ "stream": {
+  "platform": "linux/amd64",
+  "repo": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild",
+  "variant": "prod"
+ },
+ "subject_digest": "sha256:0f838417e582e68d38a347a96f5250ea801ea71b9929c33211d9c5902d990224"
+}
