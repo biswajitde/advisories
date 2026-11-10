@@ -1,0 +1,158 @@
+{
+ "schema_version": "1.9.2",
+ "id": "CLEANSTART-2026-AR52728",
+ "upstream": [
+  "GHSA-599f-7c49-w659"
+ ],
+ "summary": "GHSA-599f-7c49-w659 in a dependency vendored into ct1-fixture-vendored-jar \u2014 CleanStart position: under_investigation",
+ "details": "GHSA-599f-7c49-w659 is reported against commons-text 1.9, vendored inside the ct1-fixture-vendored-jar package we ship. Keyed on ct1-fixture-vendored-jar because that is the package a consumer can act on -- commons-text is not a package we ship independently.",
+ "affected": [
+  {
+   "package": {
+    "name": "ct1-fixture-vendored-jar",
+    "ecosystem": "CleanStart",
+    "purl": "pkg:apk/cleanstart/ct1-fixture-vendored-jar?repository_url=https://storage.googleapis.com/cleanstart-emulation-public/clnpkgs/triam"
+   },
+   "ranges": [
+    {
+     "type": "ECOSYSTEM",
+     "events": [
+      {
+       "introduced": "0"
+      }
+     ]
+    }
+   ],
+   "database_specific": {
+    "status": "under_investigation",
+    "derivation": "language-layer finding, keyed on its shipping apk origin (ADV-465 Part B), never on the vendored module",
+    "shipped_version": "1.9",
+    "vendored_component": "commons-text 1.9",
+    "source": "language-layer",
+    "component_location": {
+     "paths": [
+      "/usr/share/java/ct1-fixture-vendored-jar/commons-text-1.9.jar"
+     ],
+     "source": "grype artifact.locations[].path"
+    },
+    "provenance": {
+     "determined_by": "scan",
+     "generated_via": "language-layer",
+     "index_sha256": null,
+     "is_public_surface": null,
+     "unsupplied": {
+      "index_sha256": "not supplied: no row for ct1-fixture-vendored-jar@1.9 in the index observations",
+      "is_public_surface": "not supplied: no row for ct1-fixture-vendored-jar@1.9 in the index observations"
+     }
+    },
+    "cleanstart": {
+     "applies_to_subpackages": true
+    },
+    "scan_completeness": {
+     "state": "COMPLETE",
+     "basis": "complete=true",
+     "skipped": null,
+     "accepted_by": null
+    }
+   },
+   "ecosystem_specific": {
+    "components": [
+     {
+      "latest_event_status": "detection",
+      "latest_event_timestamp": "2026-11-10T16:11:24Z",
+      "component_name": "ct1-fixture-vendored-jar",
+      "component_version": "1.9",
+      "component_type": "apk",
+      "component_location": "/usr/share/java/ct1-fixture-vendored-jar/commons-text-1.9.jar",
+      "component_purl": "pkg:apk/ct1-fixture-vendored-jar"
+     }
+    ]
+   }
+  },
+  {
+   "package": {
+    "name": "org.apache.commons:commons-text",
+    "ecosystem": "Maven",
+    "purl": "pkg:maven/org.apache.commons/commons-text"
+   },
+   "ranges": [
+    {
+     "type": "ECOSYSTEM",
+     "events": [
+      {
+       "introduced": "0"
+      },
+      {
+       "fixed": "1.10.0"
+      }
+     ]
+    }
+   ],
+   "database_specific": {
+    "status": "under_investigation",
+    "derivation": "ADV-723 companion entry: the VENDORED component in its own ecosystem. The record remains keyed on the apk owner (ADV-465 Part B); this entry exists so a scanner matching the bundled component can resolve the same advisory.",
+    "shipped_version": "1.9",
+    "vendored_inside": "ct1-fixture-vendored-jar",
+    "source": "language-layer-companion",
+    "range_source": "scanner fix version 1.10.0",
+    "provenance": {
+     "determined_by": "scan",
+     "generated_via": "language-layer",
+     "index_sha256": null,
+     "is_public_surface": null,
+     "unsupplied": {
+      "index_sha256": "not supplied: the generator receives secfixes, not the APKINDEX the determination was made against; the caller must pass it",
+      "is_public_surface": "not supplied: a property of the IMAGE (is it published?), which the generator never sees"
+     }
+    },
+    "scan_completeness": {
+     "state": "COMPLETE",
+     "basis": "complete=true",
+     "skipped": null,
+     "accepted_by": null
+    }
+   },
+   "ecosystem_specific": {
+    "components": [
+     {
+      "latest_event_status": "detection",
+      "latest_event_timestamp": "2026-11-10T16:11:24Z",
+      "component_name": "org.apache.commons:commons-text",
+      "component_version": "1.9",
+      "component_type": "maven",
+      "component_location": "",
+      "component_purl": "pkg:maven/org.apache.commons/commons-text"
+     }
+    ]
+   }
+  }
+ ],
+ "database_specific": {
+  "cleanstart_status": "under_investigation",
+  "generated_by": "advisory-gen.py",
+  "generated_via": "language-layer",
+  "triage": "REFUSED_RANGE_ABSENT",
+  "triage_code": "TRIAGE-0010",
+  "evaluated_at": "2026-11-10T16:11:24Z",
+  "events": [
+   {
+    "timestamp": "2026-11-10T16:11:24Z",
+    "type": "detection"
+   }
+  ]
+ },
+ "modified": "2026-11-10T16:11:24Z",
+ "published": "2026-11-10T16:11:24Z",
+ "references": [
+  {
+   "type": "ADVISORY",
+   "url": "https://github.com/biswajitde/advisories/tree/main/advisories/2026/CLEANSTART-2026-AR52728.json"
+  },
+  {
+   "type": "WEB",
+   "url": "https://osv.dev/vulnerability/GHSA-599f-7c49-w659"
+  }
+ ],
+ "related": [],
+ "credits": []
+}

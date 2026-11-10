@@ -1,0 +1,84 @@
+{
+ "code": "FINDGRP-0005",
+ "decision": "FINDGRP-0005\tGROUPED: rows=5 problems=5 codes={'FINDGRP-0001': 5}.\tnum:rows=5\tnum:problems=5\tnum:dispositioned=5\tnum:refused=0",
+ "detail": "rows=5 problems=5 codes={'FINDGRP-0001': 5}",
+ "dispositions": [
+  {
+   "code": "FINDGRP-0001",
+   "problem_id": "GHSA-599f-7c49-w659::ct1-fixture-vendored-jar",
+   "reason": "identical file sha256 -> ct1-fixture-vendored-jar",
+   "row": 0
+  },
+  {
+   "code": "FINDGRP-0001",
+   "problem_id": "CLEANSTART-2026-CH93892::busybox",
+   "reason": "APKINDEX origin busybox",
+   "row": 1
+  },
+  {
+   "code": "FINDGRP-0001",
+   "problem_id": "CLEANSTART-2026-DA93784::busybox",
+   "reason": "APKINDEX origin busybox",
+   "row": 2
+  },
+  {
+   "code": "FINDGRP-0001",
+   "problem_id": "CLEANSTART-2026-SX43215::busybox",
+   "reason": "APKINDEX origin busybox",
+   "row": 3
+  },
+  {
+   "code": "FINDGRP-0001",
+   "problem_id": "CLEANSTART-2026-LM00136::zlib",
+   "reason": "APKINDEX origin zlib",
+   "row": 4
+  }
+ ],
+ "name": "GROUPED",
+ "summary": {
+  "codes": {
+   "FINDGRP-0001": 5
+  },
+  "dispositioned": 5,
+  "fan_out": [
+   {
+    "codes": [
+     "FINDGRP-0001"
+    ],
+    "problem_id": "CLEANSTART-2026-CH93892::busybox",
+    "rows": 1
+   },
+   {
+    "codes": [
+     "FINDGRP-0001"
+    ],
+    "problem_id": "CLEANSTART-2026-DA93784::busybox",
+    "rows": 1
+   },
+   {
+    "codes": [
+     "FINDGRP-0001"
+    ],
+    "problem_id": "CLEANSTART-2026-LM00136::zlib",
+    "rows": 1
+   },
+   {
+    "codes": [
+     "FINDGRP-0001"
+    ],
+    "problem_id": "CLEANSTART-2026-SX43215::busybox",
+    "rows": 1
+   },
+   {
+    "codes": [
+     "FINDGRP-0001"
+    ],
+    "problem_id": "GHSA-599f-7c49-w659::ct1-fixture-vendored-jar",
+    "rows": 1
+   }
+  ],
+  "problems": 5,
+  "refused": 0,
+  "rows": 5
+ }
+}

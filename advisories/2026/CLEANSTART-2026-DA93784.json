@@ -111,7 +111,7 @@
     "components": [
      {
       "latest_event_status": "fixed",
-      "latest_event_timestamp": "2026-11-10T07:03:31Z",
+      "latest_event_timestamp": "2026-11-10T16:16:50Z",
       "component_name": "busybox",
       "component_version": "1.38.0-r5",
       "component_type": "apk",
@@ -129,7 +129,7 @@
   "generated_via": "secfixes-carry",
   "triage": "FIXED_BY_OUR_PATCH",
   "triage_code": "TRIAGE-0002",
-  "evaluated_at": "2026-11-10T07:03:31Z",
+  "evaluated_at": "2026-11-10T16:16:50Z",
   "events": [
    {
     "timestamp": "2026-11-05T18:23:56Z",
@@ -142,11 +142,19 @@
    {
     "timestamp": "2026-11-10T07:03:31Z",
     "type": "fixed"
+   },
+   {
+    "timestamp": "2026-11-10T16:11:24Z",
+    "type": "true-positive-determination"
+   },
+   {
+    "timestamp": "2026-11-10T16:16:50Z",
+    "type": "fixed"
    }
   ]
  },
  "published": "2026-11-05T18:23:56Z",
- "modified": "2026-11-10T07:47:13Z",
+ "modified": "2026-11-10T16:16:50Z",
  "references": [
   {
    "type": "ADVISORY",
