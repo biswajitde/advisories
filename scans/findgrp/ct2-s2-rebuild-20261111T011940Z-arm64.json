@@ -1,0 +1,32 @@
+{
+ "code": "FINDGRP-0005",
+ "decision": "FINDGRP-0005\tGROUPED: rows=1 problems=1 codes={'FINDGRP-0001': 1}.\tnum:rows=1\tnum:problems=1\tnum:dispositioned=1\tnum:refused=0",
+ "detail": "rows=1 problems=1 codes={'FINDGRP-0001': 1}",
+ "dispositions": [
+  {
+   "code": "FINDGRP-0001",
+   "problem_id": "CLEANSTART-2026-LM00136::zlib",
+   "reason": "APKINDEX origin zlib",
+   "row": 0
+  }
+ ],
+ "name": "GROUPED",
+ "summary": {
+  "codes": {
+   "FINDGRP-0001": 1
+  },
+  "dispositioned": 1,
+  "fan_out": [
+   {
+    "codes": [
+     "FINDGRP-0001"
+    ],
+    "problem_id": "CLEANSTART-2026-LM00136::zlib",
+    "rows": 1
+   }
+  ],
+  "problems": 1,
+  "refused": 0,
+  "rows": 1
+ }
+}

@@ -2,8 +2,8 @@
  "@context": "https://openvex.dev/ns/v0.2.0",
  "@id": "https://github.com/biswajitde/advisories/blob/main/vex/current/ct2-adv1037-findgrp.openvex.json",
  "author": "CleanStart ADVISORY emulation pipeline",
- "timestamp": "2026-11-10T19:38:34Z",
- "version": 1,
+ "timestamp": "2026-11-11T06:56:30Z",
+ "version": 2,
  "customer_context": "Internet reachability, likely exploitability and the PAIN N-rating are customer context, not asserted.",
  "exploitation_source": {
   "epss": {
@@ -11,8 +11,8 @@
    "collected_at": "2026-11-10T14:09:33Z"
   },
   "kev": {
-   "snapshot_generation": "1794275230478465",
-   "collected_at": "2026-11-10T01:47:11Z"
+   "snapshot_generation": "1794341261883250",
+   "collected_at": "2026-11-10T20:07:43Z"
   }
  },
  "statements": [
@@ -87,15 +87,15 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
     "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
     "epss": {
@@ -106,7 +106,8 @@
     "as_of": "2026-11-10T01:47:11Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T19:38:34Z"
+   "timestamp": "2026-11-11T06:56:30Z",
+   "last_updated": "2026-11-11T06:56:30Z"
   },
   {
    "vulnerability": {
@@ -137,15 +138,15 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
     "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
     "epss": {
@@ -156,7 +157,8 @@
     "as_of": "2026-11-10T01:47:11Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T19:38:34Z"
+   "timestamp": "2026-11-11T06:56:30Z",
+   "last_updated": "2026-11-11T06:56:30Z"
   },
   {
    "vulnerability": {
@@ -187,15 +189,15 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
     "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
     "epss": {
@@ -206,7 +208,8 @@
     "as_of": "2026-11-10T01:47:11Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T19:38:34Z"
+   "timestamp": "2026-11-11T06:56:30Z",
+   "last_updated": "2026-11-11T06:56:30Z"
   },
   {
    "vulnerability": {
@@ -237,15 +240,15 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
     "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
     "epss": {
@@ -256,7 +259,8 @@
     "as_of": "2026-11-10T01:47:11Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T19:38:34Z"
+   "timestamp": "2026-11-11T06:56:30Z",
+   "last_updated": "2026-11-11T06:56:30Z"
   },
   {
    "vulnerability": {
@@ -287,15 +291,15 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
     "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
     "epss": {
@@ -306,7 +310,8 @@
     "as_of": "2026-11-10T01:47:11Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T19:38:34Z"
+   "timestamp": "2026-11-11T06:56:30Z",
+   "last_updated": "2026-11-11T06:56:30Z"
   },
   {
    "vulnerability": {
@@ -337,15 +342,15 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
     "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
     "epss": {
@@ -356,7 +361,8 @@
     "as_of": "2026-11-10T01:47:11Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T19:38:34Z"
+   "timestamp": "2026-11-11T06:56:30Z",
+   "last_updated": "2026-11-11T06:56:30Z"
   },
   {
    "vulnerability": {
@@ -387,15 +393,15 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
     "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
     "epss": {
@@ -406,7 +412,8 @@
     "as_of": "2026-11-10T01:47:11Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T19:38:34Z"
+   "timestamp": "2026-11-11T06:56:30Z",
+   "last_updated": "2026-11-11T06:56:30Z"
   },
   {
    "vulnerability": {
@@ -437,15 +444,15 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
     "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
     "epss": {
@@ -456,7 +463,8 @@
     "as_of": "2026-11-10T01:47:11Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T19:38:34Z"
+   "timestamp": "2026-11-11T06:56:30Z",
+   "last_updated": "2026-11-11T06:56:30Z"
   },
   {
    "vulnerability": {
@@ -487,15 +495,15 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
     "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
     "epss": {
@@ -506,7 +514,8 @@
     "as_of": "2026-11-10T01:47:11Z",
     "note": "point in time; re-issued when it changes"
    },
-   "timestamp": "2026-11-10T19:38:34Z"
+   "timestamp": "2026-11-11T06:56:30Z",
+   "last_updated": "2026-11-11T06:56:30Z"
   },
   {
    "vulnerability": {

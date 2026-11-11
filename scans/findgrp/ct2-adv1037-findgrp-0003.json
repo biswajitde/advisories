@@ -1,12 +1,12 @@
 {
  "code": "FINDGRP-0005",
- "decision": "FINDGRP-0005\tGROUPED: rows=13 problems=6 codes={'FINDGRP-0001': 6, 'FINDGRP-0003': 6, 'FINDGRP-0004': 1}.\tnum:rows=13\tnum:problems=6\tnum:dispositioned=13\tnum:refused=0",
- "detail": "rows=13 problems=6 codes={'FINDGRP-0001': 6, 'FINDGRP-0003': 6, 'FINDGRP-0004': 1}",
+ "decision": "FINDGRP-0005\tGROUPED: rows=13 problems=5 codes={'FINDGRP-0001': 5, 'FINDGRP-0002': 2, 'FINDGRP-0003': 6}.\tnum:rows=13\tnum:problems=5\tnum:dispositioned=13\tnum:refused=0",
+ "detail": "rows=13 problems=5 codes={'FINDGRP-0001': 5, 'FINDGRP-0002': 2, 'FINDGRP-0003': 6}",
  "dispositions": [
   {
-   "code": "FINDGRP-0001",
-   "problem_id": "GHSA-599f-7c49-w659::ct1-fixture-vendored-jar",
-   "reason": "identical file sha256 -> ct1-fixture-vendored-jar",
+   "code": "FINDGRP-0002",
+   "problem_id": "CLEANSTART-2026-AR52728::ct1-fixture-vendored-jar",
+   "reason": "vendored_inside -> ct1-fixture-vendored-jar",
    "row": 0
   },
   {
@@ -70,9 +70,9 @@
    "row": 10
   },
   {
-   "code": "FINDGRP-0004",
+   "code": "FINDGRP-0002",
    "problem_id": "CLEANSTART-2026-AR52728::ct1-fixture-vendored-jar",
-   "reason": "identical file sha256 -> ct1-fixture-vendored-jar",
+   "reason": "vendored_inside -> ct1-fixture-vendored-jar",
    "row": 11
   },
   {
@@ -85,19 +85,20 @@
  "name": "GROUPED",
  "summary": {
   "codes": {
-   "FINDGRP-0001": 6,
-   "FINDGRP-0003": 6,
-   "FINDGRP-0004": 1
+   "FINDGRP-0001": 5,
+   "FINDGRP-0002": 2,
+   "FINDGRP-0003": 6
   },
   "dispositioned": 13,
   "fan_out": [
    {
     "codes": [
      "FINDGRP-0001",
-     "FINDGRP-0004"
+     "FINDGRP-0002",
+     "FINDGRP-0002"
     ],
     "problem_id": "CLEANSTART-2026-AR52728::ct1-fixture-vendored-jar",
-    "rows": 2
+    "rows": 3
    },
    {
     "codes": [
@@ -132,16 +133,9 @@
     ],
     "problem_id": "CLEANSTART-2026-SX43215::busybox",
     "rows": 3
-   },
-   {
-    "codes": [
-     "FINDGRP-0001"
-    ],
-    "problem_id": "GHSA-599f-7c49-w659::ct1-fixture-vendored-jar",
-    "rows": 1
    }
   ],
-  "problems": 6,
+  "problems": 5,
   "refused": 0,
   "rows": 13
  }

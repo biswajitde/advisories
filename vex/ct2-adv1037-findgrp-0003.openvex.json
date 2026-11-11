@@ -2,7 +2,7 @@
  "@context": "https://openvex.dev/ns/v0.2.0",
  "@id": "https://github.com/biswajitde/advisories/blob/main/vex/ct2-adv1037-findgrp-0003.openvex.json",
  "author": "CleanStart ADVISORY emulation pipeline",
- "timestamp": "2026-11-10T19:38:34Z",
+ "timestamp": "2026-11-11T06:56:30Z",
  "version": 1,
  "customer_context": "Internet reachability, likely exploitability and the PAIN N-rating are customer context, not asserted.",
  "statements": [
@@ -32,7 +32,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "language-layer"
    },
    "evaluated_at": "2026-11-10T16:11:24Z",
@@ -41,9 +41,9 @@
     "status": "under_investigation"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss_absence": "no EPSS score as of 2026-11-10T14:09:33Z",
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -76,23 +76,23 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00235,
      "percentile": 0.14593,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -125,23 +125,23 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00207,
      "percentile": 0.10877,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -174,23 +174,23 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00145,
      "percentile": 0.03821,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -223,23 +223,23 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00235,
      "percentile": 0.14593,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -272,23 +272,23 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00207,
      "percentile": 0.10877,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -321,23 +321,23 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00145,
      "percentile": 0.03821,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -370,23 +370,23 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00235,
      "percentile": 0.14593,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -419,23 +419,23 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00207,
      "percentile": 0.10877,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -468,23 +468,23 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
-   "evaluated_at": "2026-11-10T19:38:25Z",
+   "evaluated_at": "2026-11-11T06:56:21Z",
    "triage_code": "STILL_AFFECTED_FIX_NOT_SHIPPED",
    "disposition": {
     "status": "affected"
    },
-   "action_statement_timestamp": "2026-11-10T19:38:25Z",
+   "action_statement_timestamp": "2026-11-11T06:56:21Z",
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00145,
      "percentile": 0.03821,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -518,7 +518,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -528,13 +528,13 @@
    },
    "action_statement_timestamp": "2026-11-09T19:26:01Z",
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00469,
      "percentile": 0.4088,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -579,7 +579,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -589,13 +589,13 @@
     "fixed_version": "1.27.2-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.01316,
      "percentile": 0.71,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -640,7 +640,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -650,13 +650,13 @@
     "fixed_version": "1.27.2-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00902,
      "percentile": 0.6003,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -701,7 +701,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -711,13 +711,13 @@
     "fixed_version": "1.27.2-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.06136,
      "percentile": 0.9351,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -762,7 +762,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -772,13 +772,13 @@
     "fixed_version": "1.28.3-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02487,
      "percentile": 0.84762,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -823,7 +823,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -833,13 +833,13 @@
     "fixed_version": "1.29.3-r10"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.07694,
      "percentile": 0.94646,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -884,7 +884,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -894,13 +894,13 @@
     "fixed_version": "1.30.1-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.04651,
      "percentile": 0.91812,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -945,7 +945,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -955,13 +955,13 @@
     "fixed_version": "1.33.0-r5"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02719,
      "percentile": 0.86149,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1006,7 +1006,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1016,13 +1016,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00628,
      "percentile": 0.50432,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1067,7 +1067,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1077,13 +1077,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00409,
      "percentile": 0.35551,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1128,7 +1128,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1138,13 +1138,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02756,
      "percentile": 0.86363,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1189,7 +1189,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1199,13 +1199,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02795,
      "percentile": 0.86556,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1250,7 +1250,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1260,13 +1260,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.03087,
      "percentile": 0.87812,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1311,7 +1311,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1321,13 +1321,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02795,
      "percentile": 0.86555,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1372,7 +1372,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1382,13 +1382,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02756,
      "percentile": 0.86363,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1433,7 +1433,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1443,13 +1443,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02215,
      "percentile": 0.82777,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1494,7 +1494,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1504,13 +1504,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02756,
      "percentile": 0.86363,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1555,7 +1555,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1565,13 +1565,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02795,
      "percentile": 0.86555,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1616,7 +1616,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1626,13 +1626,13 @@
     "fixed_version": "1.34.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02756,
      "percentile": 0.86364,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1677,7 +1677,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1687,13 +1687,13 @@
     "fixed_version": "1.35.0-r7"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.03521,
      "percentile": 0.89327,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1738,7 +1738,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1748,13 +1748,13 @@
     "fixed_version": "1.35.0-r17"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.01254,
      "percentile": 0.6972,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1799,7 +1799,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1809,13 +1809,13 @@
     "fixed_version": "1.36.1-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.03158,
      "percentile": 0.88077,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1860,7 +1860,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1870,13 +1870,13 @@
     "fixed_version": "1.36.1-r27"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00424,
      "percentile": 0.37021,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1921,7 +1921,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1931,13 +1931,13 @@
     "fixed_version": "1.36.1-r29"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00433,
      "percentile": 0.37882,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -1982,7 +1982,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -1992,13 +1992,13 @@
     "fixed_version": "1.36.1-r29"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00393,
      "percentile": 0.33817,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2043,7 +2043,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -2053,13 +2053,13 @@
     "fixed_version": "1.36.1-r25"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00416,
      "percentile": 0.36211,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2104,7 +2104,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -2114,13 +2114,13 @@
     "fixed_version": "1.38.0-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00178,
      "percentile": 0.07421,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2165,7 +2165,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -2175,13 +2175,13 @@
     "fixed_version": "1.38.0-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00183,
      "percentile": 0.07922,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2226,7 +2226,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -2236,13 +2236,13 @@
     "fixed_version": "1.38.0-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00312,
      "percentile": 0.24326,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2281,7 +2281,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -2291,13 +2291,13 @@
     "fixed_version": "3.6.5-r1"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.06263,
      "percentile": 0.93623,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2336,7 +2336,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -2346,13 +2346,13 @@
     "fixed_version": "1.1.1a-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.12154,
      "percentile": 0.96192,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2391,7 +2391,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -2401,13 +2401,13 @@
     "fixed_version": "1.1.1a-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.04724,
      "percentile": 0.91914,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2446,7 +2446,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -2456,13 +2456,13 @@
     "fixed_version": "1.1.1b-r1"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.05701,
      "percentile": 0.93076,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2501,7 +2501,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -2511,13 +2511,13 @@
     "fixed_version": "1.1.1d-r1"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.01129,
      "percentile": 0.66653,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2556,7 +2556,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -2566,13 +2566,13 @@
     "fixed_version": "1.1.1d-r1"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.06182,
      "percentile": 0.93553,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2611,7 +2611,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -2621,13 +2621,13 @@
     "fixed_version": "1.1.1d-r3"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.14298,
      "percentile": 0.96631,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2666,7 +2666,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -2676,13 +2676,13 @@
     "fixed_version": "1.1.1d-r1"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.03838,
      "percentile": 0.90205,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2721,7 +2721,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -2731,13 +2731,13 @@
     "fixed_version": "1.1.1g-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.53336,
      "percentile": 0.98993,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2776,7 +2776,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -2786,13 +2786,13 @@
     "fixed_version": "1.1.1i-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.06994,
      "percentile": 0.94208,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2831,7 +2831,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -2841,13 +2841,13 @@
     "fixed_version": "1.1.1j-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02961,
      "percentile": 0.87322,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2886,7 +2886,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -2896,13 +2896,13 @@
     "fixed_version": "1.1.1j-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.50732,
      "percentile": 0.98931,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2941,7 +2941,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -2951,13 +2951,13 @@
     "fixed_version": "1.1.1j-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.0741,
      "percentile": 0.94487,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -2996,7 +2996,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3006,13 +3006,13 @@
     "fixed_version": "1.1.1k-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.63542,
      "percentile": 0.99219,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3051,7 +3051,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3061,13 +3061,13 @@
     "fixed_version": "1.1.1k-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.18339,
      "percentile": 0.9725,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3106,7 +3106,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3116,13 +3116,13 @@
     "fixed_version": "1.1.1l-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.87816,
      "percentile": 0.99764,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3161,7 +3161,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3171,13 +3171,13 @@
     "fixed_version": "1.1.1l-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.4814,
      "percentile": 0.9887,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3216,7 +3216,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3226,13 +3226,13 @@
     "fixed_version": "3.0.1-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.50099,
      "percentile": 0.98915,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3271,7 +3271,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3281,13 +3281,13 @@
     "fixed_version": "3.0.2-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.73188,
      "percentile": 0.99461,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3326,7 +3326,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3336,13 +3336,13 @@
     "fixed_version": "3.0.3-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02158,
      "percentile": 0.82343,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3381,7 +3381,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3391,13 +3391,13 @@
     "fixed_version": "3.0.3-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.01228,
      "percentile": 0.69131,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3436,7 +3436,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3446,13 +3446,13 @@
     "fixed_version": "3.0.3-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.04678,
      "percentile": 0.91849,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3491,7 +3491,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3501,13 +3501,13 @@
     "fixed_version": "3.0.5-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.04899,
      "percentile": 0.92164,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3546,7 +3546,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3556,13 +3556,13 @@
     "fixed_version": "3.0.6-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.04044,
      "percentile": 0.90709,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3601,7 +3601,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3611,13 +3611,13 @@
     "fixed_version": "3.0.7-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.9077,
      "percentile": 0.99807,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3656,7 +3656,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3666,13 +3666,13 @@
     "fixed_version": "3.0.7-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.92488,
      "percentile": 0.99828,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3711,7 +3711,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3721,13 +3721,13 @@
     "fixed_version": "3.0.7-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.01312,
      "percentile": 0.70911,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3766,7 +3766,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3776,13 +3776,13 @@
     "fixed_version": "3.0.8-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.01386,
      "percentile": 0.72464,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3821,7 +3821,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3831,13 +3831,13 @@
     "fixed_version": "3.0.8-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.23509,
      "percentile": 0.97816,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3876,7 +3876,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3886,13 +3886,13 @@
     "fixed_version": "3.0.8-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.2859,
      "percentile": 0.98151,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3931,7 +3931,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3941,13 +3941,13 @@
     "fixed_version": "3.0.8-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.05024,
      "percentile": 0.92328,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -3986,7 +3986,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -3996,13 +3996,13 @@
     "fixed_version": "3.0.8-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.01846,
      "percentile": 0.79243,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4041,7 +4041,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4051,13 +4051,13 @@
     "fixed_version": "3.0.8-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.01846,
      "percentile": 0.79243,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4096,7 +4096,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4106,13 +4106,13 @@
     "fixed_version": "3.0.8-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.68407,
      "percentile": 0.9934,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4151,7 +4151,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4161,13 +4161,13 @@
     "fixed_version": "3.0.8-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.01846,
      "percentile": 0.79242,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4206,7 +4206,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4216,13 +4216,13 @@
     "fixed_version": "3.1.0-r1"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.03985,
      "percentile": 0.90585,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4261,7 +4261,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4271,13 +4271,13 @@
     "fixed_version": "3.1.0-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.01772,
      "percentile": 0.78335,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4316,7 +4316,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4326,13 +4326,13 @@
     "fixed_version": "3.1.0-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00953,
      "percentile": 0.61637,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4371,7 +4371,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4381,13 +4381,13 @@
     "fixed_version": "3.1.1-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.75358,
      "percentile": 0.99519,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4426,7 +4426,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4436,13 +4436,13 @@
     "fixed_version": "3.1.1-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00617,
      "percentile": 0.49888,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4481,7 +4481,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4491,13 +4491,13 @@
     "fixed_version": "3.1.1-r3"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.06531,
      "percentile": 0.93846,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4536,7 +4536,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4546,13 +4546,13 @@
     "fixed_version": "3.1.2-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.03047,
      "percentile": 0.87652,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4591,7 +4591,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4601,13 +4601,13 @@
     "fixed_version": "3.1.4-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.03939,
      "percentile": 0.90479,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4646,7 +4646,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4656,13 +4656,13 @@
     "fixed_version": "3.1.4-r1"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.05091,
      "percentile": 0.92422,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4701,7 +4701,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4711,13 +4711,13 @@
     "fixed_version": "3.1.4-r3"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02323,
      "percentile": 0.83623,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4756,7 +4756,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4766,13 +4766,13 @@
     "fixed_version": "3.1.4-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.02303,
      "percentile": 0.83472,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4811,7 +4811,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4821,13 +4821,13 @@
     "fixed_version": "3.1.4-r5"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.03187,
      "percentile": 0.88188,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4866,7 +4866,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4876,13 +4876,13 @@
     "fixed_version": "3.2.1-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.59304,
      "percentile": 0.99127,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4921,7 +4921,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4931,13 +4931,13 @@
     "fixed_version": "3.3.0-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.01183,
      "percentile": 0.68024,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -4976,7 +4976,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -4986,13 +4986,13 @@
     "fixed_version": "3.3.0-r3"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.03161,
      "percentile": 0.8809,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5031,7 +5031,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5041,13 +5041,13 @@
     "fixed_version": "3.3.1-r1"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.05582,
      "percentile": 0.92952,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5086,7 +5086,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5096,13 +5096,13 @@
     "fixed_version": "3.3.2-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.66582,
      "percentile": 0.99294,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5141,7 +5141,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5151,13 +5151,13 @@
     "fixed_version": "3.3.2-r1"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.12483,
      "percentile": 0.96255,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5196,7 +5196,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5206,13 +5206,13 @@
     "fixed_version": "3.6.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.05234,
      "percentile": 0.9259,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5251,7 +5251,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5261,13 +5261,13 @@
     "fixed_version": "3.6.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.74793,
      "percentile": 0.99508,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5306,7 +5306,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5316,13 +5316,13 @@
     "fixed_version": "3.6.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00819,
      "percentile": 0.57502,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5361,7 +5361,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5371,13 +5371,13 @@
     "fixed_version": "3.6.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00213,
      "percentile": 0.11743,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5416,7 +5416,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5426,13 +5426,13 @@
     "fixed_version": "3.6.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00218,
      "percentile": 0.12314,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5471,7 +5471,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5481,13 +5481,13 @@
     "fixed_version": "3.6.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00186,
      "percentile": 0.083,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5526,7 +5526,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5536,13 +5536,13 @@
     "fixed_version": "3.6.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00607,
      "percentile": 0.49391,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5581,7 +5581,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5591,13 +5591,13 @@
     "fixed_version": "3.6.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.0092,
      "percentile": 0.60587,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5636,7 +5636,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5646,13 +5646,13 @@
     "fixed_version": "3.6.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00944,
      "percentile": 0.61365,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5691,7 +5691,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5701,13 +5701,13 @@
     "fixed_version": "3.6.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00589,
      "percentile": 0.48488,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5746,7 +5746,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-10T19:38:25Z",
@@ -5756,13 +5756,13 @@
     "fixed_version": "3.6.0-r0"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00745,
      "percentile": 0.55106,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5795,7 +5795,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -5805,13 +5805,13 @@
     "fixed_version": "1.2.11-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.51733,
      "percentile": 0.98957,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5844,7 +5844,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "secfixes-carry"
    },
    "evaluated_at": "2026-11-09T19:26:01Z",
@@ -5854,13 +5854,13 @@
     "fixed_version": "1.2.12-r2"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.19243,
      "percentile": 0.97356,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   },
@@ -5893,7 +5893,7 @@
     "scanner_version": "cleanstart-bcb7f7176651",
     "db_built": "2026-11-10T17:40:12Z",
     "db_schema": "v6.1.9",
-    "scan_time": "2026-11-10T19:38:25Z",
+    "scan_time": "2026-11-11T06:56:21Z",
     "via": "scan"
    },
    "evaluated_at": "2026-11-10T04:00:10Z",
@@ -5903,13 +5903,13 @@
     "fixed_version": "1.3.2-r4"
    },
    "exploitation": {
-    "kev_absence": "not in CISA KEV as of 2026-11-10T01:47:11Z",
+    "kev_absence": "not in CISA KEV as of 2026-11-10T20:07:43Z",
     "epss": {
      "score": 0.00248,
      "percentile": 0.16186,
      "score_date": "2026-11-10"
     },
-    "as_of": "2026-11-10T01:47:11Z",
+    "as_of": "2026-11-10T14:09:33Z",
     "note": "point in time; re-issued when it changes"
    }
   }
@@ -5920,8 +5920,8 @@
    "collected_at": "2026-11-10T14:09:33Z"
   },
   "kev": {
-   "snapshot_generation": "1794275230478465",
-   "collected_at": "2026-11-10T01:47:11Z"
+   "snapshot_generation": "1794341261883250",
+   "collected_at": "2026-11-10T20:07:43Z"
   }
  }
 }
